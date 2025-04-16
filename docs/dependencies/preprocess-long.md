@@ -34,7 +34,7 @@ The preprocess-long module in VEBA is designed for cleaning and processing long-
   - Commonly includes human genome or other host sequences
   - Can be customized based on project needs
 
-- **K-mer databases**: Used with BBDuk for filtering
+- **K-mer databases**: Used with BBDuk for filtering (same as preprocess module)
   - Ribosomal RNA sequences for rRNA filtering
   - Can include other sequence types to be removed
 

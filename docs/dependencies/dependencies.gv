@@ -153,7 +153,7 @@ digraph VEBA_Dependencies {
             rank=same;
             node [shape=cylinder, fillcolor="#FFFACD"];
             preprocess_long_contamination_db [label="Contamination DB"];
-            preprocess_long_kmer_db [label="K-mer DB"];
+            preprocess_long_kmer_db [label="K-mer DB (same as preprocess)"];
         }
         
         // Connect module to its dependencies
@@ -392,7 +392,7 @@ digraph VEBA_Dependencies {
             rank=same;
             node [shape=cylinder, fillcolor="#FFFACD"];
             binning_eukaryotic_microeuk_db [label="MicroEuk DB"];
-            binning_eukaryotic_busco_db [label="BUSCO lineages"];
+            binning_eukaryotic_busco_db [label="BUSCO lineages (downloaded as needed)"];
         }
         
         // Connect module to its dependencies
@@ -588,8 +588,8 @@ digraph VEBA_Dependencies {
             rank=same;
             node [shape=cylinder, fillcolor="#FFFACD"];
             classify_eukaryotic_microeuk_db [label="MicroEuk"];
-            classify_eukaryotic_eukaryota_odb10 [label="Eukaryota_odb10"];
-            classify_eukaryotic_tax_mapping [label="Taxonomic Mapping"];
+            classify_eukaryotic_eukaryota_odb10 [label="Eukaryota_odb10 (update to odb12 needed)"];
+            classify_eukaryotic_tax_mapping [label="Taxonomic Mapping Files"];
         }
         
         // Connect module to its dependencies

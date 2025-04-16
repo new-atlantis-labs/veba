@@ -45,6 +45,7 @@ The binning-eukaryotic module in VEBA is designed specifically for recovering eu
   
 - **BUSCO lineages**: Markers for genome quality assessment
   - Default: eukaryota_odb12
+  - Downloaded as needed (not stored in VEBA database)
   - Can use auto-lineage detection or specific lineages
 
 ## Environment Details

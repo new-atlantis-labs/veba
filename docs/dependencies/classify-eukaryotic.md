@@ -17,8 +17,8 @@ The classify-eukaryotic module provides taxonomic classification of eukaryotic g
 
 ## Databases
 - **MicroEuk**: Database of curated eukaryotic protein sequences
-- **Eukaryota_odb10**: BUSCO core marker genes for eukaryotes
-- **Taxonomic Mapping Resources**: Files mapping proteins to taxonomic lineages
+- **Eukaryota_odb10**: BUSCO core marker genes for eukaryotes (update to odb12 needed)
+- **Taxonomic Mapping Files**: Files mapping proteins to taxonomic lineages
 
 ## Environment Details
 The module requires a specific conda environment (`VEBA-classify-eukaryotic_env`):
