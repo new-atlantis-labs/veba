@@ -1,0 +1,2032 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1001pt" height="8852pt" viewBox="0.00 0.00 1001.28 8852.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 8848)">
+<title>VEBA_Dependencies</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-8848 997.28,-8848 997.28,4 -4,4"/>
+<!-- annotate -->
+<g id="node1" class="node">
+<title>annotate</title>
+<polygon fill="#a7c7e7" stroke="black" points="673.56,-2816 618.64,-2816 618.64,-2780 673.56,-2780 673.56,-2816"/>
+<text text-anchor="middle" x="646.1" y="-2795" font-family="Arial" font-size="10.00">annotate</text>
+</g>
+<!-- VEBA_annotate_env -->
+<g id="node15" class="node">
+<title>VEBA_annotate_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="901.44" cy="-3097" rx="64.11" ry="18"/>
+<text text-anchor="middle" x="901.44" y="-3094" font-family="Arial" font-size="10.00">VEBA-annotate_env</text>
+</g>
+<!-- annotate&#45;&gt;VEBA_annotate_env -->
+<g id="edge1" class="edge">
+<title>annotate-&gt;VEBA_annotate_env</title>
+<path fill="none" stroke="black" d="M673.77,-2810.61C693.77,-2821.28 720.54,-2838.29 737.61,-2860 793.42,-2930.99 749.54,-2982.57 809.61,-3050 820.26,-3061.95 834.66,-3071.31 848.87,-3078.42"/>
+<polygon fill="black" stroke="black" points="847.2,-3081.51 857.74,-3082.57 850.16,-3075.17 847.2,-3081.51"/>
+</g>
+<!-- genopype -->
+<g id="node28" class="node">
+<title>genopype</title>
+<polygon fill="#90ee90" stroke="black" points="931.41,-4830 871.48,-4830 871.48,-4826 867.48,-4826 867.48,-4822 871.48,-4822 871.48,-4802 867.48,-4802 867.48,-4798 871.48,-4798 871.48,-4794 931.41,-4794 931.41,-4830"/>
+<polyline fill="none" stroke="black" points="871.48,-4826 875.48,-4826 875.48,-4822 871.48,-4822"/>
+<polyline fill="none" stroke="black" points="871.48,-4802 875.48,-4802 875.48,-4798 871.48,-4798"/>
+<text text-anchor="middle" x="901.44" y="-4809" font-family="Arial" font-size="10.00">genopype</text>
+</g>
+<!-- annotate&#45;&gt;genopype -->
+<g id="edge15" class="edge">
+<title>annotate-&gt;genopype</title>
+<path fill="none" stroke="black" d="M674.01,-2808.48C695.3,-2818.33 723.67,-2835.28 737.61,-2860 807.24,-2983.51 796.19,-3992.86 809.61,-4134 833.58,-4386.01 880.61,-4688.4 895.68,-4782.56"/>
+<polygon fill="black" stroke="black" points="892.19,-4782.91 897.23,-4792.23 899.1,-4781.8 892.19,-4782.91"/>
+</g>
+<!-- soothsayer_utils -->
+<g id="node29" class="node">
+<title>soothsayer_utils</title>
+<polygon fill="#90ee90" stroke="black" points="945.57,-6118 857.31,-6118 857.31,-6114 853.31,-6114 853.31,-6110 857.31,-6110 857.31,-6090 853.31,-6090 853.31,-6086 857.31,-6086 857.31,-6082 945.57,-6082 945.57,-6118"/>
+<polyline fill="none" stroke="black" points="857.31,-6114 861.31,-6114 861.31,-6110 857.31,-6110"/>
+<polyline fill="none" stroke="black" points="857.31,-6090 861.31,-6090 861.31,-6086 857.31,-6086"/>
+<text text-anchor="middle" x="901.44" y="-6097" font-family="Arial" font-size="10.00">soothsayer_utils</text>
+</g>
+<!-- annotate&#45;&gt;soothsayer_utils -->
+<g id="edge16" class="edge">
+<title>annotate-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M649.87,-2816.42C662.58,-2901.67 715.58,-3266.63 737.61,-3568 747.68,-3705.75 736.12,-5936.07 809.61,-6053 818.2,-6066.67 832.15,-6076.56 846.57,-6083.63"/>
+<polygon fill="black" stroke="black" points="845.13,-6086.82 855.69,-6087.68 847.97,-6080.42 845.13,-6086.82"/>
+</g>
+<!-- pandas -->
+<g id="node30" class="node">
+<title>pandas</title>
+<polygon fill="#90ee90" stroke="black" points="928.44,-5506 874.44,-5506 874.44,-5502 870.44,-5502 870.44,-5498 874.44,-5498 874.44,-5478 870.44,-5478 870.44,-5474 874.44,-5474 874.44,-5470 928.44,-5470 928.44,-5506"/>
+<polyline fill="none" stroke="black" points="874.44,-5502 878.44,-5502 878.44,-5498 874.44,-5498"/>
+<polyline fill="none" stroke="black" points="874.44,-5478 878.44,-5478 878.44,-5474 874.44,-5474"/>
+<text text-anchor="middle" x="901.44" y="-5485" font-family="Arial" font-size="10.00">pandas</text>
+</g>
+<!-- annotate&#45;&gt;pandas -->
+<g id="edge17" class="edge">
+<title>annotate-&gt;pandas</title>
+<path fill="none" stroke="black" d="M651.12,-2816.32C665.84,-2884.22 716.93,-3128.06 737.61,-3332 761.19,-3564.5 690.6,-5232.88 809.61,-5434 821.52,-5454.12 844.07,-5467.58 863.72,-5476.04"/>
+<polygon fill="black" stroke="black" points="862.27,-5479.23 872.85,-5479.67 864.85,-5472.72 862.27,-5479.23"/>
+</g>
+<!-- biopython -->
+<g id="node32" class="node">
+<title>biopython</title>
+<polygon fill="#90ee90" stroke="black" points="931.13,-5405 871.76,-5405 871.76,-5401 867.76,-5401 867.76,-5397 871.76,-5397 871.76,-5377 867.76,-5377 867.76,-5373 871.76,-5373 871.76,-5369 931.13,-5369 931.13,-5405"/>
+<polyline fill="none" stroke="black" points="871.76,-5401 875.76,-5401 875.76,-5397 871.76,-5397"/>
+<polyline fill="none" stroke="black" points="871.76,-5377 875.76,-5377 875.76,-5373 871.76,-5373"/>
+<text text-anchor="middle" x="901.44" y="-5384" font-family="Arial" font-size="10.00">biopython</text>
+</g>
+<!-- annotate&#45;&gt;biopython -->
+<g id="edge18" class="edge">
+<title>annotate-&gt;biopython</title>
+<path fill="none" stroke="black" d="M654.56,-2816.42C672.84,-2862.55 719.65,-2987.17 737.61,-3096 777.97,-3340.49 690.36,-5107.79 809.61,-5325 820.91,-5345.57 842.29,-5360.68 861.48,-5370.83"/>
+<polygon fill="black" stroke="black" points="859.67,-5373.84 870.18,-5375.15 862.78,-5367.57 859.67,-5373.84"/>
+</g>
+<!-- diamond -->
+<g id="node43" class="node">
+<title>diamond</title>
+<path fill="#dda0dd" stroke="black" d="M917.45,-5108C917.45,-5108 885.43,-5108 885.43,-5108 879.43,-5108 873.43,-5102 873.43,-5096 873.43,-5096 873.43,-5084 873.43,-5084 873.43,-5078 879.43,-5072 885.43,-5072 885.43,-5072 917.45,-5072 917.45,-5072 923.45,-5072 929.45,-5078 929.45,-5084 929.45,-5084 929.45,-5096 929.45,-5096 929.45,-5102 923.45,-5108 917.45,-5108"/>
+<text text-anchor="middle" x="901.44" y="-5087" font-family="Arial" font-size="10.00">Diamond</text>
+</g>
+<!-- annotate&#45;&gt;diamond -->
+<g id="edge93" class="edge">
+<title>annotate-&gt;diamond</title>
+<path fill="none" stroke="black" d="M654.53,-2816.43C672.73,-2862.57 719.39,-2987.21 737.61,-3096 773.37,-3309.51 693.68,-4860.18 809.61,-5043 821.43,-5061.64 843.19,-5073.26 862.44,-5080.28"/>
+<polygon fill="black" stroke="black" points="861.07,-5083.51 871.66,-5083.34 863.27,-5076.87 861.07,-5083.51"/>
+</g>
+<!-- seqkit -->
+<g id="node49" class="node">
+<title>seqkit</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-1438C916.44,-1438 886.44,-1438 886.44,-1438 880.44,-1438 874.44,-1432 874.44,-1426 874.44,-1426 874.44,-1414 874.44,-1414 874.44,-1408 880.44,-1402 886.44,-1402 886.44,-1402 916.44,-1402 916.44,-1402 922.44,-1402 928.44,-1408 928.44,-1414 928.44,-1414 928.44,-1426 928.44,-1426 928.44,-1432 922.44,-1438 916.44,-1438"/>
+<text text-anchor="middle" x="901.44" y="-1417" font-family="Arial" font-size="10.00">SeqKit</text>
+</g>
+<!-- annotate&#45;&gt;seqkit -->
+<g id="edge94" class="edge">
+<title>annotate-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M673.73,-2791.79C694.85,-2785.36 723.14,-2773.06 737.61,-2751 864.2,-2558.04 767.38,-1941.88 809.61,-1715 828.25,-1614.87 869.28,-1500.82 889.18,-1448.71"/>
+<polygon fill="black" stroke="black" points="892.33,-1450.27 892.66,-1439.68 885.8,-1447.75 892.33,-1450.27"/>
+</g>
+<!-- hmmer -->
+<g id="node73" class="node">
+<title>hmmer</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-6400C916.44,-6400 886.44,-6400 886.44,-6400 880.44,-6400 874.44,-6394 874.44,-6388 874.44,-6388 874.44,-6376 874.44,-6376 874.44,-6370 880.44,-6364 886.44,-6364 886.44,-6364 916.44,-6364 916.44,-6364 922.44,-6364 928.44,-6370 928.44,-6376 928.44,-6376 928.44,-6388 928.44,-6388 928.44,-6394 922.44,-6400 916.44,-6400"/>
+<text text-anchor="middle" x="901.44" y="-6379" font-family="Arial" font-size="10.00">HMMER</text>
+</g>
+<!-- annotate&#45;&gt;hmmer -->
+<g id="edge95" class="edge">
+<title>annotate-&gt;hmmer</title>
+<path fill="none" stroke="black" d="M649.19,-2816.21C660.44,-2914.81 714.07,-3394.94 737.61,-3789 746.05,-3930.25 734.35,-6215.17 809.61,-6335 821.59,-6354.07 843.99,-6365.78 863.55,-6372.74"/>
+<polygon fill="black" stroke="black" points="862.3,-6376.02 872.89,-6375.76 864.45,-6369.36 862.3,-6376.02"/>
+</g>
+<!-- uniref -->
+<g id="node87" class="node">
+<title>uniref</title>
+<path fill="#fffacd" stroke="black" d="M928.44,-3017.73C928.44,-3019.53 916.34,-3021 901.44,-3021 886.55,-3021 874.44,-3019.53 874.44,-3017.73 874.44,-3017.73 874.44,-2988.27 874.44,-2988.27 874.44,-2986.47 886.55,-2985 901.44,-2985 916.34,-2985 928.44,-2986.47 928.44,-2988.27 928.44,-2988.27 928.44,-3017.73 928.44,-3017.73"/>
+<path fill="none" stroke="black" d="M928.44,-3017.73C928.44,-3015.92 916.34,-3014.45 901.44,-3014.45 886.55,-3014.45 874.44,-3015.92 874.44,-3017.73"/>
+<text text-anchor="middle" x="901.44" y="-3000" font-family="Arial" font-size="10.00">UniRef</text>
+</g>
+<!-- annotate&#45;&gt;uniref -->
+<g id="edge172" class="edge">
+<title>annotate-&gt;uniref</title>
+<path fill="none" stroke="black" d="M673.74,-2813.05C692.73,-2824.5 718.22,-2841.42 737.61,-2860 776.12,-2896.89 768.9,-2921.54 809.61,-2956 825.66,-2969.58 846.3,-2980.66 863.85,-2988.64"/>
+<polygon fill="black" stroke="black" points="862.35,-2991.8 872.92,-2992.59 865.15,-2985.39 862.35,-2991.8"/>
+</g>
+<!-- mibig -->
+<g id="node88" class="node">
+<title>mibig</title>
+<path fill="#fffacd" stroke="black" d="M928.44,-3692.73C928.44,-3694.53 916.34,-3696 901.44,-3696 886.55,-3696 874.44,-3694.53 874.44,-3692.73 874.44,-3692.73 874.44,-3663.27 874.44,-3663.27 874.44,-3661.47 886.55,-3660 901.44,-3660 916.34,-3660 928.44,-3661.47 928.44,-3663.27 928.44,-3663.27 928.44,-3692.73 928.44,-3692.73"/>
+<path fill="none" stroke="black" d="M928.44,-3692.73C928.44,-3690.92 916.34,-3689.45 901.44,-3689.45 886.55,-3689.45 874.44,-3690.92 874.44,-3692.73"/>
+<text text-anchor="middle" x="901.44" y="-3675" font-family="Arial" font-size="10.00">MIBiG</text>
+</g>
+<!-- annotate&#45;&gt;mibig -->
+<g id="edge173" class="edge">
+<title>annotate-&gt;mibig</title>
+<path fill="none" stroke="black" d="M673.83,-2809.05C694.71,-2819.14 722.62,-2836.13 737.61,-2860 850.48,-3039.7 766.61,-3124.2 809.61,-3332 834.21,-3450.88 874.2,-3589.94 891.74,-3649.05"/>
+<polygon fill="black" stroke="black" points="888.29,-3649.75 894.5,-3658.33 895,-3647.75 888.29,-3649.75"/>
+</g>
+<!-- vfdb -->
+<g id="node89" class="node">
+<title>vfdb</title>
+<path fill="#fffacd" stroke="black" d="M928.44,-4101.73C928.44,-4103.53 916.34,-4105 901.44,-4105 886.55,-4105 874.44,-4103.53 874.44,-4101.73 874.44,-4101.73 874.44,-4072.27 874.44,-4072.27 874.44,-4070.47 886.55,-4069 901.44,-4069 916.34,-4069 928.44,-4070.47 928.44,-4072.27 928.44,-4072.27 928.44,-4101.73 928.44,-4101.73"/>
+<path fill="none" stroke="black" d="M928.44,-4101.73C928.44,-4099.92 916.34,-4098.45 901.44,-4098.45 886.55,-4098.45 874.44,-4099.92 874.44,-4101.73"/>
+<text text-anchor="middle" x="901.44" y="-4084" font-family="Arial" font-size="10.00">VFDB</text>
+</g>
+<!-- annotate&#45;&gt;vfdb -->
+<g id="edge174" class="edge">
+<title>annotate-&gt;vfdb</title>
+<path fill="none" stroke="black" d="M673.84,-2808.58C695.03,-2818.49 723.35,-2835.47 737.61,-2860 834.56,-3026.75 778.04,-3534.72 809.61,-3725 830.49,-3850.81 872.95,-3997.14 891.47,-4058.07"/>
+<polygon fill="black" stroke="black" points="888.03,-4058.78 894.3,-4067.32 894.72,-4056.73 888.03,-4058.78"/>
+</g>
+<!-- cazy -->
+<g id="node90" class="node">
+<title>cazy</title>
+<path fill="#fffacd" stroke="black" d="M928.44,-2923.73C928.44,-2925.53 916.34,-2927 901.44,-2927 886.55,-2927 874.44,-2925.53 874.44,-2923.73 874.44,-2923.73 874.44,-2894.27 874.44,-2894.27 874.44,-2892.47 886.55,-2891 901.44,-2891 916.34,-2891 928.44,-2892.47 928.44,-2894.27 928.44,-2894.27 928.44,-2923.73 928.44,-2923.73"/>
+<path fill="none" stroke="black" d="M928.44,-2923.73C928.44,-2921.92 916.34,-2920.45 901.44,-2920.45 886.55,-2920.45 874.44,-2921.92 874.44,-2923.73"/>
+<text text-anchor="middle" x="901.44" y="-2906" font-family="Arial" font-size="10.00">CAZy</text>
+</g>
+<!-- annotate&#45;&gt;cazy -->
+<g id="edge175" class="edge">
+<title>annotate-&gt;cazy</title>
+<path fill="none" stroke="black" d="M673.73,-2809.67C719.28,-2829.62 812.19,-2870.33 863.81,-2892.95"/>
+<polygon fill="black" stroke="black" points="862.22,-2896.07 872.78,-2896.88 865.03,-2889.66 862.22,-2896.07"/>
+</g>
+<!-- pfam -->
+<g id="node91" class="node">
+<title>pfam</title>
+<path fill="#fffacd" stroke="black" d="M928.44,-2829.73C928.44,-2831.53 916.34,-2833 901.44,-2833 886.55,-2833 874.44,-2831.53 874.44,-2829.73 874.44,-2829.73 874.44,-2800.27 874.44,-2800.27 874.44,-2798.47 886.55,-2797 901.44,-2797 916.34,-2797 928.44,-2798.47 928.44,-2800.27 928.44,-2800.27 928.44,-2829.73 928.44,-2829.73"/>
+<path fill="none" stroke="black" d="M928.44,-2829.73C928.44,-2827.92 916.34,-2826.45 901.44,-2826.45 886.55,-2826.45 874.44,-2827.92 874.44,-2829.73"/>
+<text text-anchor="middle" x="901.44" y="-2812" font-family="Arial" font-size="10.00">Pfam</text>
+</g>
+<!-- annotate&#45;&gt;pfam -->
+<g id="edge176" class="edge">
+<title>annotate-&gt;pfam</title>
+<path fill="none" stroke="black" d="M673.73,-2799.79C718.99,-2802.82 811.03,-2809 862.83,-2812.48"/>
+<polygon fill="black" stroke="black" points="862.45,-2815.96 872.66,-2813.14 862.91,-2808.97 862.45,-2815.96"/>
+</g>
+<!-- ncbifam -->
+<g id="node92" class="node">
+<title>ncbifam</title>
+<path fill="#fffacd" stroke="black" d="M956.67,-2735.73C956.67,-2737.53 931.92,-2739 901.44,-2739 870.97,-2739 846.22,-2737.53 846.22,-2735.73 846.22,-2735.73 846.22,-2706.27 846.22,-2706.27 846.22,-2704.47 870.97,-2703 901.44,-2703 931.92,-2703 956.67,-2704.47 956.67,-2706.27 956.67,-2706.27 956.67,-2735.73 956.67,-2735.73"/>
+<path fill="none" stroke="black" d="M956.67,-2735.73C956.67,-2733.92 931.92,-2732.45 901.44,-2732.45 870.97,-2732.45 846.22,-2733.92 846.22,-2735.73"/>
+<text text-anchor="middle" x="901.44" y="-2718" font-family="Arial" font-size="10.00">NCBIfam-AMRFinder</text>
+</g>
+<!-- annotate&#45;&gt;ncbifam -->
+<g id="edge177" class="edge">
+<title>annotate-&gt;ncbifam</title>
+<path fill="none" stroke="black" d="M673.73,-2789.91C711.69,-2778.37 782.54,-2756.84 834.97,-2740.9"/>
+<polygon fill="black" stroke="black" points="835.86,-2744.29 844.41,-2738.03 833.83,-2737.59 835.86,-2744.29"/>
+</g>
+<!-- antifam -->
+<g id="node93" class="node">
+<title>antifam</title>
+<path fill="#fffacd" stroke="black" d="M928.44,-2641.73C928.44,-2643.53 916.34,-2645 901.44,-2645 886.55,-2645 874.44,-2643.53 874.44,-2641.73 874.44,-2641.73 874.44,-2612.27 874.44,-2612.27 874.44,-2610.47 886.55,-2609 901.44,-2609 916.34,-2609 928.44,-2610.47 928.44,-2612.27 928.44,-2612.27 928.44,-2641.73 928.44,-2641.73"/>
+<path fill="none" stroke="black" d="M928.44,-2641.73C928.44,-2639.92 916.34,-2638.45 901.44,-2638.45 886.55,-2638.45 874.44,-2639.92 874.44,-2641.73"/>
+<text text-anchor="middle" x="901.44" y="-2624" font-family="Arial" font-size="10.00">AntiFam</text>
+</g>
+<!-- annotate&#45;&gt;antifam -->
+<g id="edge178" class="edge">
+<title>annotate-&gt;antifam</title>
+<path fill="none" stroke="black" d="M673.84,-2787.02C692.64,-2778.63 717.86,-2765.98 737.61,-2751 774.94,-2722.68 772.26,-2702.29 809.61,-2674 826.14,-2661.48 846.49,-2650.61 863.73,-2642.48"/>
+<polygon fill="black" stroke="black" points="864.99,-2645.75 872.63,-2638.41 862.08,-2639.38 864.99,-2645.75"/>
+</g>
+<!-- kofam -->
+<g id="node94" class="node">
+<title>kofam</title>
+<path fill="#fffacd" stroke="black" d="M928.44,-3299.73C928.44,-3301.53 916.34,-3303 901.44,-3303 886.55,-3303 874.44,-3301.53 874.44,-3299.73 874.44,-3299.73 874.44,-3270.27 874.44,-3270.27 874.44,-3268.47 886.55,-3267 901.44,-3267 916.34,-3267 928.44,-3268.47 928.44,-3270.27 928.44,-3270.27 928.44,-3299.73 928.44,-3299.73"/>
+<path fill="none" stroke="black" d="M928.44,-3299.73C928.44,-3297.92 916.34,-3296.45 901.44,-3296.45 886.55,-3296.45 874.44,-3297.92 874.44,-3299.73"/>
+<text text-anchor="middle" x="901.44" y="-3282" font-family="Arial" font-size="10.00">KOfam</text>
+</g>
+<!-- annotate&#45;&gt;kofam -->
+<g id="edge179" class="edge">
+<title>annotate-&gt;kofam</title>
+<path fill="none" stroke="black" d="M674.02,-2809.4C694.72,-2819.6 722.29,-2836.57 737.61,-2860 831.22,-3003.13 707.38,-3100.9 809.61,-3238 822.74,-3255.61 844.4,-3267.18 863.27,-3274.43"/>
+<polygon fill="black" stroke="black" points="861.95,-3277.67 872.55,-3277.71 864.28,-3271.07 861.95,-3277.67"/>
+</g>
+<!-- kegg -->
+<g id="node95" class="node">
+<title>kegg</title>
+<path fill="#fffacd" stroke="black" d="M944.46,-3205.73C944.46,-3207.53 925.18,-3209 901.44,-3209 877.71,-3209 858.43,-3207.53 858.43,-3205.73 858.43,-3205.73 858.43,-3176.27 858.43,-3176.27 858.43,-3174.47 877.71,-3173 901.44,-3173 925.18,-3173 944.46,-3174.47 944.46,-3176.27 944.46,-3176.27 944.46,-3205.73 944.46,-3205.73"/>
+<path fill="none" stroke="black" d="M944.46,-3205.73C944.46,-3203.92 925.18,-3202.45 901.44,-3202.45 877.71,-3202.45 858.43,-3203.92 858.43,-3205.73"/>
+<text text-anchor="middle" x="901.44" y="-3188" font-family="Arial" font-size="10.00">KEGG Pathway</text>
+</g>
+<!-- annotate&#45;&gt;kegg -->
+<g id="edge180" class="edge">
+<title>annotate-&gt;kegg</title>
+<path fill="none" stroke="black" d="M674.06,-2809.87C694.5,-2820.24 721.7,-2837.19 737.61,-2860 812.13,-2966.79 728.67,-3042 809.61,-3144 819.56,-3156.53 833.76,-3166.07 847.99,-3173.16"/>
+<polygon fill="black" stroke="black" points="846.37,-3176.27 856.92,-3177.27 849.29,-3169.91 846.37,-3176.27"/>
+</g>
+<!-- assembly -->
+<g id="node2" class="node">
+<title>assembly</title>
+<polygon fill="#a7c7e7" stroke="black" points="237.04,-4830 178.8,-4830 178.8,-4794 237.04,-4794 237.04,-4830"/>
+<text text-anchor="middle" x="207.92" y="-4809" font-family="Arial" font-size="10.00">assembly</text>
+</g>
+<!-- binning_prokaryotic -->
+<g id="node5" class="node">
+<title>binning_prokaryotic</title>
+<polygon fill="#a7c7e7" stroke="black" points="466.72,-5502 366.24,-5502 366.24,-5466 466.72,-5466 466.72,-5502"/>
+<text text-anchor="middle" x="416.48" y="-5481" font-family="Arial" font-size="10.00">binning-prokaryotic</text>
+</g>
+<!-- assembly&#45;&gt;binning_prokaryotic -->
+<g id="edge200" class="edge">
+<title>assembly-&gt;binning_prokaryotic</title>
+<path fill="none" stroke="red" stroke-width="2" d="M209.41,-4830.33C212.21,-4907.6 230.7,-5212.42 350.38,-5422 357.98,-5435.31 369.33,-5447.54 380.44,-5457.55"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="377.86,-5459.95 387.73,-5463.78 382.4,-5454.63 377.86,-5459.95"/>
+</g>
+<!-- binning_eukaryotic -->
+<g id="node6" class="node">
+<title>binning_eukaryotic</title>
+<polygon fill="#a7c7e7" stroke="black" points="465.06,-4295 367.9,-4295 367.9,-4259 465.06,-4259 465.06,-4295"/>
+<text text-anchor="middle" x="416.48" y="-4274" font-family="Arial" font-size="10.00">binning-eukaryotic</text>
+</g>
+<!-- assembly&#45;&gt;binning_eukaryotic -->
+<g id="edge201" class="edge">
+<title>assembly-&gt;binning_eukaryotic</title>
+<path fill="none" stroke="red" stroke-width="2" d="M216.03,-4793.58C246.45,-4714.81 365.79,-4405.71 403.79,-4307.28"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="406.97,-4308.75 407.31,-4298.16 400.44,-4306.23 406.97,-4308.75"/>
+</g>
+<!-- binning_viral -->
+<g id="node7" class="node">
+<title>binning_viral</title>
+<polygon fill="#a7c7e7" stroke="black" points="451.44,-2156 381.52,-2156 381.52,-2120 451.44,-2120 451.44,-2156"/>
+<text text-anchor="middle" x="416.48" y="-2135" font-family="Arial" font-size="10.00">binning-viral</text>
+</g>
+<!-- assembly&#45;&gt;binning_viral -->
+<g id="edge202" class="edge">
+<title>assembly-&gt;binning_viral</title>
+<path fill="none" stroke="red" stroke-width="2" d="M209.09,-4793.74C211.24,-4574.52 234.99,-2450.29 350.38,-2200 356.58,-2186.54 367.14,-2174.54 377.96,-2164.76"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="380.15,-2167.5 385.55,-2158.38 375.64,-2162.14 380.15,-2167.5"/>
+</g>
+<!-- VEBA_assembly_env -->
+<g id="node16" class="node">
+<title>VEBA_assembly_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="416.48" cy="-1762" rx="66.11" ry="18"/>
+<text text-anchor="middle" x="416.48" y="-1759" font-family="Arial" font-size="10.00">VEBA-assembly_env</text>
+</g>
+<!-- assembly&#45;&gt;VEBA_assembly_env -->
+<g id="edge2" class="edge">
+<title>assembly-&gt;VEBA_assembly_env</title>
+<path fill="none" stroke="black" d="M208.96,-4793.75C209.56,-4557.92 218.93,-2111.7 350.38,-1824 357.16,-1809.15 369.27,-1796.08 381.22,-1785.82"/>
+<polygon fill="black" stroke="black" points="383.07,-1788.83 388.64,-1779.81 378.67,-1783.39 383.07,-1788.83"/>
+</g>
+<!-- assembly&#45;&gt;genopype -->
+<g id="edge19" class="edge">
+<title>assembly-&gt;genopype</title>
+<path fill="none" stroke="black" d="M237.32,-4812C345.53,-4812 732.33,-4812 859.56,-4812"/>
+<polygon fill="black" stroke="black" points="859.53,-4815.5 869.53,-4812 859.53,-4808.5 859.53,-4815.5"/>
+</g>
+<!-- assembly&#45;&gt;soothsayer_utils -->
+<g id="edge20" class="edge">
+<title>assembly-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M209.14,-4830.2C211.65,-5032.29 237.34,-6853.32 350.38,-7061 404.34,-7160.14 447.38,-7176.67 554.59,-7212 631.84,-7237.46 678.18,-7267.55 737.61,-7212 910.91,-7050.03 679.54,-6345.36 809.61,-6147 818.39,-6133.62 832.24,-6123.83 846.51,-6116.77"/>
+<polygon fill="black" stroke="black" points="847.84,-6120.01 855.53,-6112.72 844.97,-6113.63 847.84,-6120.01"/>
+</g>
+<!-- assembly&#45;&gt;pandas -->
+<g id="edge21" class="edge">
+<title>assembly-&gt;pandas</title>
+<path fill="none" stroke="black" d="M209.36,-4830.32C213.14,-4981.48 242.87,-6024.06 350.38,-6316 404.98,-6464.27 414.4,-6534.12 554.59,-6607 626.76,-6644.52 678.07,-6662.42 737.61,-6607 819.24,-6531.03 769.92,-5710.21 809.61,-5606 823.24,-5570.22 851.49,-5536.35 872.89,-5514.16"/>
+<polygon fill="black" stroke="black" points="875.11,-5516.89 879.65,-5507.32 870.13,-5511.97 875.11,-5516.89"/>
+</g>
+<!-- assembly&#45;&gt;biopython -->
+<g id="edge22" class="edge">
+<title>assembly-&gt;biopython</title>
+<path fill="none" stroke="black" d="M209.52,-4830.28C215.55,-5000.72 270.88,-6310.83 554.59,-6543 617.54,-6594.52 678.25,-6598.61 737.61,-6543 916.71,-6375.22 681.37,-5650.24 809.61,-5441 821.21,-5422.08 842.12,-5408.99 860.95,-5400.44"/>
+<polygon fill="black" stroke="black" points="862.17,-5403.72 870.03,-5396.62 859.46,-5397.27 862.17,-5403.72"/>
+</g>
+<!-- tqdm -->
+<g id="node33" class="node">
+<title>tqdm</title>
+<polygon fill="#90ee90" stroke="black" points="928.44,-8280 874.44,-8280 874.44,-8276 870.44,-8276 870.44,-8272 874.44,-8272 874.44,-8252 870.44,-8252 870.44,-8248 874.44,-8248 874.44,-8244 928.44,-8244 928.44,-8280"/>
+<polyline fill="none" stroke="black" points="874.44,-8276 878.44,-8276 878.44,-8272 874.44,-8272"/>
+<polyline fill="none" stroke="black" points="874.44,-8252 878.44,-8252 878.44,-8248 874.44,-8248"/>
+<text text-anchor="middle" x="901.44" y="-8259" font-family="Arial" font-size="10.00">tqdm</text>
+</g>
+<!-- assembly&#45;&gt;tqdm -->
+<g id="edge23" class="edge">
+<title>assembly-&gt;tqdm</title>
+<path fill="none" stroke="black" d="M208.78,-4830.48C207.76,-4993.43 205.41,-6201.98 350.38,-7167 407.51,-7547.37 349.1,-7682.85 554.59,-8008 632,-8130.5 791.45,-8213.48 863.57,-8246.28"/>
+<polygon fill="black" stroke="black" points="862.03,-8249.42 872.59,-8250.32 864.89,-8243.04 862.03,-8249.42"/>
+</g>
+<!-- spades -->
+<g id="node44" class="node">
+<title>spades</title>
+<path fill="#dda0dd" stroke="black" d="M461.12,-7032C461.12,-7032 371.84,-7032 371.84,-7032 365.84,-7032 359.84,-7026 359.84,-7020 359.84,-7020 359.84,-7008 359.84,-7008 359.84,-7002 365.84,-6996 371.84,-6996 371.84,-6996 461.12,-6996 461.12,-6996 467.12,-6996 473.12,-7002 473.12,-7008 473.12,-7008 473.12,-7020 473.12,-7020 473.12,-7026 467.12,-7032 461.12,-7032"/>
+<text text-anchor="middle" x="416.48" y="-7011" font-family="Arial" font-size="10.00">SPAdes/metaSPAdes</text>
+</g>
+<!-- assembly&#45;&gt;spades -->
+<g id="edge96" class="edge">
+<title>assembly-&gt;spades</title>
+<path fill="none" stroke="black" d="M209.18,-4830.36C212.1,-5028.57 240.81,-6769.05 350.38,-6967 355.03,-6975.42 361.91,-6982.71 369.47,-6988.87"/>
+<polygon fill="black" stroke="black" points="367.23,-6991.57 377.35,-6994.69 371.39,-6985.94 367.23,-6991.57"/>
+</g>
+<!-- megahit -->
+<g id="node45" class="node">
+<title>megahit</title>
+<path fill="#dda0dd" stroke="black" d="M435.26,-6938C435.26,-6938 397.7,-6938 397.7,-6938 391.7,-6938 385.7,-6932 385.7,-6926 385.7,-6926 385.7,-6914 385.7,-6914 385.7,-6908 391.7,-6902 397.7,-6902 397.7,-6902 435.26,-6902 435.26,-6902 441.26,-6902 447.26,-6908 447.26,-6914 447.26,-6914 447.26,-6926 447.26,-6926 447.26,-6932 441.26,-6938 435.26,-6938"/>
+<text text-anchor="middle" x="416.48" y="-6917" font-family="Arial" font-size="10.00">MEGAHIT</text>
+</g>
+<!-- assembly&#45;&gt;megahit -->
+<g id="edge97" class="edge">
+<title>assembly-&gt;megahit</title>
+<path fill="none" stroke="black" d="M209.24,-4830.45C212.72,-5024.31 245.45,-6684.1 350.38,-6873 356.33,-6883.71 365.87,-6892.61 375.83,-6899.68"/>
+<polygon fill="black" stroke="black" points="373.85,-6902.56 384.14,-6905.07 377.65,-6896.69 373.85,-6902.56"/>
+</g>
+<!-- bowtie2 -->
+<g id="node46" class="node">
+<title>bowtie2</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-2175C916.44,-2175 886.44,-2175 886.44,-2175 880.44,-2175 874.44,-2169 874.44,-2163 874.44,-2163 874.44,-2151 874.44,-2151 874.44,-2145 880.44,-2139 886.44,-2139 886.44,-2139 916.44,-2139 916.44,-2139 922.44,-2139 928.44,-2145 928.44,-2151 928.44,-2151 928.44,-2163 928.44,-2163 928.44,-2169 922.44,-2175 916.44,-2175"/>
+<text text-anchor="middle" x="901.44" y="-2154" font-family="Arial" font-size="10.00">Bowtie2</text>
+</g>
+<!-- assembly&#45;&gt;bowtie2 -->
+<g id="edge98" class="edge">
+<title>assembly-&gt;bowtie2</title>
+<path fill="none" stroke="black" d="M209.33,-4793.7C213.38,-4620.02 248.03,-3260.09 350.38,-2868 404.42,-2660.96 426.86,-2603.68 554.59,-2432 645.34,-2310.02 684.43,-2290.29 809.61,-2204 826.56,-2192.32 846.79,-2181.58 863.85,-2173.32"/>
+<polygon fill="black" stroke="black" points="865.09,-2176.6 872.63,-2169.16 862.1,-2170.28 865.09,-2176.6"/>
+</g>
+<!-- samtools -->
+<g id="node47" class="node">
+<title>samtools</title>
+<path fill="#dda0dd" stroke="black" d="M918.29,-2363C918.29,-2363 884.6,-2363 884.6,-2363 878.6,-2363 872.6,-2357 872.6,-2351 872.6,-2351 872.6,-2339 872.6,-2339 872.6,-2333 878.6,-2327 884.6,-2327 884.6,-2327 918.29,-2327 918.29,-2327 924.29,-2327 930.29,-2333 930.29,-2339 930.29,-2339 930.29,-2351 930.29,-2351 930.29,-2357 924.29,-2363 918.29,-2363"/>
+<text text-anchor="middle" x="901.44" y="-2342" font-family="Arial" font-size="10.00">Samtools</text>
+</g>
+<!-- assembly&#45;&gt;samtools -->
+<g id="edge99" class="edge">
+<title>assembly-&gt;samtools</title>
+<path fill="none" stroke="black" d="M210.33,-4793.74C224.89,-4608.32 351.23,-3064.75 554.59,-2657 627.54,-2510.72 678.6,-2489.75 809.61,-2392 825.76,-2379.95 845.43,-2369.35 862.34,-2361.28"/>
+<polygon fill="black" stroke="black" points="863.47,-2364.61 871.08,-2357.23 860.53,-2358.26 863.47,-2364.61"/>
+</g>
+<!-- featureCounts -->
+<g id="node48" class="node">
+<title>featureCounts</title>
+<path fill="#dda0dd" stroke="black" d="M928.85,-2269C928.85,-2269 874.04,-2269 874.04,-2269 868.04,-2269 862.04,-2263 862.04,-2257 862.04,-2257 862.04,-2245 862.04,-2245 862.04,-2239 868.04,-2233 874.04,-2233 874.04,-2233 928.85,-2233 928.85,-2233 934.85,-2233 940.85,-2239 940.85,-2245 940.85,-2245 940.85,-2257 940.85,-2257 940.85,-2263 934.85,-2269 928.85,-2269"/>
+<text text-anchor="middle" x="901.44" y="-2248" font-family="Arial" font-size="10.00">featureCounts</text>
+</g>
+<!-- assembly&#45;&gt;featureCounts -->
+<g id="edge100" class="edge">
+<title>assembly-&gt;featureCounts</title>
+<path fill="none" stroke="black" d="M209.23,-4793.76C213.08,-4570.14 253.44,-2361.53 350.38,-2091 383.74,-1997.89 438.83,-2000.7 482.59,-1912 533.74,-1808.3 462.2,-1731.53 554.59,-1662 619.58,-1613.08 676.42,-1608.4 737.61,-1662 920.41,-1822.12 669.87,-2005.2 809.61,-2204 819.75,-2218.42 835.68,-2228.72 851.39,-2235.93"/>
+<polygon fill="black" stroke="black" points="849.64,-2239 860.22,-2239.65 852.36,-2232.55 849.64,-2239"/>
+</g>
+<!-- assembly&#45;&gt;seqkit -->
+<g id="edge101" class="edge">
+<title>assembly-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M208.84,-4793.79C207.9,-4561.1 201.9,-2171.75 350.38,-1902 385.02,-1839.06 438.97,-1866.08 482.59,-1809 539.69,-1734.26 493.44,-1681.46 554.59,-1610 640.45,-1509.66 793.11,-1452.7 863.28,-1430.68"/>
+<polygon fill="black" stroke="black" points="864.23,-1434.05 872.76,-1427.77 862.18,-1427.36 864.23,-1434.05"/>
+</g>
+<!-- gfastats -->
+<g id="node86" class="node">
+<title>gfastats</title>
+<path fill="#dda0dd" stroke="black" d="M431.48,-6844C431.48,-6844 401.48,-6844 401.48,-6844 395.48,-6844 389.48,-6838 389.48,-6832 389.48,-6832 389.48,-6820 389.48,-6820 389.48,-6814 395.48,-6808 401.48,-6808 401.48,-6808 431.48,-6808 431.48,-6808 437.48,-6808 443.48,-6814 443.48,-6820 443.48,-6820 443.48,-6832 443.48,-6832 443.48,-6838 437.48,-6844 431.48,-6844"/>
+<text text-anchor="middle" x="416.48" y="-6823" font-family="Arial" font-size="10.00">gfastats</text>
+</g>
+<!-- assembly&#45;&gt;gfastats -->
+<g id="edge102" class="edge">
+<title>assembly-&gt;gfastats</title>
+<path fill="none" stroke="black" d="M209.45,-4830.28C214.92,-5017.23 263.11,-6579.17 350.38,-6764 357.12,-6778.28 368.71,-6790.96 380.25,-6801.08"/>
+<polygon fill="black" stroke="black" points="377.89,-6803.66 387.83,-6807.33 382.34,-6798.26 377.89,-6803.66"/>
+</g>
+<!-- assembly_long -->
+<g id="node3" class="node">
+<title>assembly_long</title>
+<polygon fill="#a7c7e7" stroke="black" points="248.16,-1727 167.69,-1727 167.69,-1691 248.16,-1691 248.16,-1727"/>
+<text text-anchor="middle" x="207.92" y="-1706" font-family="Arial" font-size="10.00">assembly-long</text>
+</g>
+<!-- assembly_long&#45;&gt;binning_prokaryotic -->
+<g id="edge203" class="edge">
+<title>assembly_long-&gt;binning_prokaryotic</title>
+<path fill="none" stroke="red" stroke-width="2" d="M248.58,-1726.74C260.27,-1734.04 271.7,-1743.72 278.38,-1756 472.9,-2113.97 186.21,-5049.13 350.38,-5422 356.35,-5435.56 366.84,-5447.59 377.69,-5457.36"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="375.39,-5460 385.3,-5463.73 379.88,-5454.63 375.39,-5460"/>
+</g>
+<!-- assembly_long&#45;&gt;binning_eukaryotic -->
+<g id="edge204" class="edge">
+<title>assembly_long-&gt;binning_eukaryotic</title>
+<path fill="none" stroke="red" stroke-width="2" d="M248.33,-1726.87C260,-1734.19 271.49,-1743.84 278.38,-1756 294.51,-1784.5 400.1,-3958.69 413.98,-4245.82"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="410.48,-4245.89 414.45,-4255.71 417.47,-4245.55 410.48,-4245.89"/>
+</g>
+<!-- assembly_long&#45;&gt;binning_viral -->
+<g id="edge205" class="edge">
+<title>assembly_long-&gt;binning_viral</title>
+<path fill="none" stroke="red" stroke-width="2" d="M244.91,-1727.28C256.9,-1734.81 269.45,-1744.5 278.38,-1756 364.69,-1867.16 399.78,-2037.41 411.03,-2106.87"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="407.57,-2107.4 412.56,-2116.74 414.49,-2106.33 407.57,-2107.4"/>
+</g>
+<!-- assembly_long&#45;&gt;VEBA_assembly_env -->
+<g id="edge3" class="edge">
+<title>assembly_long-&gt;VEBA_assembly_env</title>
+<path fill="none" stroke="black" d="M248.26,-1719.09C278.79,-1726.93 321.6,-1737.91 356.26,-1746.8"/>
+<polygon fill="black" stroke="black" points="355.18,-1750.14 365.73,-1749.24 356.92,-1743.36 355.18,-1750.14"/>
+</g>
+<!-- assembly_long&#45;&gt;genopype -->
+<g id="edge24" class="edge">
+<title>assembly_long-&gt;genopype</title>
+<path fill="none" stroke="black" d="M247.55,-1727.35C259.16,-1734.69 270.82,-1744.24 278.38,-1756 382.88,-1918.65 309.55,-1996.03 350.38,-2185 425.14,-2531.07 454.08,-2615.51 554.59,-2955 628.8,-3205.67 681.58,-3258.65 737.61,-3514 797.07,-3784.96 775.19,-3858.74 809.61,-4134 841.02,-4385.19 883.1,-4688.13 896.3,-4782.49"/>
+<polygon fill="black" stroke="black" points="892.81,-4782.76 897.66,-4792.18 899.74,-4781.79 892.81,-4782.76"/>
+</g>
+<!-- assembly_long&#45;&gt;soothsayer_utils -->
+<g id="edge25" class="edge">
+<title>assembly_long-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M248.58,-1726.73C260.27,-1734.04 271.71,-1743.72 278.38,-1756 378.47,-1940.34 334.43,-5321.85 350.38,-5531 356.87,-5616.23 490.26,-6999.71 554.59,-7056 615.8,-7109.57 677.86,-7111.2 737.61,-7056 886.44,-6918.49 697.52,-6315.81 809.61,-6147 818.46,-6133.67 832.34,-6123.9 846.61,-6116.84"/>
+<polygon fill="black" stroke="black" points="847.94,-6120.08 855.62,-6112.78 845.06,-6113.69 847.94,-6120.08"/>
+</g>
+<!-- assembly_long&#45;&gt;pandas -->
+<g id="edge26" class="edge">
+<title>assembly_long-&gt;pandas</title>
+<path fill="none" stroke="black" d="M248.52,-1726.77C260.2,-1734.07 271.65,-1743.75 278.38,-1756 347.05,-1881.12 333.87,-4182.24 350.38,-4324 402.24,-4769.38 282.53,-4955.57 554.59,-5312 633.77,-5415.74 791.16,-5463.26 863.05,-5480.24"/>
+<polygon fill="black" stroke="black" points="862.23,-5483.64 872.76,-5482.46 863.79,-5476.82 862.23,-5483.64"/>
+</g>
+<!-- assembly_long&#45;&gt;samtools -->
+<g id="edge103" class="edge">
+<title>assembly_long-&gt;samtools</title>
+<path fill="none" stroke="black" d="M248.58,-1694.07C345.8,-1660.31 598.2,-1590.33 737.61,-1715 834.92,-1802.02 735.03,-2190.86 809.61,-2298 821.91,-2315.66 842.92,-2327.14 861.64,-2334.32"/>
+<polygon fill="black" stroke="black" points="860.3,-2337.56 870.89,-2337.57 862.62,-2330.95 860.3,-2337.56"/>
+</g>
+<!-- assembly_long&#45;&gt;featureCounts -->
+<g id="edge104" class="edge">
+<title>assembly_long-&gt;featureCounts</title>
+<path fill="none" stroke="black" d="M215.4,-1690.85C258.41,-1572.8 508.07,-925.47 737.61,-1140 910.75,-1301.82 679.65,-2005.83 809.61,-2204 819.36,-2218.86 835.36,-2229.28 851.25,-2236.47"/>
+<polygon fill="black" stroke="black" points="849.62,-2239.59 860.2,-2240.16 852.29,-2233.11 849.62,-2239.59"/>
+</g>
+<!-- assembly_long&#45;&gt;seqkit -->
+<g id="edge105" class="edge">
+<title>assembly_long-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M209.35,-1690.67C211.95,-1608.38 229.86,-1266.36 350.38,-1022 411.73,-897.6 428.44,-843.66 554.59,-786 628.57,-752.18 675.18,-733.85 737.61,-786 875.57,-901.24 761.11,-1010.91 809.61,-1184 831.13,-1260.81 867.86,-1347.46 887.37,-1391.3"/>
+<polygon fill="black" stroke="black" points="884.14,-1392.67 891.43,-1400.36 890.53,-1389.8 884.14,-1392.67"/>
+</g>
+<!-- flye -->
+<g id="node50" class="node">
+<title>flye</title>
+<path fill="#dda0dd" stroke="black" d="M443.88,-1568C443.88,-1568 389.08,-1568 389.08,-1568 383.08,-1568 377.08,-1562 377.08,-1556 377.08,-1556 377.08,-1544 377.08,-1544 377.08,-1538 383.08,-1532 389.08,-1532 389.08,-1532 443.88,-1532 443.88,-1532 449.88,-1532 455.88,-1538 455.88,-1544 455.88,-1544 455.88,-1556 455.88,-1556 455.88,-1562 449.88,-1568 443.88,-1568"/>
+<text text-anchor="middle" x="416.48" y="-1547" font-family="Arial" font-size="10.00">Flye/MetaFlye</text>
+</g>
+<!-- assembly_long&#45;&gt;flye -->
+<g id="edge106" class="edge">
+<title>assembly_long-&gt;flye</title>
+<path fill="none" stroke="black" d="M232.62,-1690.76C269.56,-1662.32 340.98,-1607.35 382.79,-1575.16"/>
+<polygon fill="black" stroke="black" points="384.76,-1578.07 390.55,-1569.19 380.49,-1572.52 384.76,-1578.07"/>
+</g>
+<!-- minimap2 -->
+<g id="node51" class="node">
+<title>minimap2</title>
+<path fill="#dda0dd" stroke="black" d="M434.16,-1474C434.16,-1474 398.81,-1474 398.81,-1474 392.81,-1474 386.81,-1468 386.81,-1462 386.81,-1462 386.81,-1450 386.81,-1450 386.81,-1444 392.81,-1438 398.81,-1438 398.81,-1438 434.16,-1438 434.16,-1438 440.16,-1438 446.16,-1444 446.16,-1450 446.16,-1450 446.16,-1462 446.16,-1462 446.16,-1468 440.16,-1474 434.16,-1474"/>
+<text text-anchor="middle" x="416.48" y="-1453" font-family="Arial" font-size="10.00">MiniMap2</text>
+</g>
+<!-- assembly_long&#45;&gt;minimap2 -->
+<g id="edge107" class="edge">
+<title>assembly_long-&gt;minimap2</title>
+<path fill="none" stroke="black" d="M218.64,-1690.67C239.35,-1652.72 290.81,-1563.99 350.38,-1503 358.41,-1494.77 368.03,-1486.97 377.38,-1480.17"/>
+<polygon fill="black" stroke="black" points="379.15,-1483.2 385.32,-1474.59 375.13,-1477.47 379.15,-1483.2"/>
+</g>
+<!-- preprocess -->
+<g id="node4" class="node">
+<title>preprocess</title>
+<polygon fill="#a7c7e7" stroke="black" points="65.47,-671 0,-671 0,-635 65.47,-635 65.47,-671"/>
+<text text-anchor="middle" x="32.73" y="-650" font-family="Arial" font-size="10.00">preprocess</text>
+</g>
+<!-- preprocess&#45;&gt;assembly -->
+<g id="edge198" class="edge">
+<title>preprocess-&gt;assembly</title>
+<path fill="none" stroke="red" stroke-width="2" d="M34.49,-671.09C46.18,-951.97 190.39,-4414.89 205.62,-4780.77"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="202.11,-4780.68 206.03,-4790.53 209.11,-4780.39 202.11,-4780.68"/>
+</g>
+<!-- preprocess&#45;&gt;assembly_long -->
+<g id="edge199" class="edge">
+<title>preprocess-&gt;assembly_long</title>
+<path fill="none" stroke="red" stroke-width="2" d="M36.74,-671.33C57.19,-796.01 175.81,-1519.3 201.86,-1678.16"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="198.34,-1678.29 203.41,-1687.59 205.25,-1677.16 198.34,-1678.29"/>
+</g>
+<!-- VEBA_preprocess_env -->
+<g id="node17" class="node">
+<title>VEBA_preprocess_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="207.92" cy="-1803" rx="70.45" ry="18"/>
+<text text-anchor="middle" x="207.92" y="-1800" font-family="Arial" font-size="10.00">VEBA-preprocess_env</text>
+</g>
+<!-- preprocess&#45;&gt;VEBA_preprocess_env -->
+<g id="edge4" class="edge">
+<title>preprocess-&gt;VEBA_preprocess_env</title>
+<path fill="none" stroke="black" d="M34.51,-671.21C40.44,-806.98 79.75,-1658.57 137.47,-1756 143.37,-1765.96 152.3,-1774.26 161.81,-1780.98"/>
+<polygon fill="black" stroke="black" points="159.86,-1783.89 170.16,-1786.36 163.65,-1778 159.86,-1783.89"/>
+</g>
+<!-- preprocess&#45;&gt;soothsayer_utils -->
+<g id="edge27" class="edge">
+<title>preprocess-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M33.9,-671.23C36.78,-991.64 77.79,-5435.72 137.47,-6006 189.84,-6506.47 84.4,-6690.84 350.38,-7118 448.28,-7275.23 602.53,-7398.72 737.61,-7272 920.32,-7100.61 672.62,-6356.73 809.61,-6147 818.36,-6133.6 832.21,-6123.81 846.48,-6116.75"/>
+<polygon fill="black" stroke="black" points="847.81,-6119.99 855.5,-6112.7 844.94,-6113.61 847.81,-6119.99"/>
+</g>
+<!-- preprocess&#45;&gt;pandas -->
+<g id="edge28" class="edge">
+<title>preprocess-&gt;pandas</title>
+<path fill="none" stroke="black" d="M33.9,-671.25C37.3,-1038.58 94.86,-6829 350.38,-7061 393.88,-7100.5 433.39,-7093.13 482.59,-7061 549.24,-7017.47 513.32,-6965.07 554.59,-6897 621.96,-6785.88 690.38,-6790.05 737.61,-6669 909.74,-6227.86 641.99,-6048.87 809.61,-5606 823.16,-5570.2 851.43,-5536.33 872.85,-5514.14"/>
+<polygon fill="black" stroke="black" points="875.07,-5516.87 879.62,-5507.3 870.1,-5511.95 875.07,-5516.87"/>
+</g>
+<!-- preprocess&#45;&gt;tqdm -->
+<g id="edge29" class="edge">
+<title>preprocess-&gt;tqdm</title>
+<path fill="none" stroke="black" d="M33.85,-671.47C35.96,-1010.53 67.57,-5911.46 137.47,-6539 218.67,-7268.08 37.11,-7616.03 554.59,-8136 641.31,-8223.14 792.99,-8250.46 863.04,-8258.67"/>
+<polygon fill="black" stroke="black" points="862.52,-8262.13 872.84,-8259.74 863.28,-8255.17 862.52,-8262.13"/>
+</g>
+<!-- fastq_preprocessor -->
+<g id="node42" class="node">
+<title>fastq_preprocessor</title>
+<polygon fill="#90ee90" stroke="black" points="258.72,-506 157.12,-506 157.12,-502 153.12,-502 153.12,-498 157.12,-498 157.12,-478 153.12,-478 153.12,-474 157.12,-474 157.12,-470 258.72,-470 258.72,-506"/>
+<polyline fill="none" stroke="black" points="157.12,-502 161.12,-502 161.12,-498 157.12,-498"/>
+<polyline fill="none" stroke="black" points="157.12,-478 161.12,-478 161.12,-474 157.12,-474"/>
+<text text-anchor="middle" x="207.92" y="-485" font-family="Arial" font-size="10.00">fastq_preprocessor</text>
+</g>
+<!-- preprocess&#45;&gt;fastq_preprocessor -->
+<g id="edge30" class="edge">
+<title>preprocess-&gt;fastq_preprocessor</title>
+<path fill="none" stroke="black" d="M51.44,-634.84C71.87,-614.03 106.61,-579.05 137.47,-550 150.25,-537.96 164.69,-524.98 177.08,-514.02"/>
+<polygon fill="black" stroke="black" points="179.36,-516.67 184.55,-507.43 174.74,-511.42 179.36,-516.67"/>
+</g>
+<!-- preprocess&#45;&gt;bowtie2 -->
+<g id="edge108" class="edge">
+<title>preprocess-&gt;bowtie2</title>
+<path fill="none" stroke="black" d="M65.86,-661.46C180.62,-693.56 572.19,-819.52 737.61,-1083 823.82,-1220.31 781.05,-1649.41 809.61,-1809 831.11,-1929.14 872.74,-2068.7 891.22,-2127.98"/>
+<polygon fill="black" stroke="black" points="887.81,-2128.8 894.14,-2137.3 894.48,-2126.71 887.81,-2128.8"/>
+</g>
+<!-- preprocess&#45;&gt;seqkit -->
+<g id="edge109" class="edge">
+<title>preprocess-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M65.71,-645.01C176.69,-619.38 548.7,-551.41 737.61,-739 879.78,-880.17 757.35,-990.59 809.61,-1184 830.42,-1261 867.44,-1347.58 887.19,-1391.35"/>
+<polygon fill="black" stroke="black" points="883.97,-1392.74 891.3,-1400.4 890.35,-1389.84 883.97,-1392.74"/>
+</g>
+<!-- fastp -->
+<g id="node52" class="node">
+<title>fastp</title>
+<path fill="#dda0dd" stroke="black" d="M222.92,-412C222.92,-412 192.92,-412 192.92,-412 186.92,-412 180.92,-406 180.92,-400 180.92,-400 180.92,-388 180.92,-388 180.92,-382 186.92,-376 192.92,-376 192.92,-376 222.92,-376 222.92,-376 228.92,-376 234.92,-382 234.92,-388 234.92,-388 234.92,-400 234.92,-400 234.92,-406 228.92,-412 222.92,-412"/>
+<text text-anchor="middle" x="207.92" y="-391" font-family="Arial" font-size="10.00">fastp</text>
+</g>
+<!-- preprocess&#45;&gt;fastp -->
+<g id="edge110" class="edge">
+<title>preprocess-&gt;fastp</title>
+<path fill="none" stroke="black" d="M39.1,-634.71C51.3,-595.57 84.25,-502.24 137.47,-441 146.87,-430.18 159.31,-420.73 171.06,-413.2"/>
+<polygon fill="black" stroke="black" points="172.68,-416.32 179.4,-408.13 169.04,-410.34 172.68,-416.32"/>
+</g>
+<!-- bbmap -->
+<g id="node53" class="node">
+<title>bbmap</title>
+<path fill="#dda0dd" stroke="black" d="M237.27,-318C237.27,-318 178.57,-318 178.57,-318 172.57,-318 166.57,-312 166.57,-306 166.57,-306 166.57,-294 166.57,-294 166.57,-288 172.57,-282 178.57,-282 178.57,-282 237.27,-282 237.27,-282 243.27,-282 249.27,-288 249.27,-294 249.27,-294 249.27,-306 249.27,-306 249.27,-312 243.27,-318 237.27,-318"/>
+<text text-anchor="middle" x="207.92" y="-297" font-family="Arial" font-size="10.00">BBMap/BBDuk</text>
+</g>
+<!-- preprocess&#45;&gt;bbmap -->
+<g id="edge111" class="edge">
+<title>preprocess-&gt;bbmap</title>
+<path fill="none" stroke="black" d="M35.85,-634.55C42.46,-583.8 66.73,-439.79 137.47,-347 143.89,-338.58 152.26,-331.15 160.96,-324.83"/>
+<polygon fill="black" stroke="black" points="162.88,-327.76 169.2,-319.26 158.96,-321.96 162.88,-327.76"/>
+</g>
+<!-- kingfisher -->
+<g id="node54" class="node">
+<title>kingfisher</title>
+<path fill="#dda0dd" stroke="black" d="M226.16,-224C226.16,-224 189.69,-224 189.69,-224 183.69,-224 177.69,-218 177.69,-212 177.69,-212 177.69,-200 177.69,-200 177.69,-194 183.69,-188 189.69,-188 189.69,-188 226.16,-188 226.16,-188 232.16,-188 238.16,-194 238.16,-200 238.16,-200 238.16,-212 238.16,-212 238.16,-218 232.16,-224 226.16,-224"/>
+<text text-anchor="middle" x="207.92" y="-203" font-family="Arial" font-size="10.00">Kingfisher</text>
+</g>
+<!-- preprocess&#45;&gt;kingfisher -->
+<g id="edge112" class="edge">
+<title>preprocess-&gt;kingfisher</title>
+<path fill="none" stroke="black" d="M34.03,-634.78C35.86,-574.58 48.71,-378.71 137.47,-253 145.26,-241.96 156.53,-232.75 167.74,-225.49"/>
+<polygon fill="black" stroke="black" points="169.42,-228.56 176.18,-220.4 165.81,-222.57 169.42,-228.56"/>
+</g>
+<!-- contamination_db -->
+<g id="node96" class="node">
+<title>contamination_db</title>
+<path fill="#fffacd" stroke="black" d="M256.5,-126.73C256.5,-128.53 234.73,-130 207.92,-130 181.12,-130 159.35,-128.53 159.35,-126.73 159.35,-126.73 159.35,-97.27 159.35,-97.27 159.35,-95.47 181.12,-94 207.92,-94 234.73,-94 256.5,-95.47 256.5,-97.27 256.5,-97.27 256.5,-126.73 256.5,-126.73"/>
+<path fill="none" stroke="black" d="M256.5,-126.73C256.5,-124.92 234.73,-123.45 207.92,-123.45 181.12,-123.45 159.35,-124.92 159.35,-126.73"/>
+<text text-anchor="middle" x="207.92" y="-109" font-family="Arial" font-size="10.00">Contamination DB</text>
+</g>
+<!-- preprocess&#45;&gt;contamination_db -->
+<g id="edge181" class="edge">
+<title>preprocess-&gt;contamination_db</title>
+<path fill="none" stroke="black" d="M35.74,-634.53C44.71,-554.76 82.99,-240.12 137.47,-159 143.49,-150.03 151.86,-142.31 160.71,-135.87"/>
+<polygon fill="black" stroke="black" points="162.41,-138.94 168.77,-130.47 158.51,-133.13 162.41,-138.94"/>
+</g>
+<!-- kmer_db -->
+<g id="node97" class="node">
+<title>kmer_db</title>
+<path fill="#fffacd" stroke="black" d="M237.87,-32.73C237.87,-34.53 224.45,-36 207.92,-36 191.4,-36 177.98,-34.53 177.98,-32.73 177.98,-32.73 177.98,-3.27 177.98,-3.27 177.98,-1.47 191.4,0 207.92,0 224.45,0 237.87,-1.47 237.87,-3.27 237.87,-3.27 237.87,-32.73 237.87,-32.73"/>
+<path fill="none" stroke="black" d="M237.87,-32.73C237.87,-30.92 224.45,-29.45 207.92,-29.45 191.4,-29.45 177.98,-30.92 177.98,-32.73"/>
+<text text-anchor="middle" x="207.92" y="-15" font-family="Arial" font-size="10.00">K-mer DB</text>
+</g>
+<!-- preprocess&#45;&gt;kmer_db -->
+<g id="edge182" class="edge">
+<title>preprocess-&gt;kmer_db</title>
+<path fill="none" stroke="black" d="M35.05,-634.72C41.69,-546.3 73.74,-163.28 137.47,-65 145.02,-53.36 156.57,-43.87 168.1,-36.54"/>
+<polygon fill="black" stroke="black" points="169.55,-39.76 176.39,-31.67 166,-33.72 169.55,-39.76"/>
+</g>
+<!-- binning_prokaryotic&#45;&gt;annotate -->
+<g id="edge209" class="edge">
+<title>binning_prokaryotic-&gt;annotate</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.9,-5465.61C429.29,-5330.73 495.06,-4480.24 554.59,-3789 587.16,-3410.67 630.52,-2951.46 642.14,-2829.15"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="645.61,-2829.53 643.08,-2819.25 638.65,-2828.87 645.61,-2829.53"/>
+</g>
+<!-- classify_prokaryotic -->
+<g id="node8" class="node">
+<title>classify_prokaryotic</title>
+<polygon fill="#a7c7e7" stroke="black" points="696.61,-7827 595.59,-7827 595.59,-7791 696.61,-7791 696.61,-7827"/>
+<text text-anchor="middle" x="646.1" y="-7806" font-family="Arial" font-size="10.00">classify-prokaryotic</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;classify_prokaryotic -->
+<g id="edge206" class="edge">
+<title>binning_prokaryotic-&gt;classify_prokaryotic</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.4,-5502.38C428.67,-5706.39 521.83,-7541.9 554.59,-7651 569.32,-7700.08 601.69,-7750.35 623.45,-7780.63"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="620.41,-7782.4 629.14,-7788.4 626.05,-7778.26 620.41,-7782.4"/>
+</g>
+<!-- mapping -->
+<g id="node11" class="node">
+<title>mapping</title>
+<polygon fill="#a7c7e7" stroke="black" points="673.28,-2722 618.92,-2722 618.92,-2686 673.28,-2686 673.28,-2722"/>
+<text text-anchor="middle" x="646.1" y="-2701" font-family="Arial" font-size="10.00">mapping</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;mapping -->
+<g id="edge212" class="edge">
+<title>binning_prokaryotic-&gt;mapping</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.59,-5465.59C425.09,-5356.92 458.93,-4788.33 482.59,-4324 491.49,-4149.27 460.35,-2898.41 554.59,-2751 566.27,-2732.73 587.48,-2721.19 606.44,-2714.11"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="607.51,-2717.44 615.88,-2710.95 605.29,-2710.81 607.51,-2717.44"/>
+</g>
+<!-- cluster -->
+<g id="node12" class="node">
+<title>cluster</title>
+<polygon fill="#a7c7e7" stroke="black" points="673.1,-5172 619.1,-5172 619.1,-5136 673.1,-5136 673.1,-5172"/>
+<text text-anchor="middle" x="646.1" y="-5151" font-family="Arial" font-size="10.00">cluster</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;cluster -->
+<g id="edge215" class="edge">
+<title>binning_prokaryotic-&gt;cluster</title>
+<path fill="none" stroke="red" stroke-width="2" d="M430.04,-5465.79C467.66,-5411.25 579.63,-5248.92 625.34,-5182.65"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="628.06,-5184.87 630.86,-5174.65 622.3,-5180.89 628.06,-5184.87"/>
+</g>
+<!-- biosynthetic -->
+<g id="node13" class="node">
+<title>biosynthetic</title>
+<polygon fill="#a7c7e7" stroke="black" points="680.5,-6962 611.7,-6962 611.7,-6926 680.5,-6926 680.5,-6962"/>
+<text text-anchor="middle" x="646.1" y="-6941" font-family="Arial" font-size="10.00">biosynthetic</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;biosynthetic -->
+<g id="edge218" class="edge">
+<title>binning_prokaryotic-&gt;biosynthetic</title>
+<path fill="none" stroke="red" stroke-width="2" d="M419.2,-5502.23C429.03,-5605.16 480.35,-6124.06 554.59,-6543 579.28,-6682.38 620.04,-6846.49 637.15,-6913.34"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="633.7,-6913.99 639.58,-6922.81 640.48,-6912.25 633.7,-6913.99"/>
+</g>
+<!-- phylogeny -->
+<g id="node14" class="node">
+<title>phylogeny</title>
+<polygon fill="#a7c7e7" stroke="black" points="676.89,-7622 615.3,-7622 615.3,-7586 676.89,-7586 676.89,-7622"/>
+<text text-anchor="middle" x="646.1" y="-7601" font-family="Arial" font-size="10.00">phylogeny</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;phylogeny -->
+<g id="edge220" class="edge">
+<title>binning_prokaryotic-&gt;phylogeny</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.45,-5502.44C429.1,-5705.15 524.78,-7511.41 554.59,-7557 565.69,-7573.98 584.98,-7585.17 602.91,-7592.36"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="601.54,-7595.59 612.14,-7595.69 603.92,-7589.01 601.54,-7595.59"/>
+</g>
+<!-- VEBA_binning_prokaryotic_env -->
+<g id="node18" class="node">
+<title>VEBA_binning_prokaryotic_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="646.1" cy="-6402" rx="91.51" ry="18"/>
+<text text-anchor="middle" x="646.1" y="-6399" font-family="Arial" font-size="10.00">VEBA-binning-prokaryotic_env</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;VEBA_binning_prokaryotic_env -->
+<g id="edge5" class="edge">
+<title>binning_prokaryotic-&gt;VEBA_binning_prokaryotic_env</title>
+<path fill="none" stroke="black" d="M418.16,-5502.45C422.65,-5615.21 451.06,-6211.2 554.59,-6355 562.59,-6366.11 574.02,-6374.8 586.07,-6381.52"/>
+<polygon fill="black" stroke="black" points="584.43,-6384.61 594.93,-6386.02 587.6,-6378.37 584.43,-6384.61"/>
+</g>
+<!-- binning_prokaryotic&#45;&gt;genopype -->
+<g id="edge31" class="edge">
+<title>binning_prokaryotic-&gt;genopype</title>
+<path fill="none" stroke="black" d="M417.84,-5465.62C420.1,-5396.9 436.48,-5151.48 554.59,-5003 636.06,-4900.58 788.2,-4844.73 860.42,-4822.93"/>
+<polygon fill="black" stroke="black" points="861.24,-4826.33 869.84,-4820.15 859.26,-4819.62 861.24,-4826.33"/>
+</g>
+<!-- binning_prokaryotic&#45;&gt;soothsayer_utils -->
+<g id="edge32" class="edge">
+<title>binning_prokaryotic-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M418.81,-5502.44C431.14,-5672.64 525.59,-6964.52 554.59,-6991 614.66,-7045.85 677.7,-7046.02 737.61,-6991 876.26,-6863.68 705.01,-6303.5 809.61,-6147 818.5,-6133.7 832.39,-6123.93 846.66,-6116.87"/>
+<polygon fill="black" stroke="black" points="847.99,-6120.11 855.67,-6112.81 845.11,-6113.73 847.99,-6120.11"/>
+</g>
+<!-- binning_prokaryotic&#45;&gt;pandas -->
+<g id="edge33" class="edge">
+<title>binning_prokaryotic-&gt;pandas</title>
+<path fill="none" stroke="black" d="M466.9,-5484.41C563.68,-5485.21 776.29,-5486.97 862.76,-5487.69"/>
+<polygon fill="black" stroke="black" points="862.55,-5491.19 872.58,-5487.77 862.61,-5484.19 862.55,-5491.19"/>
+</g>
+<!-- numpy -->
+<g id="node31" class="node">
+<title>numpy</title>
+<polygon fill="#90ee90" stroke="black" points="928.44,-5014 874.44,-5014 874.44,-5010 870.44,-5010 870.44,-5006 874.44,-5006 874.44,-4986 870.44,-4986 870.44,-4982 874.44,-4982 874.44,-4978 928.44,-4978 928.44,-5014"/>
+<polyline fill="none" stroke="black" points="874.44,-5010 878.44,-5010 878.44,-5006 874.44,-5006"/>
+<polyline fill="none" stroke="black" points="874.44,-4986 878.44,-4986 878.44,-4982 874.44,-4982"/>
+<text text-anchor="middle" x="901.44" y="-4993" font-family="Arial" font-size="10.00">numpy</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;numpy -->
+<g id="edge34" class="edge">
+<title>binning_prokaryotic-&gt;numpy</title>
+<path fill="none" stroke="black" d="M418.64,-5465.66C423.43,-5405.26 446.95,-5210.59 554.59,-5107 641.78,-5023.08 792.59,-5002.6 862.65,-4997.61"/>
+<polygon fill="black" stroke="black" points="862.7,-5001.11 872.46,-4996.98 862.26,-4994.13 862.7,-5001.11"/>
+</g>
+<!-- binning_prokaryotic&#45;&gt;featureCounts -->
+<g id="edge113" class="edge">
+<title>binning_prokaryotic-&gt;featureCounts</title>
+<path fill="none" stroke="black" d="M418.6,-5465.59C425.21,-5356.92 459.53,-4788.36 482.59,-4324 491.78,-4138.83 474.31,-2824.12 554.59,-2657 601.37,-2559.61 676.62,-2586.19 737.61,-2497 790.7,-2419.36 747.58,-2368.7 809.61,-2298 820.84,-2285.2 836.4,-2275.4 851.47,-2268.14"/>
+<polygon fill="black" stroke="black" points="852.69,-2271.43 860.38,-2264.14 849.83,-2265.04 852.69,-2271.43"/>
+</g>
+<!-- binning_prokaryotic&#45;&gt;seqkit -->
+<g id="edge114" class="edge">
+<title>binning_prokaryotic-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M418.71,-5465.59C425.93,-5356.96 463.15,-4788.53 482.59,-4324 488.65,-4179.13 492.03,-1845.81 554.59,-1715 621.58,-1574.92 789.88,-1475.91 864.2,-1437.58"/>
+<polygon fill="black" stroke="black" points="865.37,-1440.92 872.7,-1433.27 862.2,-1434.68 865.37,-1440.92"/>
+</g>
+<!-- metabat2 -->
+<g id="node55" class="node">
+<title>metabat2</title>
+<path fill="#dda0dd" stroke="black" d="M663.5,-4442C663.5,-4442 628.7,-4442 628.7,-4442 622.7,-4442 616.7,-4436 616.7,-4430 616.7,-4430 616.7,-4418 616.7,-4418 616.7,-4412 622.7,-4406 628.7,-4406 628.7,-4406 663.5,-4406 663.5,-4406 669.5,-4406 675.5,-4412 675.5,-4418 675.5,-4418 675.5,-4430 675.5,-4430 675.5,-4436 669.5,-4442 663.5,-4442"/>
+<text text-anchor="middle" x="646.1" y="-4421" font-family="Arial" font-size="10.00">MetaBat2</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;metabat2 -->
+<g id="edge115" class="edge">
+<title>binning_prokaryotic-&gt;metabat2</title>
+<path fill="none" stroke="black" d="M417.71,-5465.83C419.56,-5343.54 435.35,-4640.45 554.59,-4471 566.71,-4453.77 587.12,-4442.4 605.49,-4435.17"/>
+<polygon fill="black" stroke="black" points="606.63,-4438.48 614.85,-4431.8 604.26,-4431.89 606.63,-4438.48"/>
+</g>
+<!-- semiBin2 -->
+<g id="node56" class="node">
+<title>semiBin2</title>
+<path fill="#dda0dd" stroke="black" d="M663.5,-6326C663.5,-6326 628.7,-6326 628.7,-6326 622.7,-6326 616.7,-6320 616.7,-6314 616.7,-6314 616.7,-6302 616.7,-6302 616.7,-6296 622.7,-6290 628.7,-6290 628.7,-6290 663.5,-6290 663.5,-6290 669.5,-6290 675.5,-6296 675.5,-6302 675.5,-6302 675.5,-6314 675.5,-6314 675.5,-6320 669.5,-6326 663.5,-6326"/>
+<text text-anchor="middle" x="646.1" y="-6305" font-family="Arial" font-size="10.00">SemiBin2</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;semiBin2 -->
+<g id="edge116" class="edge">
+<title>binning_prokaryotic-&gt;semiBin2</title>
+<path fill="none" stroke="black" d="M418.55,-5502.49C424.98,-5608.02 461.37,-6134.02 554.59,-6261 567.05,-6277.98 587.48,-6289.33 605.78,-6296.62"/>
+<polygon fill="black" stroke="black" points="604.5,-6299.87 615.1,-6300.02 606.91,-6293.3 604.5,-6299.87"/>
+</g>
+<!-- metadecoder -->
+<g id="node57" class="node">
+<title>metadecoder</title>
+<path fill="#dda0dd" stroke="black" d="M672.11,-6232C672.11,-6232 620.08,-6232 620.08,-6232 614.08,-6232 608.08,-6226 608.08,-6220 608.08,-6220 608.08,-6208 608.08,-6208 608.08,-6202 614.08,-6196 620.08,-6196 620.08,-6196 672.11,-6196 672.11,-6196 678.11,-6196 684.11,-6202 684.11,-6208 684.11,-6208 684.11,-6220 684.11,-6220 684.11,-6226 678.11,-6232 672.11,-6232"/>
+<text text-anchor="middle" x="646.1" y="-6211" font-family="Arial" font-size="10.00">MetaDecoder</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;metadecoder -->
+<g id="edge117" class="edge">
+<title>binning_prokaryotic-&gt;metadecoder</title>
+<path fill="none" stroke="black" d="M419.04,-5502.45C427.6,-5600.13 471.61,-6056.7 554.59,-6167 565.33,-6181.28 581.66,-6191.6 597.51,-6198.87"/>
+<polygon fill="black" stroke="black" points="595.83,-6201.96 606.4,-6202.63 598.55,-6195.51 595.83,-6201.96"/>
+</g>
+<!-- vamb -->
+<g id="node58" class="node">
+<title>vamb</title>
+<path fill="#dda0dd" stroke="black" d="M661.1,-6138C661.1,-6138 631.1,-6138 631.1,-6138 625.1,-6138 619.1,-6132 619.1,-6126 619.1,-6126 619.1,-6114 619.1,-6114 619.1,-6108 625.1,-6102 631.1,-6102 631.1,-6102 661.1,-6102 661.1,-6102 667.1,-6102 673.1,-6108 673.1,-6114 673.1,-6114 673.1,-6126 673.1,-6126 673.1,-6132 667.1,-6138 661.1,-6138"/>
+<text text-anchor="middle" x="646.1" y="-6117" font-family="Arial" font-size="10.00">VAMB</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;vamb -->
+<g id="edge118" class="edge">
+<title>binning_prokaryotic-&gt;vamb</title>
+<path fill="none" stroke="black" d="M419.65,-5502.21C430.56,-5591.14 481.74,-5979.19 554.59,-6073 568.02,-6090.3 589.61,-6101.86 608.34,-6109.18"/>
+<polygon fill="black" stroke="black" points="606.93,-6112.39 617.52,-6112.5 609.31,-6105.81 606.93,-6112.39"/>
+</g>
+<!-- metacoag -->
+<g id="node59" class="node">
+<title>metacoag</title>
+<path fill="#dda0dd" stroke="black" d="M666.83,-6044C666.83,-6044 625.37,-6044 625.37,-6044 619.37,-6044 613.37,-6038 613.37,-6032 613.37,-6032 613.37,-6020 613.37,-6020 613.37,-6014 619.37,-6008 625.37,-6008 625.37,-6008 666.83,-6008 666.83,-6008 672.83,-6008 678.83,-6014 678.83,-6020 678.83,-6020 678.83,-6032 678.83,-6032 678.83,-6038 672.83,-6044 666.83,-6044"/>
+<text text-anchor="middle" x="646.1" y="-6023" font-family="Arial" font-size="10.00">MetaCoAG</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;metacoag -->
+<g id="edge119" class="edge">
+<title>binning_prokaryotic-&gt;metacoag</title>
+<path fill="none" stroke="black" d="M417.53,-5502.04C418.65,-5571.73 431.35,-5826.93 554.59,-5979 566.96,-5994.27 585.61,-6005.13 602.77,-6012.54"/>
+<polygon fill="black" stroke="black" points="601.21,-6015.68 611.8,-6016.15 603.81,-6009.18 601.21,-6015.68"/>
+</g>
+<!-- binette -->
+<g id="node60" class="node">
+<title>binette</title>
+<path fill="#dda0dd" stroke="black" d="M661.1,-5950C661.1,-5950 631.1,-5950 631.1,-5950 625.1,-5950 619.1,-5944 619.1,-5938 619.1,-5938 619.1,-5926 619.1,-5926 619.1,-5920 625.1,-5914 631.1,-5914 631.1,-5914 661.1,-5914 661.1,-5914 667.1,-5914 673.1,-5920 673.1,-5926 673.1,-5926 673.1,-5938 673.1,-5938 673.1,-5944 667.1,-5950 661.1,-5950"/>
+<text text-anchor="middle" x="646.1" y="-5929" font-family="Arial" font-size="10.00">Binette</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;binette -->
+<g id="edge120" class="edge">
+<title>binning_prokaryotic-&gt;binette</title>
+<path fill="none" stroke="black" d="M418.96,-5502.34C424.83,-5563.76 451.4,-5765.11 554.59,-5885 568.62,-5901.3 589.71,-5912.72 608.01,-5920.21"/>
+<polygon fill="black" stroke="black" points="606.66,-5923.44 617.25,-5923.74 609.16,-5916.9 606.66,-5923.44"/>
+</g>
+<!-- tiara -->
+<g id="node61" class="node">
+<title>tiara</title>
+<path fill="#dda0dd" stroke="black" d="M661.1,-4348C661.1,-4348 631.1,-4348 631.1,-4348 625.1,-4348 619.1,-4342 619.1,-4336 619.1,-4336 619.1,-4324 619.1,-4324 619.1,-4318 625.1,-4312 631.1,-4312 631.1,-4312 661.1,-4312 661.1,-4312 667.1,-4312 673.1,-4318 673.1,-4324 673.1,-4324 673.1,-4336 673.1,-4336 673.1,-4342 667.1,-4348 661.1,-4348"/>
+<text text-anchor="middle" x="646.1" y="-4327" font-family="Arial" font-size="10.00">Tiara</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;tiara -->
+<g id="edge121" class="edge">
+<title>binning_prokaryotic-&gt;tiara</title>
+<path fill="none" stroke="black" d="M417.48,-5465.83C417.77,-5337.18 424.97,-4563.43 554.59,-4377 567.18,-4358.89 588.94,-4347.28 607.97,-4340.13"/>
+<polygon fill="black" stroke="black" points="609.02,-4343.47 617.34,-4336.91 606.75,-4336.85 609.02,-4343.47"/>
+</g>
+<!-- pyrodigal -->
+<g id="node62" class="node">
+<title>pyrodigal</title>
+<path fill="#dda0dd" stroke="black" d="M662.94,-4724C662.94,-4724 629.25,-4724 629.25,-4724 623.25,-4724 617.25,-4718 617.25,-4712 617.25,-4712 617.25,-4700 617.25,-4700 617.25,-4694 623.25,-4688 629.25,-4688 629.25,-4688 662.94,-4688 662.94,-4688 668.94,-4688 674.94,-4694 674.94,-4700 674.94,-4700 674.94,-4712 674.94,-4712 674.94,-4718 668.94,-4724 662.94,-4724"/>
+<text text-anchor="middle" x="646.1" y="-4703" font-family="Arial" font-size="10.00">Pyrodigal</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;pyrodigal -->
+<g id="edge122" class="edge">
+<title>binning_prokaryotic-&gt;pyrodigal</title>
+<path fill="none" stroke="black" d="M420.03,-5465.69C430.7,-5391.58 474.92,-5107.22 554.59,-4886 574.78,-4829.93 608.18,-4768.77 628.27,-4734.12"/>
+<polygon fill="black" stroke="black" points="631.25,-4735.96 633.28,-4725.56 625.21,-4732.42 631.25,-4735.96"/>
+</g>
+<!-- barrnap -->
+<g id="node63" class="node">
+<title>barrnap</title>
+<path fill="#dda0dd" stroke="black" d="M661.1,-4630C661.1,-4630 631.1,-4630 631.1,-4630 625.1,-4630 619.1,-4624 619.1,-4618 619.1,-4618 619.1,-4606 619.1,-4606 619.1,-4600 625.1,-4594 631.1,-4594 631.1,-4594 661.1,-4594 661.1,-4594 667.1,-4594 673.1,-4600 673.1,-4606 673.1,-4606 673.1,-4618 673.1,-4618 673.1,-4624 667.1,-4630 661.1,-4630"/>
+<text text-anchor="middle" x="646.1" y="-4609" font-family="Arial" font-size="10.00">barrnap</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;barrnap -->
+<g id="edge123" class="edge">
+<title>binning_prokaryotic-&gt;barrnap</title>
+<path fill="none" stroke="black" d="M418.33,-5465.81C423.7,-5357.23 456.02,-4794.68 554.59,-4659 567.55,-4641.16 589.32,-4629.55 608.27,-4622.34"/>
+<polygon fill="black" stroke="black" points="609.29,-4625.69 617.58,-4619.08 606.98,-4619.08 609.29,-4625.69"/>
+</g>
+<!-- trnascan -->
+<g id="node64" class="node">
+<title>trnascan</title>
+<path fill="#dda0dd" stroke="black" d="M672.94,-4536C672.94,-4536 619.26,-4536 619.26,-4536 613.26,-4536 607.26,-4530 607.26,-4524 607.26,-4524 607.26,-4512 607.26,-4512 607.26,-4506 613.26,-4500 619.26,-4500 619.26,-4500 672.94,-4500 672.94,-4500 678.94,-4500 684.94,-4506 684.94,-4512 684.94,-4512 684.94,-4524 684.94,-4524 684.94,-4530 678.94,-4536 672.94,-4536"/>
+<text text-anchor="middle" x="646.1" y="-4515" font-family="Arial" font-size="10.00">tRNAscan-SE</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;trnascan -->
+<g id="edge124" class="edge">
+<title>binning_prokaryotic-&gt;trnascan</title>
+<path fill="none" stroke="black" d="M417.99,-5465.68C421.55,-5349.68 445.75,-4717.46 554.59,-4565 564.88,-4550.58 580.96,-4540.25 596.73,-4533.02"/>
+<polygon fill="black" stroke="black" points="597.73,-4536.39 605.58,-4529.29 595.01,-4529.94 597.73,-4536.39"/>
+</g>
+<!-- coverm -->
+<g id="node65" class="node">
+<title>coverm</title>
+<path fill="#dda0dd" stroke="black" d="M661.1,-5856C661.1,-5856 631.1,-5856 631.1,-5856 625.1,-5856 619.1,-5850 619.1,-5844 619.1,-5844 619.1,-5832 619.1,-5832 619.1,-5826 625.1,-5820 631.1,-5820 631.1,-5820 661.1,-5820 661.1,-5820 667.1,-5820 673.1,-5826 673.1,-5832 673.1,-5832 673.1,-5844 673.1,-5844 673.1,-5850 667.1,-5856 661.1,-5856"/>
+<text text-anchor="middle" x="646.1" y="-5835" font-family="Arial" font-size="10.00">CoverM</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;coverm -->
+<g id="edge125" class="edge">
+<title>binning_prokaryotic-&gt;coverm</title>
+<path fill="none" stroke="black" d="M422.37,-5502.29C436.2,-5551.27 479.5,-5687.68 554.59,-5776 569.61,-5793.67 590.82,-5808.56 608.94,-5819.31"/>
+<polygon fill="black" stroke="black" points="607.16,-5822.33 617.58,-5824.26 610.64,-5816.26 607.16,-5822.33"/>
+</g>
+<!-- checkm2_db -->
+<g id="node98" class="node">
+<title>checkm2_db</title>
+<path fill="#fffacd" stroke="black" d="M683.55,-6510.73C683.55,-6512.53 666.77,-6514 646.1,-6514 625.43,-6514 608.65,-6512.53 608.65,-6510.73 608.65,-6510.73 608.65,-6481.27 608.65,-6481.27 608.65,-6479.47 625.43,-6478 646.1,-6478 666.77,-6478 683.55,-6479.47 683.55,-6481.27 683.55,-6481.27 683.55,-6510.73 683.55,-6510.73"/>
+<path fill="none" stroke="black" d="M683.55,-6510.73C683.55,-6508.92 666.77,-6507.45 646.1,-6507.45 625.43,-6507.45 608.65,-6508.92 608.65,-6510.73"/>
+<text text-anchor="middle" x="646.1" y="-6493" font-family="Arial" font-size="10.00">CheckM2 DB</text>
+</g>
+<!-- binning_prokaryotic&#45;&gt;checkm2_db -->
+<g id="edge183" class="edge">
+<title>binning_prokaryotic-&gt;checkm2_db</title>
+<path fill="none" stroke="black" d="M417.85,-5502.46C420.57,-5622.14 440.73,-6288.33 554.59,-6449 565.08,-6463.81 581.69,-6474.3 597.83,-6481.55"/>
+<polygon fill="black" stroke="black" points="596.33,-6484.71 606.91,-6485.28 598.99,-6478.24 596.33,-6484.71"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;annotate -->
+<g id="edge210" class="edge">
+<title>binning_eukaryotic-&gt;annotate</title>
+<path fill="none" stroke="red" stroke-width="2" d="M420.32,-4258.57C444.09,-4104.11 609.98,-3026.2 640.34,-2828.96"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="643.76,-2829.71 641.82,-2819.29 636.84,-2828.64 643.76,-2829.71"/>
+</g>
+<!-- classify_eukaryotic -->
+<g id="node9" class="node">
+<title>classify_eukaryotic</title>
+<polygon fill="#a7c7e7" stroke="black" points="694.94,-7528 597.25,-7528 597.25,-7492 694.94,-7492 694.94,-7528"/>
+<text text-anchor="middle" x="646.1" y="-7507" font-family="Arial" font-size="10.00">classify-eukaryotic</text>
+</g>
+<!-- binning_eukaryotic&#45;&gt;classify_eukaryotic -->
+<g id="edge207" class="edge">
+<title>binning_eukaryotic-&gt;classify_eukaryotic</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.58,-4295.41C425.07,-4404.08 458.8,-4972.68 482.59,-5437 517.96,-6127.5 479.04,-6303.73 554.59,-6991 575.11,-7177.74 620.97,-7398.92 638.29,-7479.07"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="634.86,-7479.75 640.4,-7488.77 641.7,-7478.26 634.86,-7479.75"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;mapping -->
+<g id="edge213" class="edge">
+<title>binning_eukaryotic-&gt;mapping</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.07,-4258.69C423.46,-4094.78 466.2,-2882.79 554.59,-2751 566.58,-2733.11 587.62,-2721.61 606.39,-2714.47"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="607.39,-2717.82 615.72,-2711.27 605.12,-2711.2 607.39,-2717.82"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;cluster -->
+<g id="edge216" class="edge">
+<title>binning_eukaryotic-&gt;cluster</title>
+<path fill="none" stroke="red" stroke-width="2" d="M422.24,-4295.32C450.9,-4405.77 600.71,-4982.98 637.12,-5123.26"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="633.71,-5124.05 639.61,-5132.85 640.49,-5122.29 633.71,-5124.05"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;biosynthetic -->
+<g id="edge219" class="edge">
+<title>binning_eukaryotic-&gt;biosynthetic</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.5,-4295.21C430.12,-4503.17 537.8,-6424.9 554.59,-6543 574.51,-6683.14 617.89,-6846.83 636.42,-6913.46"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="633,-6914.21 639.07,-6922.89 639.74,-6912.32 633,-6914.21"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;phylogeny -->
+<g id="edge221" class="edge">
+<title>binning_eukaryotic-&gt;phylogeny</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.67,-4295.41C425.64,-4404.05 461.67,-4972.54 482.59,-5437 487.89,-5554.73 491.7,-7457.34 554.59,-7557 565.49,-7574.28 584.95,-7585.53 603.04,-7592.67"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="601.77,-7595.94 612.37,-7595.98 604.11,-7589.34 601.77,-7595.94"/>
+</g>
+<!-- VEBA_binning_eukaryotic_env -->
+<g id="node19" class="node">
+<title>VEBA_binning_eukaryotic_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="646.1" cy="-3930" rx="89.51" ry="18"/>
+<text text-anchor="middle" x="646.1" y="-3927" font-family="Arial" font-size="10.00">VEBA-binning-eukaryotic_env</text>
+</g>
+<!-- binning_eukaryotic&#45;&gt;VEBA_binning_eukaryotic_env -->
+<g id="edge6" class="edge">
+<title>binning_eukaryotic-&gt;VEBA_binning_eukaryotic_env</title>
+<path fill="none" stroke="black" d="M421.39,-4258.78C433.11,-4208.11 472.31,-4063.52 554.59,-3977 564.6,-3966.47 577.49,-3957.86 590.39,-3951.03"/>
+<polygon fill="black" stroke="black" points="591.93,-3954.17 599.33,-3946.59 588.82,-3947.9 591.93,-3954.17"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;genopype -->
+<g id="edge35" class="edge">
+<title>binning_eukaryotic-&gt;genopype</title>
+<path fill="none" stroke="black" d="M465.37,-4262.06C533.28,-4244.06 658.13,-4223.14 737.61,-4283 820.69,-4345.56 879.69,-4680.51 895.93,-4782.5"/>
+<polygon fill="black" stroke="black" points="892.46,-4782.92 897.47,-4792.26 899.37,-4781.84 892.46,-4782.92"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;soothsayer_utils -->
+<g id="edge36" class="edge">
+<title>binning_eukaryotic-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M417.28,-4295.05C415.99,-4439.67 412.71,-5410.59 554.59,-5658 604.61,-5745.23 680.4,-5708.31 737.61,-5791 806.33,-5890.31 733.61,-5959.16 809.61,-6053 819.41,-6065.1 833.16,-6074.43 847,-6081.46"/>
+<polygon fill="black" stroke="black" points="845.13,-6084.45 855.67,-6085.54 848.11,-6078.12 845.13,-6084.45"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;pandas -->
+<g id="edge37" class="edge">
+<title>binning_eukaryotic-&gt;pandas</title>
+<path fill="none" stroke="black" d="M418.28,-4295.22C423.63,-4410.61 456.98,-5039.94 554.59,-5201 606.7,-5286.99 666.67,-5262.74 737.61,-5334 776.25,-5372.81 769.23,-5397.01 809.61,-5434 825.78,-5448.81 846.66,-5461.57 864.32,-5470.95"/>
+<polygon fill="black" stroke="black" points="862.44,-5473.93 872.94,-5475.39 865.65,-5467.7 862.44,-5473.93"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;numpy -->
+<g id="edge38" class="edge">
+<title>binning_eukaryotic-&gt;numpy</title>
+<path fill="none" stroke="black" d="M418.02,-4258.72C421.42,-4156.77 443.62,-3659.56 554.59,-3568 617.33,-3516.23 678.51,-3512.11 737.61,-3568 841.99,-3666.72 764.34,-4722.65 809.61,-4859 823.69,-4901.4 854.52,-4943.17 876.34,-4969.23"/>
+<polygon fill="black" stroke="black" points="873.5,-4971.29 882.66,-4976.62 878.82,-4966.74 873.5,-4971.29"/>
+</g>
+<!-- torch -->
+<g id="node38" class="node">
+<title>torch</title>
+<polygon fill="#90ee90" stroke="black" points="673.1,-3854 619.1,-3854 619.1,-3850 615.1,-3850 615.1,-3846 619.1,-3846 619.1,-3826 615.1,-3826 615.1,-3822 619.1,-3822 619.1,-3818 673.1,-3818 673.1,-3854"/>
+<polyline fill="none" stroke="black" points="619.1,-3850 623.1,-3850 623.1,-3846 619.1,-3846"/>
+<polyline fill="none" stroke="black" points="619.1,-3826 623.1,-3826 623.1,-3822 619.1,-3822"/>
+<text text-anchor="middle" x="646.1" y="-3833" font-family="Arial" font-size="10.00">torch</text>
+</g>
+<!-- binning_eukaryotic&#45;&gt;torch -->
+<g id="edge39" class="edge">
+<title>binning_eukaryotic-&gt;torch</title>
+<path fill="none" stroke="black" d="M419.11,-4258.56C425.37,-4197.7 452.93,-4000.47 554.59,-3883 568.66,-3866.74 589.76,-3855.32 608.05,-3847.82"/>
+<polygon fill="black" stroke="black" points="609.19,-3851.13 617.28,-3844.29 606.69,-3844.59 609.19,-3851.13"/>
+</g>
+<!-- sklearn -->
+<g id="node39" class="node">
+<title>sklearn</title>
+<polygon fill="#90ee90" stroke="black" points="677.99,-4136 614.21,-4136 614.21,-4132 610.21,-4132 610.21,-4128 614.21,-4128 614.21,-4108 610.21,-4108 610.21,-4104 614.21,-4104 614.21,-4100 677.99,-4100 677.99,-4136"/>
+<polyline fill="none" stroke="black" points="614.21,-4132 618.21,-4132 618.21,-4128 614.21,-4128"/>
+<polyline fill="none" stroke="black" points="614.21,-4108 618.21,-4108 618.21,-4104 614.21,-4104"/>
+<text text-anchor="middle" x="646.1" y="-4115" font-family="Arial" font-size="10.00">scikit-learn</text>
+</g>
+<!-- binning_eukaryotic&#45;&gt;sklearn -->
+<g id="edge40" class="edge">
+<title>binning_eukaryotic-&gt;sklearn</title>
+<path fill="none" stroke="black" d="M443.17,-4258.65C470.66,-4239.05 515.58,-4207.15 554.59,-4180 572.36,-4167.63 592.2,-4154.02 608.76,-4142.71"/>
+<polygon fill="black" stroke="black" points="610.55,-4145.72 616.84,-4137.19 606.61,-4139.94 610.55,-4145.72"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;featureCounts -->
+<g id="edge126" class="edge">
+<title>binning_eukaryotic-&gt;featureCounts</title>
+<path fill="none" stroke="black" d="M418.17,-4258.76C424.84,-4084.52 479.41,-2717.29 554.59,-2554 621.75,-2408.12 680.07,-2392.93 809.61,-2298 822.52,-2288.54 837.6,-2279.92 851.72,-2272.71"/>
+<polygon fill="black" stroke="black" points="853.02,-2275.97 860.43,-2268.4 849.91,-2269.7 853.02,-2275.97"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;metabat2 -->
+<g id="edge127" class="edge">
+<title>binning_eukaryotic-&gt;metabat2</title>
+<path fill="none" stroke="black" d="M440.51,-4295.46C467.16,-4316.43 512.76,-4351.09 554.59,-4377 571.01,-4387.17 589.87,-4397.21 606.12,-4405.38"/>
+<polygon fill="black" stroke="black" points="604.49,-4408.48 615,-4409.79 607.6,-4402.21 604.49,-4408.48"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;tiara -->
+<g id="edge128" class="edge">
+<title>binning_eukaryotic-&gt;tiara</title>
+<path fill="none" stroke="black" d="M465.48,-4288.18C507.97,-4298.07 569.13,-4312.31 607.98,-4321.36"/>
+<polygon fill="black" stroke="black" points="606.79,-4324.67 617.32,-4323.53 608.38,-4317.86 606.79,-4324.67"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;pyrodigal -->
+<g id="edge129" class="edge">
+<title>binning_eukaryotic-&gt;pyrodigal</title>
+<path fill="none" stroke="black" d="M419.33,-4295.3C426.22,-4354.81 455.36,-4545.46 554.59,-4659 568.35,-4674.75 588.69,-4685.98 606.6,-4693.49"/>
+<polygon fill="black" stroke="black" points="605.08,-4696.66 615.67,-4697.05 607.64,-4690.14 605.08,-4696.66"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;barrnap -->
+<g id="edge130" class="edge">
+<title>binning_eukaryotic-&gt;barrnap</title>
+<path fill="none" stroke="black" d="M421.78,-4295.2C434.26,-4344.47 474.75,-4482.35 554.59,-4565 569.43,-4580.36 590.38,-4591.69 608.39,-4599.36"/>
+<polygon fill="black" stroke="black" points="606.88,-4602.53 617.46,-4603 609.49,-4596.03 606.88,-4602.53"/>
+</g>
+<!-- binning_eukaryotic&#45;&gt;trnascan -->
+<g id="edge131" class="edge">
+<title>binning_eukaryotic-&gt;trnascan</title>
+<path fill="none" stroke="black" d="M426.51,-4295.22C445.66,-4332.37 493.67,-4417.87 554.59,-4471 566.93,-4481.77 582.18,-4490.9 596.62,-4498.16"/>
+<polygon fill="black" stroke="black" points="595.04,-4501.28 605.57,-4502.46 598.07,-4494.97 595.04,-4501.28"/>
+</g>
+<!-- metaeuk -->
+<g id="node66" class="node">
+<title>metaeuk</title>
+<path fill="#dda0dd" stroke="black" d="M917.18,-6306C917.18,-6306 885.71,-6306 885.71,-6306 879.71,-6306 873.71,-6300 873.71,-6294 873.71,-6294 873.71,-6282 873.71,-6282 873.71,-6276 879.71,-6270 885.71,-6270 885.71,-6270 917.18,-6270 917.18,-6270 923.18,-6270 929.18,-6276 929.18,-6282 929.18,-6282 929.18,-6294 929.18,-6294 929.18,-6300 923.18,-6306 917.18,-6306"/>
+<text text-anchor="middle" x="901.44" y="-6285" font-family="Arial" font-size="10.00">MetaEuk</text>
+</g>
+<!-- binning_eukaryotic&#45;&gt;metaeuk -->
+<g id="edge132" class="edge">
+<title>binning_eukaryotic-&gt;metaeuk</title>
+<path fill="none" stroke="black" d="M419.72,-4258.55C430.08,-4176.77 476.12,-3848.46 554.59,-3789 619.42,-3739.87 679.25,-3732.33 737.61,-3789 835.38,-3883.94 737.07,-6125.63 809.61,-6241 821.44,-6259.81 843.41,-6271.46 862.78,-6278.46"/>
+<polygon fill="black" stroke="black" points="861.45,-6281.71 872.05,-6281.5 863.64,-6275.06 861.45,-6281.71"/>
+</g>
+<!-- microeuk_db -->
+<g id="node99" class="node">
+<title>microeuk_db</title>
+<path fill="#fffacd" stroke="black" d="M938.62,-6208.73C938.62,-6210.53 921.96,-6212 901.44,-6212 880.93,-6212 864.27,-6210.53 864.27,-6208.73 864.27,-6208.73 864.27,-6179.27 864.27,-6179.27 864.27,-6177.47 880.93,-6176 901.44,-6176 921.96,-6176 938.62,-6177.47 938.62,-6179.27 938.62,-6179.27 938.62,-6208.73 938.62,-6208.73"/>
+<path fill="none" stroke="black" d="M938.62,-6208.73C938.62,-6206.92 921.96,-6205.45 901.44,-6205.45 880.93,-6205.45 864.27,-6206.92 864.27,-6208.73"/>
+<text text-anchor="middle" x="901.44" y="-6191" font-family="Arial" font-size="10.00">MicroEuk DB</text>
+</g>
+<!-- binning_eukaryotic&#45;&gt;microeuk_db -->
+<g id="edge184" class="edge">
+<title>binning_eukaryotic-&gt;microeuk_db</title>
+<path fill="none" stroke="black" d="M418.78,-4258.53C425.66,-4166.64 461.09,-3760.29 554.59,-3686 618.27,-3635.4 679.26,-3629.33 737.61,-3686 835.73,-3781.29 736.81,-6031.2 809.61,-6147 819.63,-6162.93 836.92,-6173.73 853.75,-6180.91"/>
+<polygon fill="black" stroke="black" points="852.1,-6184.03 862.69,-6184.38 854.63,-6177.5 852.1,-6184.03"/>
+</g>
+<!-- busco_db -->
+<g id="node100" class="node">
+<title>busco_db</title>
+<path fill="#fffacd" stroke="black" d="M691.89,-4038.73C691.89,-4040.53 671.37,-4042 646.1,-4042 620.83,-4042 600.3,-4040.53 600.3,-4038.73 600.3,-4038.73 600.3,-4009.27 600.3,-4009.27 600.3,-4007.47 620.83,-4006 646.1,-4006 671.37,-4006 691.89,-4007.47 691.89,-4009.27 691.89,-4009.27 691.89,-4038.73 691.89,-4038.73"/>
+<path fill="none" stroke="black" d="M691.89,-4038.73C691.89,-4036.92 671.37,-4035.45 646.1,-4035.45 620.83,-4035.45 600.3,-4036.92 600.3,-4038.73"/>
+<text text-anchor="middle" x="646.1" y="-4021" font-family="Arial" font-size="10.00">BUSCO lineages</text>
+</g>
+<!-- binning_eukaryotic&#45;&gt;busco_db -->
+<g id="edge185" class="edge">
+<title>binning_eukaryotic-&gt;busco_db</title>
+<path fill="none" stroke="black" d="M425.79,-4258.52C444.12,-4219.5 491.43,-4127.66 554.59,-4071 565.4,-4061.3 578.58,-4052.98 591.5,-4046.17"/>
+<polygon fill="black" stroke="black" points="593.04,-4049.32 600.41,-4041.7 589.9,-4043.06 593.04,-4049.32"/>
+</g>
+<!-- binning_viral&#45;&gt;annotate -->
+<g id="edge211" class="edge">
+<title>binning_viral-&gt;annotate</title>
+<path fill="none" stroke="red" stroke-width="2" d="M419.49,-2156.34C429.79,-2247.69 479.18,-2653.02 554.59,-2751 567.49,-2767.76 588.05,-2779.11 606.32,-2786.45"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="605.04,-2789.71 615.64,-2789.87 607.45,-2783.14 605.04,-2789.71"/>
+</g>
+<!-- classify_viral -->
+<g id="node10" class="node">
+<title>classify_viral</title>
+<polygon fill="#a7c7e7" stroke="black" points="681.32,-1780 610.88,-1780 610.88,-1744 681.32,-1744 681.32,-1780"/>
+<text text-anchor="middle" x="646.1" y="-1759" font-family="Arial" font-size="10.00">classify-viral</text>
+</g>
+<!-- binning_viral&#45;&gt;classify_viral -->
+<g id="edge208" class="edge">
+<title>binning_viral-&gt;classify_viral</title>
+<path fill="none" stroke="red" stroke-width="2" d="M430.36,-2119.6C444.59,-2098.65 467.48,-2063.05 482.59,-2030 525.53,-1936.05 487.77,-1887.78 554.59,-1809 566.18,-1795.33 582.75,-1785.13 598.55,-1777.78"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="599.79,-1781.06 607.61,-1773.9 597.04,-1774.62 599.79,-1781.06"/>
+</g>
+<!-- binning_viral&#45;&gt;mapping -->
+<g id="edge214" class="edge">
+<title>binning_viral-&gt;mapping</title>
+<path fill="none" stroke="red" stroke-width="2" d="M424.8,-2156.19C457.63,-2237.85 591.62,-2571.02 632.92,-2673.72"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="629.59,-2674.81 636.57,-2682.78 636.08,-2672.2 629.59,-2674.81"/>
+</g>
+<!-- binning_viral&#45;&gt;cluster -->
+<g id="edge217" class="edge">
+<title>binning_viral-&gt;cluster</title>
+<path fill="none" stroke="red" stroke-width="2" d="M418.01,-2156.35C423.95,-2360.42 479.43,-4208.65 554.59,-4753 573.95,-4893.22 617.64,-5056.86 636.34,-5123.47"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="632.92,-5124.24 639.01,-5132.9 639.65,-5122.33 632.92,-5124.24"/>
+</g>
+<!-- VEBA_binning_viral_env -->
+<g id="node20" class="node">
+<title>VEBA_binning_viral_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="646.1" cy="-1856" rx="73.13" ry="18"/>
+<text text-anchor="middle" x="646.1" y="-1853" font-family="Arial" font-size="10.00">VEBA-binning-viral_env</text>
+</g>
+<!-- binning_viral&#45;&gt;VEBA_binning_viral_env -->
+<g id="edge7" class="edge">
+<title>binning_viral-&gt;VEBA_binning_viral_env</title>
+<path fill="none" stroke="black" d="M428.69,-2119.74C441.78,-2098.34 464.02,-2061.75 482.59,-2030 515.34,-1973.99 507.87,-1948.03 554.59,-1903 565.97,-1892.02 580.43,-1882.99 594.44,-1875.87"/>
+<polygon fill="black" stroke="black" points="595.64,-1879.17 603.14,-1871.68 592.61,-1872.87 595.64,-1879.17"/>
+</g>
+<!-- binning_viral&#45;&gt;genopype -->
+<g id="edge41" class="edge">
+<title>binning_viral-&gt;genopype</title>
+<path fill="none" stroke="black" d="M419.2,-2156.23C428.77,-2254.82 477.78,-2724.37 554.59,-2845 608.59,-2929.82 689.2,-2889.87 737.61,-2978 799.57,-3090.8 797.06,-4005.92 809.61,-4134 834.3,-4385.94 880.85,-4688.38 895.74,-4782.56"/>
+<polygon fill="black" stroke="black" points="892.25,-4782.9 897.27,-4792.22 899.16,-4781.8 892.25,-4782.9"/>
+</g>
+<!-- binning_viral&#45;&gt;soothsayer_utils -->
+<g id="edge42" class="edge">
+<title>binning_viral-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M417.91,-2156.19C423.61,-2393.81 484.85,-4884.21 554.59,-5201 600.74,-5410.66 677.81,-5441.82 737.61,-5648 788.54,-5823.59 701.22,-5905.77 809.61,-6053 819.01,-6065.77 832.91,-6075.35 847.03,-6082.41"/>
+<polygon fill="black" stroke="black" points="845.36,-6085.5 855.9,-6086.49 848.28,-6079.14 845.36,-6085.5"/>
+</g>
+<!-- binning_viral&#45;&gt;pandas -->
+<g id="edge43" class="edge">
+<title>binning_viral-&gt;pandas</title>
+<path fill="none" stroke="black" d="M417.59,-2156.35C418.67,-2263.35 430.29,-2816.78 554.59,-3245 607.62,-3427.72 692.23,-3447.23 737.61,-3632 785.41,-3826.6 707.07,-5261.84 809.61,-5434 821.57,-5454.08 844.13,-5467.55 863.77,-5476.01"/>
+<polygon fill="black" stroke="black" points="862.3,-5479.2 872.89,-5479.65 864.89,-5472.69 862.3,-5479.2"/>
+</g>
+<!-- binning_viral&#45;&gt;numpy -->
+<g id="edge44" class="edge">
+<title>binning_viral-&gt;numpy</title>
+<path fill="none" stroke="black" d="M418.75,-2156.47C426.45,-2264.34 469.32,-2812.86 554.59,-2955 607.41,-3043.06 690.41,-3004.81 737.61,-3096 827.73,-3270.11 749.22,-4672.48 809.61,-4859 823.37,-4901.5 854.27,-4943.25 876.2,-4969.28"/>
+<polygon fill="black" stroke="black" points="873.37,-4971.36 882.55,-4976.66 878.68,-4966.79 873.37,-4971.36"/>
+</g>
+<!-- binning_viral&#45;&gt;biopython -->
+<g id="edge45" class="edge">
+<title>binning_viral-&gt;biopython</title>
+<path fill="none" stroke="black" d="M417.11,-2156.25C415.73,-2253.88 416.85,-2723.04 554.59,-3070 607,-3202.02 692.53,-3197.3 737.61,-3332 807.93,-3542.13 702.6,-5130.96 809.61,-5325 820.94,-5345.55 842.33,-5360.66 861.51,-5370.81"/>
+<polygon fill="black" stroke="black" points="859.7,-5373.82 870.21,-5375.14 862.81,-5367.55 859.7,-5373.82"/>
+</g>
+<!-- binning_viral&#45;&gt;tqdm -->
+<g id="edge46" class="edge">
+<title>binning_viral-&gt;tqdm</title>
+<path fill="none" stroke="black" d="M418.12,-2156.15C423.45,-2306.98 460.62,-3368.18 482.59,-4230 487.72,-4431.42 483.35,-7667.53 554.59,-7856 599.08,-7973.7 668.16,-7967.07 737.61,-8072 776.89,-8131.34 759.58,-8164.41 809.61,-8215 824.67,-8230.23 845.71,-8241.54 863.75,-8249.25"/>
+<polygon fill="black" stroke="black" points="862.25,-8252.42 872.83,-8252.91 864.87,-8245.93 862.25,-8252.42"/>
+</g>
+<!-- binning_viral&#45;&gt;featureCounts -->
+<g id="edge133" class="edge">
+<title>binning_viral-&gt;featureCounts</title>
+<path fill="none" stroke="black" d="M430.92,-2119.84C445.65,-2099.11 468.98,-2063.7 482.59,-2030 536.34,-1896.83 442.29,-1804.52 554.59,-1715 618.19,-1664.29 676.05,-1661.83 737.61,-1715 903.88,-1858.58 682.02,-2025.18 809.61,-2204 819.85,-2218.35 835.8,-2228.63 851.5,-2235.85"/>
+<polygon fill="black" stroke="black" points="849.75,-2238.91 860.32,-2239.58 852.47,-2232.46 849.75,-2238.91"/>
+</g>
+<!-- binning_viral&#45;&gt;seqkit -->
+<g id="edge134" class="edge">
+<title>binning_viral-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M423.72,-2119.77C436.56,-2081.65 466.1,-1990.52 482.59,-1912 507.29,-1794.38 464.13,-1455.12 554.59,-1376 642.56,-1299.06 794.58,-1363.21 863.99,-1399.39"/>
+<polygon fill="black" stroke="black" points="862.19,-1402.4 872.67,-1404.01 865.48,-1396.22 862.19,-1402.4"/>
+</g>
+<!-- genomad -->
+<g id="node67" class="node">
+<title>genomad</title>
+<path fill="#dda0dd" stroke="black" d="M919.12,-1155C919.12,-1155 883.76,-1155 883.76,-1155 877.76,-1155 871.76,-1149 871.76,-1143 871.76,-1143 871.76,-1131 871.76,-1131 871.76,-1125 877.76,-1119 883.76,-1119 883.76,-1119 919.12,-1119 919.12,-1119 925.12,-1119 931.12,-1125 931.12,-1131 931.12,-1131 931.12,-1143 931.12,-1143 931.12,-1149 925.12,-1155 919.12,-1155"/>
+<text text-anchor="middle" x="901.44" y="-1134" font-family="Arial" font-size="10.00">geNomad</text>
+</g>
+<!-- binning_viral&#45;&gt;genomad -->
+<g id="edge135" class="edge">
+<title>binning_viral-&gt;genomad</title>
+<path fill="none" stroke="black" d="M421.46,-2119.51C432.14,-2069.57 462,-1927.76 482.59,-1809 519.66,-1595.15 430.37,-1503.98 554.59,-1326 629.67,-1218.41 786.3,-1165.96 860.2,-1146.41"/>
+<polygon fill="black" stroke="black" points="861.05,-1149.81 869.86,-1143.93 859.31,-1143.03 861.05,-1149.81"/>
+</g>
+<!-- checkv -->
+<g id="node84" class="node">
+<title>checkv</title>
+<path fill="#dda0dd" stroke="black" d="M661.1,-2156C661.1,-2156 631.1,-2156 631.1,-2156 625.1,-2156 619.1,-2150 619.1,-2144 619.1,-2144 619.1,-2132 619.1,-2132 619.1,-2126 625.1,-2120 631.1,-2120 631.1,-2120 661.1,-2120 661.1,-2120 667.1,-2120 673.1,-2126 673.1,-2132 673.1,-2132 673.1,-2144 673.1,-2144 673.1,-2150 667.1,-2156 661.1,-2156"/>
+<text text-anchor="middle" x="646.1" y="-2135" font-family="Arial" font-size="10.00">CheckV</text>
+</g>
+<!-- binning_viral&#45;&gt;checkv -->
+<g id="edge136" class="edge">
+<title>binning_viral-&gt;checkv</title>
+<path fill="none" stroke="black" d="M451.56,-2138C493.27,-2138 563.71,-2138 607.13,-2138"/>
+<polygon fill="black" stroke="black" points="607.1,-2141.5 617.1,-2138 607.1,-2134.5 607.1,-2141.5"/>
+</g>
+<!-- pyrodigal_gv -->
+<g id="node85" class="node">
+<title>pyrodigal_gv</title>
+<path fill="#dda0dd" stroke="black" d="M669.34,-2062C669.34,-2062 622.86,-2062 622.86,-2062 616.86,-2062 610.86,-2056 610.86,-2050 610.86,-2050 610.86,-2038 610.86,-2038 610.86,-2032 616.86,-2026 622.86,-2026 622.86,-2026 669.34,-2026 669.34,-2026 675.34,-2026 681.34,-2032 681.34,-2038 681.34,-2038 681.34,-2050 681.34,-2050 681.34,-2056 675.34,-2062 669.34,-2062"/>
+<text text-anchor="middle" x="646.1" y="-2041" font-family="Arial" font-size="10.00">pyrodigal-gv</text>
+</g>
+<!-- binning_viral&#45;&gt;pyrodigal_gv -->
+<g id="edge137" class="edge">
+<title>binning_viral-&gt;pyrodigal_gv</title>
+<path fill="none" stroke="black" d="M451.56,-2123.93C491,-2107.64 556.12,-2080.74 599.8,-2062.71"/>
+<polygon fill="black" stroke="black" points="601.11,-2065.95 609.02,-2058.9 598.44,-2059.48 601.11,-2065.95"/>
+</g>
+<!-- genomad_db -->
+<g id="node101" class="node">
+<title>genomad_db</title>
+<path fill="#fffacd" stroke="black" d="M939.46,-738.73C939.46,-740.53 922.42,-742 901.44,-742 880.47,-742 863.43,-740.53 863.43,-738.73 863.43,-738.73 863.43,-709.27 863.43,-709.27 863.43,-707.47 880.47,-706 901.44,-706 922.42,-706 939.46,-707.47 939.46,-709.27 939.46,-709.27 939.46,-738.73 939.46,-738.73"/>
+<path fill="none" stroke="black" d="M939.46,-738.73C939.46,-736.92 922.42,-735.45 901.44,-735.45 880.47,-735.45 863.43,-736.92 863.43,-738.73"/>
+<text text-anchor="middle" x="901.44" y="-721" font-family="Arial" font-size="10.00">geNomad DB</text>
+</g>
+<!-- binning_viral&#45;&gt;genomad_db -->
+<g id="edge186" class="edge">
+<title>binning_viral-&gt;genomad_db</title>
+<path fill="none" stroke="black" d="M421.68,-2119.54C432.92,-2069.7 464.03,-1928.09 482.59,-1809 525.98,-1530.54 449.56,-1440.52 554.59,-1179 629.76,-991.8 803.66,-814.97 872.07,-750.1"/>
+<polygon fill="black" stroke="black" points="874.27,-752.84 879.15,-743.44 869.47,-747.75 874.27,-752.84"/>
+</g>
+<!-- checkv_db -->
+<g id="node102" class="node">
+<title>checkv_db</title>
+<path fill="#fffacd" stroke="black" d="M679.94,-1964.73C679.94,-1966.53 664.77,-1968 646.1,-1968 627.43,-1968 612.26,-1966.53 612.26,-1964.73 612.26,-1964.73 612.26,-1935.27 612.26,-1935.27 612.26,-1933.47 627.43,-1932 646.1,-1932 664.77,-1932 679.94,-1933.47 679.94,-1935.27 679.94,-1935.27 679.94,-1964.73 679.94,-1964.73"/>
+<path fill="none" stroke="black" d="M679.94,-1964.73C679.94,-1962.92 664.77,-1961.45 646.1,-1961.45 627.43,-1961.45 612.26,-1962.92 612.26,-1964.73"/>
+<text text-anchor="middle" x="646.1" y="-1947" font-family="Arial" font-size="10.00">CheckV DB</text>
+</g>
+<!-- binning_viral&#45;&gt;checkv_db -->
+<g id="edge187" class="edge">
+<title>binning_viral-&gt;checkv_db</title>
+<path fill="none" stroke="black" d="M431.95,-2119.71C455.4,-2090.92 504.16,-2034.48 554.59,-1997 568.9,-1986.36 585.97,-1976.81 601.41,-1969.15"/>
+<polygon fill="black" stroke="black" points="602.92,-1972.3 610.41,-1964.81 599.89,-1966 602.92,-1972.3"/>
+</g>
+<!-- VEBA_classify_prokaryotic_env -->
+<g id="node21" class="node">
+<title>VEBA_classify_prokaryotic_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="901.44" cy="-8450" rx="91.83" ry="18"/>
+<text text-anchor="middle" x="901.44" y="-8447" font-family="Arial" font-size="10.00">VEBA-classify-prokaryotic_env</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;VEBA_classify_prokaryotic_env -->
+<g id="edge8" class="edge">
+<title>classify_prokaryotic-&gt;VEBA_classify_prokaryotic_env</title>
+<path fill="none" stroke="black" d="M647.03,-7827.35C647.69,-7905.89 660,-8218.05 809.61,-8403 818.42,-8413.89 830.43,-8422.54 842.83,-8429.28"/>
+<polygon fill="black" stroke="black" points="840.94,-8432.25 851.45,-8433.61 844.09,-8425.99 840.94,-8432.25"/>
+</g>
+<!-- classify_prokaryotic&#45;&gt;genopype -->
+<g id="edge47" class="edge">
+<title>classify_prokaryotic-&gt;genopype</title>
+<path fill="none" stroke="black" d="M661.52,-7790.91C682.88,-7762.89 722.08,-7706.4 737.61,-7651 899.81,-7072.66 628.63,-5521.74 809.61,-4949 823.07,-4906.4 854.04,-4864.67 876.06,-4838.68"/>
+<polygon fill="black" stroke="black" points="878.54,-4841.16 882.45,-4831.31 873.25,-4836.58 878.54,-4841.16"/>
+</g>
+<!-- classify_prokaryotic&#45;&gt;soothsayer_utils -->
+<g id="edge48" class="edge">
+<title>classify_prokaryotic-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M661.37,-7790.87C682.54,-7762.79 721.49,-7706.23 737.61,-7651 784.49,-7490.4 719.25,-6287.8 809.61,-6147 818.33,-6133.41 832.32,-6123.55 846.73,-6116.48"/>
+<polygon fill="black" stroke="black" points="848.13,-6119.68 855.84,-6112.42 845.28,-6113.29 848.13,-6119.68"/>
+</g>
+<!-- classify_prokaryotic&#45;&gt;pandas -->
+<g id="edge49" class="edge">
+<title>classify_prokaryotic-&gt;pandas</title>
+<path fill="none" stroke="black" d="M661.46,-7790.9C682.74,-7762.85 721.84,-7706.33 737.61,-7651 862.28,-7213.7 655.56,-6033.84 809.61,-5606 822.58,-5569.98 850.94,-5536.15 872.54,-5514.03"/>
+<polygon fill="black" stroke="black" points="874.77,-5516.75 879.37,-5507.21 869.82,-5511.8 874.77,-5516.75"/>
+</g>
+<!-- classify_prokaryotic&#45;&gt;numpy -->
+<g id="edge50" class="edge">
+<title>classify_prokaryotic-&gt;numpy</title>
+<path fill="none" stroke="black" d="M661.51,-7790.91C682.87,-7762.88 722.05,-7706.39 737.61,-7651 816.03,-7371.92 655.52,-5288.54 809.61,-5043 821.58,-5023.93 843.98,-5012.22 863.54,-5005.26"/>
+<polygon fill="black" stroke="black" points="864.45,-5008.64 872.89,-5002.24 862.3,-5001.98 864.45,-5008.64"/>
+</g>
+<!-- classify_prokaryotic&#45;&gt;tqdm -->
+<g id="edge51" class="edge">
+<title>classify_prokaryotic-&gt;tqdm</title>
+<path fill="none" stroke="black" d="M665.16,-7827.21C685.69,-7848.92 718.79,-7887.18 737.61,-7926 795.34,-8045.12 727.54,-8111.14 809.61,-8215 823.23,-8232.24 844.9,-8243.79 863.66,-8251.13"/>
+<polygon fill="black" stroke="black" points="862.27,-8254.35 872.86,-8254.46 864.65,-8247.76 862.27,-8254.35"/>
+</g>
+<!-- dendropy -->
+<g id="node36" class="node">
+<title>dendropy</title>
+<polygon fill="#90ee90" stroke="black" points="930.29,-8374 872.59,-8374 872.59,-8370 868.59,-8370 868.59,-8366 872.59,-8366 872.59,-8346 868.59,-8346 868.59,-8342 872.59,-8342 872.59,-8338 930.29,-8338 930.29,-8374"/>
+<polyline fill="none" stroke="black" points="872.59,-8370 876.59,-8370 876.59,-8366 872.59,-8366"/>
+<polyline fill="none" stroke="black" points="872.59,-8346 876.59,-8346 876.59,-8342 872.59,-8342"/>
+<text text-anchor="middle" x="901.44" y="-8353" font-family="Arial" font-size="10.00">dendropy</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;dendropy -->
+<g id="edge52" class="edge">
+<title>classify_prokaryotic-&gt;dendropy</title>
+<path fill="none" stroke="black" d="M648.16,-7827.28C653.17,-7897.86 679.97,-8156.25 809.61,-8309 823.19,-8324.99 843.58,-8336.24 861.6,-8343.71"/>
+<polygon fill="black" stroke="black" points="860.15,-8346.9 870.74,-8347.23 862.67,-8340.37 860.15,-8346.9"/>
+</g>
+<!-- psutil -->
+<g id="node41" class="node">
+<title>psutil</title>
+<polygon fill="#90ee90" stroke="black" points="928.44,-7716 874.44,-7716 874.44,-7712 870.44,-7712 870.44,-7708 874.44,-7708 874.44,-7688 870.44,-7688 870.44,-7684 874.44,-7684 874.44,-7680 928.44,-7680 928.44,-7716"/>
+<polyline fill="none" stroke="black" points="874.44,-7712 878.44,-7712 878.44,-7708 874.44,-7708"/>
+<polyline fill="none" stroke="black" points="874.44,-7688 878.44,-7688 878.44,-7684 874.44,-7684"/>
+<text text-anchor="middle" x="901.44" y="-7695" font-family="Arial" font-size="10.00">psutil</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;psutil -->
+<g id="edge53" class="edge">
+<title>classify_prokaryotic-&gt;psutil</title>
+<path fill="none" stroke="black" d="M689.22,-7790.55C737.94,-7769.2 817.36,-7734.4 863.68,-7714.11"/>
+<polygon fill="black" stroke="black" points="865.01,-7717.35 872.76,-7710.13 862.2,-7710.94 865.01,-7717.35"/>
+</g>
+<!-- gtdbtk -->
+<g id="node68" class="node">
+<title>gtdbtk</title>
+<path fill="#dda0dd" stroke="black" d="M918.55,-8186C918.55,-8186 884.34,-8186 884.34,-8186 878.34,-8186 872.34,-8180 872.34,-8174 872.34,-8174 872.34,-8162 872.34,-8162 872.34,-8156 878.34,-8150 884.34,-8150 884.34,-8150 918.55,-8150 918.55,-8150 924.55,-8150 930.55,-8156 930.55,-8162 930.55,-8162 930.55,-8174 930.55,-8174 930.55,-8180 924.55,-8186 918.55,-8186"/>
+<text text-anchor="middle" x="901.44" y="-8165" font-family="Arial" font-size="10.00">GTDB-Tk</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;gtdbtk -->
+<g id="edge138" class="edge">
+<title>classify_prokaryotic-&gt;gtdbtk</title>
+<path fill="none" stroke="black" d="M664.07,-7827.2C683.87,-7849.21 716.57,-7888.04 737.61,-7926 782.4,-8006.81 748.45,-8051.76 809.61,-8121 823.4,-8136.61 843.63,-8147.79 861.5,-8155.31"/>
+<polygon fill="black" stroke="black" points="859.96,-8158.47 870.55,-8158.87 862.53,-8151.95 859.96,-8158.47"/>
+</g>
+<!-- fastani -->
+<g id="node69" class="node">
+<title>fastani</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-6588C916.44,-6588 886.44,-6588 886.44,-6588 880.44,-6588 874.44,-6582 874.44,-6576 874.44,-6576 874.44,-6564 874.44,-6564 874.44,-6558 880.44,-6552 886.44,-6552 886.44,-6552 916.44,-6552 916.44,-6552 922.44,-6552 928.44,-6558 928.44,-6564 928.44,-6564 928.44,-6576 928.44,-6576 928.44,-6582 922.44,-6588 916.44,-6588"/>
+<text text-anchor="middle" x="901.44" y="-6567" font-family="Arial" font-size="10.00">FastANI</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;fastani -->
+<g id="edge139" class="edge">
+<title>classify_prokaryotic-&gt;fastani</title>
+<path fill="none" stroke="black" d="M661.22,-7790.83C682.2,-7762.69 720.89,-7706.05 737.61,-7651 804.55,-7430.61 683.11,-6809.49 809.61,-6617 821.9,-6598.31 844.09,-6586.63 863.46,-6579.59"/>
+<polygon fill="black" stroke="black" points="864.31,-6582.99 872.71,-6576.53 862.11,-6576.35 864.31,-6582.99"/>
+</g>
+<!-- mash -->
+<g id="node70" class="node">
+<title>mash</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-8092C916.44,-8092 886.44,-8092 886.44,-8092 880.44,-8092 874.44,-8086 874.44,-8080 874.44,-8080 874.44,-8068 874.44,-8068 874.44,-8062 880.44,-8056 886.44,-8056 886.44,-8056 916.44,-8056 916.44,-8056 922.44,-8056 928.44,-8062 928.44,-8068 928.44,-8068 928.44,-8080 928.44,-8080 928.44,-8086 922.44,-8092 916.44,-8092"/>
+<text text-anchor="middle" x="901.44" y="-8071" font-family="Arial" font-size="10.00">Mash</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;mash -->
+<g id="edge140" class="edge">
+<title>classify_prokaryotic-&gt;mash</title>
+<path fill="none" stroke="black" d="M661.75,-7827.47C679.84,-7850.39 711.43,-7890.75 737.61,-7926 770.48,-7970.25 767.97,-7990.88 809.61,-8027 825.5,-8040.78 846.12,-8051.87 863.7,-8059.8"/>
+<polygon fill="black" stroke="black" points="862.23,-8062.98 872.8,-8063.74 865.01,-8056.56 862.23,-8062.98"/>
+</g>
+<!-- skani -->
+<g id="node71" class="node">
+<title>skani</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-6682C916.44,-6682 886.44,-6682 886.44,-6682 880.44,-6682 874.44,-6676 874.44,-6670 874.44,-6670 874.44,-6658 874.44,-6658 874.44,-6652 880.44,-6646 886.44,-6646 886.44,-6646 916.44,-6646 916.44,-6646 922.44,-6646 928.44,-6652 928.44,-6658 928.44,-6658 928.44,-6670 928.44,-6670 928.44,-6676 922.44,-6682 916.44,-6682"/>
+<text text-anchor="middle" x="901.44" y="-6661" font-family="Arial" font-size="10.00">Skani</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;skani -->
+<g id="edge141" class="edge">
+<title>classify_prokaryotic-&gt;skani</title>
+<path fill="none" stroke="black" d="M661.18,-7790.81C682.09,-7762.65 720.7,-7705.99 737.61,-7651 799.19,-7450.75 693.95,-6885.68 809.61,-6711 821.96,-6692.35 844.15,-6680.67 863.51,-6673.62"/>
+<polygon fill="black" stroke="black" points="864.36,-6677.03 872.75,-6670.56 862.15,-6670.39 864.36,-6677.03"/>
+</g>
+<!-- prodigal -->
+<g id="node72" class="node">
+<title>prodigal</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-8844C916.44,-8844 886.44,-8844 886.44,-8844 880.44,-8844 874.44,-8838 874.44,-8832 874.44,-8832 874.44,-8820 874.44,-8820 874.44,-8814 880.44,-8808 886.44,-8808 886.44,-8808 916.44,-8808 916.44,-8808 922.44,-8808 928.44,-8814 928.44,-8820 928.44,-8820 928.44,-8832 928.44,-8832 928.44,-8838 922.44,-8844 916.44,-8844"/>
+<text text-anchor="middle" x="901.44" y="-8823" font-family="Arial" font-size="10.00">Prodigal</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;prodigal -->
+<g id="edge142" class="edge">
+<title>classify_prokaryotic-&gt;prodigal</title>
+<path fill="none" stroke="black" d="M647.96,-7827.19C653.94,-7946.58 692.47,-8618.22 809.61,-8779 822.63,-8796.87 844.49,-8808.48 863.49,-8815.69"/>
+<polygon fill="black" stroke="black" points="862.24,-8818.96 872.84,-8818.94 864.55,-8812.35 862.24,-8818.96"/>
+</g>
+<!-- classify_prokaryotic&#45;&gt;hmmer -->
+<g id="edge143" class="edge">
+<title>classify_prokaryotic-&gt;hmmer</title>
+<path fill="none" stroke="black" d="M661.3,-7790.85C682.37,-7762.74 721.18,-7706.14 737.61,-7651 815.28,-7390.3 661.43,-6657.12 809.61,-6429 821.8,-6410.24 843.98,-6398.56 863.38,-6391.54"/>
+<polygon fill="black" stroke="black" points="864.24,-6394.94 872.65,-6388.49 862.05,-6388.29 864.24,-6394.94"/>
+</g>
+<!-- fasttree -->
+<g id="node74" class="node">
+<title>fasttree</title>
+<path fill="#dda0dd" stroke="black" d="M917.45,-7998C917.45,-7998 885.44,-7998 885.44,-7998 879.44,-7998 873.44,-7992 873.44,-7986 873.44,-7986 873.44,-7974 873.44,-7974 873.44,-7968 879.44,-7962 885.44,-7962 885.44,-7962 917.45,-7962 917.45,-7962 923.45,-7962 929.45,-7968 929.45,-7974 929.45,-7974 929.45,-7986 929.45,-7986 929.45,-7992 923.45,-7998 917.45,-7998"/>
+<text text-anchor="middle" x="901.44" y="-7977" font-family="Arial" font-size="10.00">FastTree</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;fasttree -->
+<g id="edge144" class="edge">
+<title>classify_prokaryotic-&gt;fasttree</title>
+<path fill="none" stroke="black" d="M668.56,-7827.32C698.85,-7852.71 756.4,-7899.29 809.61,-7933 826.63,-7943.78 846.4,-7954.24 863.15,-7962.54"/>
+<polygon fill="black" stroke="black" points="861.25,-7965.51 871.77,-7966.75 864.32,-7959.22 861.25,-7965.51"/>
+</g>
+<!-- pplacer -->
+<g id="node75" class="node">
+<title>pplacer</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-8750C916.44,-8750 886.44,-8750 886.44,-8750 880.44,-8750 874.44,-8744 874.44,-8738 874.44,-8738 874.44,-8726 874.44,-8726 874.44,-8720 880.44,-8714 886.44,-8714 886.44,-8714 916.44,-8714 916.44,-8714 922.44,-8714 928.44,-8720 928.44,-8726 928.44,-8726 928.44,-8738 928.44,-8738 928.44,-8744 922.44,-8750 916.44,-8750"/>
+<text text-anchor="middle" x="901.44" y="-8729" font-family="Arial" font-size="10.00">Pplacer</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;pplacer -->
+<g id="edge145" class="edge">
+<title>classify_prokaryotic-&gt;pplacer</title>
+<path fill="none" stroke="black" d="M648.32,-7827.22C656.2,-7939.83 702.81,-8541.06 809.61,-8685 822.7,-8702.64 844.35,-8714.21 863.24,-8721.45"/>
+<polygon fill="black" stroke="black" points="861.92,-8724.7 872.52,-8724.73 864.25,-8718.1 861.92,-8724.7"/>
+</g>
+<!-- krona -->
+<g id="node76" class="node">
+<title>krona</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-6870C916.44,-6870 886.44,-6870 886.44,-6870 880.44,-6870 874.44,-6864 874.44,-6858 874.44,-6858 874.44,-6846 874.44,-6846 874.44,-6840 880.44,-6834 886.44,-6834 886.44,-6834 916.44,-6834 916.44,-6834 922.44,-6834 928.44,-6840 928.44,-6846 928.44,-6846 928.44,-6858 928.44,-6858 928.44,-6864 922.44,-6870 916.44,-6870"/>
+<text text-anchor="middle" x="901.44" y="-6849" font-family="Arial" font-size="10.00">Krona</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;krona -->
+<g id="edge146" class="edge">
+<title>classify_prokaryotic-&gt;krona</title>
+<path fill="none" stroke="black" d="M661.05,-7790.77C681.79,-7762.56 720.18,-7705.83 737.61,-7651 788.48,-7491.02 715.6,-7038.08 809.61,-6899 822.14,-6880.47 844.33,-6868.79 863.65,-6861.72"/>
+<polygon fill="black" stroke="black" points="864.49,-6865.13 872.86,-6858.63 862.26,-6858.49 864.49,-6865.13"/>
+</g>
+<!-- gtdb -->
+<g id="node103" class="node">
+<title>gtdb</title>
+<path fill="#fffacd" stroke="black" d="M928.44,-8652.73C928.44,-8654.53 916.34,-8656 901.44,-8656 886.55,-8656 874.44,-8654.53 874.44,-8652.73 874.44,-8652.73 874.44,-8623.27 874.44,-8623.27 874.44,-8621.47 886.55,-8620 901.44,-8620 916.34,-8620 928.44,-8621.47 928.44,-8623.27 928.44,-8623.27 928.44,-8652.73 928.44,-8652.73"/>
+<path fill="none" stroke="black" d="M928.44,-8652.73C928.44,-8650.92 916.34,-8649.45 901.44,-8649.45 886.55,-8649.45 874.44,-8650.92 874.44,-8652.73"/>
+<text text-anchor="middle" x="901.44" y="-8635" font-family="Arial" font-size="10.00">GTDB</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;gtdb -->
+<g id="edge188" class="edge">
+<title>classify_prokaryotic-&gt;gtdb</title>
+<path fill="none" stroke="black" d="M648.77,-7827.28C658.74,-7932.82 713.12,-8463.83 809.61,-8591 822.89,-8608.5 844.55,-8620.06 863.39,-8627.34"/>
+<polygon fill="black" stroke="black" points="862.05,-8630.58 872.64,-8630.63 864.39,-8623.98 862.05,-8630.58"/>
+</g>
+<!-- gtdb_mash -->
+<g id="node104" class="node">
+<title>gtdb_mash</title>
+<path fill="#fffacd" stroke="black" d="M936.95,-8558.73C936.95,-8560.53 921.04,-8562 901.44,-8562 881.85,-8562 865.94,-8560.53 865.94,-8558.73 865.94,-8558.73 865.94,-8529.27 865.94,-8529.27 865.94,-8527.47 881.85,-8526 901.44,-8526 921.04,-8526 936.95,-8527.47 936.95,-8529.27 936.95,-8529.27 936.95,-8558.73 936.95,-8558.73"/>
+<path fill="none" stroke="black" d="M936.95,-8558.73C936.95,-8556.92 921.04,-8555.45 901.44,-8555.45 881.85,-8555.45 865.94,-8556.92 865.94,-8558.73"/>
+<text text-anchor="middle" x="901.44" y="-8541" font-family="Arial" font-size="10.00">GTDB Mash</text>
+</g>
+<!-- classify_prokaryotic&#45;&gt;gtdb_mash -->
+<g id="edge189" class="edge">
+<title>classify_prokaryotic-&gt;gtdb_mash</title>
+<path fill="none" stroke="black" d="M649.34,-7827.28C661.61,-7925.12 723.35,-8386.45 809.61,-8497 821.08,-8511.7 838.42,-8522.25 854.89,-8529.58"/>
+<polygon fill="black" stroke="black" points="853.53,-8532.8 864.11,-8533.36 856.19,-8526.33 853.53,-8532.8"/>
+</g>
+<!-- VEBA_classify_eukaryotic_env -->
+<g id="node22" class="node">
+<title>VEBA_classify_eukaryotic_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="901.44" cy="-6946" rx="89.83" ry="18"/>
+<text text-anchor="middle" x="901.44" y="-6943" font-family="Arial" font-size="10.00">VEBA-classify-eukaryotic_env</text>
+</g>
+<!-- classify_eukaryotic&#45;&gt;VEBA_classify_eukaryotic_env -->
+<g id="edge9" class="edge">
+<title>classify_eukaryotic-&gt;VEBA_classify_eukaryotic_env</title>
+<path fill="none" stroke="black" d="M687.65,-7491.68C705.78,-7481.41 725.71,-7466.84 737.61,-7448 846.99,-7274.92 689.8,-7159.02 809.61,-6993 817.65,-6981.86 829.12,-6973.17 841.22,-6966.45"/>
+<polygon fill="black" stroke="black" points="842.77,-6969.59 850.11,-6961.95 839.61,-6963.34 842.77,-6969.59"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;genopype -->
+<g id="edge54" class="edge">
+<title>classify_eukaryotic-&gt;genopype</title>
+<path fill="none" stroke="black" d="M651.22,-7491.74C666.07,-7425.15 716.97,-7188.86 737.61,-6991 784.73,-6539.39 670.94,-5381.37 809.61,-4949 823.26,-4906.46 854.18,-4864.72 876.15,-4838.71"/>
+<polygon fill="black" stroke="black" points="878.63,-4841.19 882.51,-4831.33 873.33,-4836.61 878.63,-4841.19"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;soothsayer_utils -->
+<g id="edge55" class="edge">
+<title>classify_eukaryotic-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M689.45,-7491.66C707.51,-7481.54 726.87,-7467.09 737.61,-7448 879.66,-7195.68 652.31,-6390.1 809.61,-6147 818.38,-6133.44 832.38,-6123.59 846.79,-6116.52"/>
+<polygon fill="black" stroke="black" points="848.19,-6119.72 855.9,-6112.46 845.34,-6113.33 848.19,-6119.72"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;pandas -->
+<g id="edge56" class="edge">
+<title>classify_eukaryotic-&gt;pandas</title>
+<path fill="none" stroke="black" d="M651.11,-7491.73C665.57,-7425.09 715.32,-7188.68 737.61,-6991 772.15,-6684.75 702.78,-5895.08 809.61,-5606 822.88,-5570.09 851.19,-5536.24 872.7,-5514.08"/>
+<polygon fill="black" stroke="black" points="874.93,-5516.81 879.5,-5507.26 869.96,-5511.87 874.93,-5516.81"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;numpy -->
+<g id="edge57" class="edge">
+<title>classify_eukaryotic-&gt;numpy</title>
+<path fill="none" stroke="black" d="M651.21,-7491.74C666.02,-7425.14 716.8,-7188.84 737.61,-6991 760.27,-6775.6 693.62,-5225.92 809.61,-5043 821.59,-5024.11 843.78,-5012.43 863.22,-5005.44"/>
+<polygon fill="black" stroke="black" points="864.1,-5008.83 872.52,-5002.4 861.93,-5002.18 864.1,-5008.83"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;biopython -->
+<g id="edge58" class="edge">
+<title>classify_eukaryotic-&gt;biopython</title>
+<path fill="none" stroke="black" d="M651.15,-7491.73C665.74,-7425.11 715.86,-7188.74 737.61,-6991 756.46,-6819.63 720.91,-5588.84 809.61,-5441 821.03,-5421.97 841.93,-5408.87 860.81,-5400.35"/>
+<polygon fill="black" stroke="black" points="862.03,-5403.63 869.91,-5396.54 859.33,-5397.17 862.03,-5403.63"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;tqdm -->
+<g id="edge59" class="edge">
+<title>classify_eukaryotic-&gt;tqdm</title>
+<path fill="none" stroke="black" d="M695.35,-7524.6C711.29,-7531.82 727.51,-7542.24 737.61,-7557 903.83,-7799.74 643.22,-7972.38 809.61,-8215 822.12,-8233.24 843.96,-8244.86 863.09,-8251.98"/>
+<polygon fill="black" stroke="black" points="861.92,-8255.28 872.51,-8255.18 864.17,-8248.65 861.92,-8255.28"/>
+</g>
+<!-- pyhmmsearch -->
+<g id="node34" class="node">
+<title>pyhmmsearch</title>
+<polygon fill="#90ee90" stroke="black" points="940.84,-7152 862.05,-7152 862.05,-7148 858.05,-7148 858.05,-7144 862.05,-7144 862.05,-7124 858.05,-7124 858.05,-7120 862.05,-7120 862.05,-7116 940.84,-7116 940.84,-7152"/>
+<polyline fill="none" stroke="black" points="862.05,-7148 866.05,-7148 866.05,-7144 862.05,-7144"/>
+<polyline fill="none" stroke="black" points="862.05,-7124 866.05,-7124 866.05,-7120 862.05,-7120"/>
+<text text-anchor="middle" x="901.44" y="-7131" font-family="Arial" font-size="10.00">pyhmmsearch</text>
+</g>
+<!-- classify_eukaryotic&#45;&gt;pyhmmsearch -->
+<g id="edge60" class="edge">
+<title>classify_eukaryotic-&gt;pyhmmsearch</title>
+<path fill="none" stroke="black" d="M685.86,-7491.62C704.02,-7481.19 724.5,-7466.49 737.61,-7448 808.7,-7347.74 732.49,-7276.7 809.61,-7181 820.38,-7167.63 835.98,-7157.66 851.21,-7150.42"/>
+<polygon fill="black" stroke="black" points="852.5,-7153.68 860.25,-7146.45 849.69,-7147.27 852.5,-7153.68"/>
+</g>
+<!-- pyhmmer -->
+<g id="node35" class="node">
+<title>pyhmmer</title>
+<polygon fill="#90ee90" stroke="black" points="930.28,-7058 872.61,-7058 872.61,-7054 868.61,-7054 868.61,-7050 872.61,-7050 872.61,-7030 868.61,-7030 868.61,-7026 872.61,-7026 872.61,-7022 930.28,-7022 930.28,-7058"/>
+<polyline fill="none" stroke="black" points="872.61,-7054 876.61,-7054 876.61,-7050 872.61,-7050"/>
+<polyline fill="none" stroke="black" points="872.61,-7030 876.61,-7030 876.61,-7026 872.61,-7026"/>
+<text text-anchor="middle" x="901.44" y="-7037" font-family="Arial" font-size="10.00">pyhmmer</text>
+</g>
+<!-- classify_eukaryotic&#45;&gt;pyhmmer -->
+<g id="edge61" class="edge">
+<title>classify_eukaryotic-&gt;pyhmmer</title>
+<path fill="none" stroke="black" d="M686.85,-7491.73C705.03,-7481.39 725.23,-7466.76 737.61,-7448 827.75,-7311.47 711.24,-7217.73 809.61,-7087 822.4,-7070 843.12,-7058.62 861.54,-7051.32"/>
+<polygon fill="black" stroke="black" points="862.71,-7054.62 870.9,-7047.9 860.31,-7048.04 862.71,-7054.62"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;psutil -->
+<g id="edge62" class="edge">
+<title>classify_eukaryotic-&gt;psutil</title>
+<path fill="none" stroke="black" d="M691.86,-7528.41C707.27,-7535.96 724.05,-7545.62 737.61,-7557 777.93,-7590.82 769.27,-7617.21 809.61,-7651 825.62,-7664.41 846.08,-7675.42 863.54,-7683.4"/>
+<polygon fill="black" stroke="black" points="862,-7686.55 872.56,-7687.36 864.81,-7680.14 862,-7686.55"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;seqkit -->
+<g id="edge147" class="edge">
+<title>classify_eukaryotic-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M651.37,-7491.76C666.71,-7425.21 719.11,-7189.07 737.61,-6991 792.15,-6407.27 718.42,-2294.14 809.61,-1715 825.45,-1614.39 867.84,-1500.58 888.62,-1448.61"/>
+<polygon fill="black" stroke="black" points="891.76,-1450.19 892.26,-1439.61 885.27,-1447.57 891.76,-1450.19"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;metaeuk -->
+<g id="edge148" class="edge">
+<title>classify_eukaryotic-&gt;metaeuk</title>
+<path fill="none" stroke="black" d="M689.37,-7491.62C707.41,-7481.48 726.78,-7467.04 737.61,-7448 860.21,-7232.59 674,-6542.46 809.61,-6335 821.63,-6316.61 843.25,-6305.02 862.38,-6297.95"/>
+<polygon fill="black" stroke="black" points="863.46,-6301.28 871.83,-6294.77 861.23,-6294.64 863.46,-6301.28"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;hmmer -->
+<g id="edge149" class="edge">
+<title>classify_eukaryotic-&gt;hmmer</title>
+<path fill="none" stroke="black" d="M689.31,-7491.59C707.35,-7481.45 726.72,-7467 737.61,-7448 850.48,-7251.04 684.84,-6618.65 809.61,-6429 821.91,-6410.31 844.1,-6398.64 863.47,-6391.6"/>
+<polygon fill="black" stroke="black" points="864.32,-6395 872.71,-6388.53 862.12,-6388.35 864.32,-6395"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;krona -->
+<g id="edge150" class="edge">
+<title>classify_eukaryotic-&gt;krona</title>
+<path fill="none" stroke="black" d="M688.33,-7491.55C706.39,-7481.33 726.06,-7466.83 737.61,-7448 866.3,-7238.24 668.26,-7100.45 809.61,-6899 822.31,-6880.9 844.16,-6869.28 863.24,-6862.13"/>
+<polygon fill="black" stroke="black" points="864.31,-6865.46 872.64,-6858.91 862.04,-6858.84 864.31,-6865.46"/>
+</g>
+<!-- classify_eukaryotic&#45;&gt;microeuk_db -->
+<g id="edge190" class="edge">
+<title>classify_eukaryotic-&gt;microeuk_db</title>
+<path fill="none" stroke="black" d="M689.41,-7491.64C707.46,-7481.51 726.83,-7467.06 737.61,-7448 869.93,-7214.14 663.16,-6466.28 809.61,-6241 819.79,-6225.34 836.94,-6214.62 853.61,-6207.42"/>
+<polygon fill="black" stroke="black" points="854.43,-6210.85 862.45,-6203.93 851.86,-6204.34 854.43,-6210.85"/>
+</g>
+<!-- eukaryota_odb10 -->
+<g id="node105" class="node">
+<title>eukaryota_odb10</title>
+<path fill="#fffacd" stroke="black" d="M948.64,-6772.73C948.64,-6774.53 927.49,-6776 901.44,-6776 875.4,-6776 854.25,-6774.53 854.25,-6772.73 854.25,-6772.73 854.25,-6743.27 854.25,-6743.27 854.25,-6741.47 875.4,-6740 901.44,-6740 927.49,-6740 948.64,-6741.47 948.64,-6743.27 948.64,-6743.27 948.64,-6772.73 948.64,-6772.73"/>
+<path fill="none" stroke="black" d="M948.64,-6772.73C948.64,-6770.92 927.49,-6769.45 901.44,-6769.45 875.4,-6769.45 854.25,-6770.92 854.25,-6772.73"/>
+<text text-anchor="middle" x="901.44" y="-6755" font-family="Arial" font-size="10.00">Eukaryota_odb10</text>
+</g>
+<!-- classify_eukaryotic&#45;&gt;eukaryota_odb10 -->
+<g id="edge191" class="edge">
+<title>classify_eukaryotic-&gt;eukaryota_odb10</title>
+<path fill="none" stroke="black" d="M688.49,-7491.65C706.59,-7481.45 726.24,-7466.94 737.61,-7448 885.67,-7201.48 646.67,-7041.95 809.61,-6805 818.03,-6792.76 830.65,-6783.5 843.82,-6776.58"/>
+<polygon fill="black" stroke="black" points="845.07,-6779.86 852.58,-6772.39 842.05,-6773.55 845.07,-6779.86"/>
+</g>
+<!-- tax_mapping -->
+<g id="node106" class="node">
+<title>tax_mapping</title>
+<path fill="#fffacd" stroke="black" d="M954.47,-6490.73C954.47,-6492.53 930.7,-6494 901.44,-6494 872.19,-6494 848.42,-6492.53 848.42,-6490.73 848.42,-6490.73 848.42,-6461.27 848.42,-6461.27 848.42,-6459.47 872.19,-6458 901.44,-6458 930.7,-6458 954.47,-6459.47 954.47,-6461.27 954.47,-6461.27 954.47,-6490.73 954.47,-6490.73"/>
+<path fill="none" stroke="black" d="M954.47,-6490.73C954.47,-6488.92 930.7,-6487.45 901.44,-6487.45 872.19,-6487.45 848.42,-6488.92 848.42,-6490.73"/>
+<text text-anchor="middle" x="901.44" y="-6473" font-family="Arial" font-size="10.00">Taxonomic Mapping</text>
+</g>
+<!-- classify_eukaryotic&#45;&gt;tax_mapping -->
+<g id="edge192" class="edge">
+<title>classify_eukaryotic-&gt;tax_mapping</title>
+<path fill="none" stroke="black" d="M689.25,-7491.55C707.27,-7481.4 726.65,-7466.97 737.61,-7448 840.76,-7269.48 695.68,-6694.84 809.61,-6523 816.67,-6512.36 826.93,-6503.98 838.04,-6497.44"/>
+<polygon fill="black" stroke="black" points="839.45,-6500.66 846.63,-6492.87 836.16,-6494.48 839.45,-6500.66"/>
+</g>
+<!-- VEBA_classify_viral_env -->
+<g id="node23" class="node">
+<title>VEBA_classify_viral_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="901.44" cy="-1762" rx="73.45" ry="18"/>
+<text text-anchor="middle" x="901.44" y="-1759" font-family="Arial" font-size="10.00">VEBA-classify-viral_env</text>
+</g>
+<!-- classify_viral&#45;&gt;VEBA_classify_viral_env -->
+<g id="edge10" class="edge">
+<title>classify_viral-&gt;VEBA_classify_viral_env</title>
+<path fill="none" stroke="black" d="M681.79,-1762C716.28,-1762 770.48,-1762 816.3,-1762"/>
+<polygon fill="black" stroke="black" points="816.23,-1765.5 826.23,-1762 816.23,-1758.5 816.23,-1765.5"/>
+</g>
+<!-- classify_viral&#45;&gt;genopype -->
+<g id="edge63" class="edge">
+<title>classify_viral-&gt;genopype</title>
+<path fill="none" stroke="black" d="M681.48,-1770.47C701.49,-1777.34 725.17,-1789.22 737.61,-1809 806.41,-1918.39 799.02,-4005.21 809.61,-4134 830.36,-4386.29 879.53,-4688.5 895.41,-4782.59"/>
+<polygon fill="black" stroke="black" points="891.92,-4782.97 897.05,-4792.24 898.82,-4781.8 891.92,-4782.97"/>
+</g>
+<!-- classify_viral&#45;&gt;soothsayer_utils -->
+<g id="edge64" class="edge">
+<title>classify_viral-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M681.57,-1770.41C701.63,-1777.25 725.31,-1789.13 737.61,-1809 861.75,-2009.49 685.33,-5852.6 809.61,-6053 818.12,-6066.72 832.05,-6076.62 846.46,-6083.69"/>
+<polygon fill="black" stroke="black" points="845.04,-6086.89 855.6,-6087.74 847.87,-6080.49 845.04,-6086.89"/>
+</g>
+<!-- classify_viral&#45;&gt;pandas -->
+<g id="edge65" class="edge">
+<title>classify_viral-&gt;pandas</title>
+<path fill="none" stroke="black" d="M681.55,-1770.42C701.6,-1777.27 725.28,-1789.15 737.61,-1809 843.9,-1980.1 708.28,-5259.92 809.61,-5434 821.37,-5454.2 843.92,-5467.67 863.61,-5476.1"/>
+<polygon fill="black" stroke="black" points="862.18,-5479.3 872.76,-5479.72 864.75,-5472.79 862.18,-5479.3"/>
+</g>
+<!-- classify_viral&#45;&gt;numpy -->
+<g id="edge66" class="edge">
+<title>classify_viral-&gt;numpy</title>
+<path fill="none" stroke="black" d="M681.53,-1770.44C701.56,-1777.29 725.24,-1789.17 737.61,-1809 827.32,-1952.81 758.79,-4697.31 809.61,-4859 823.01,-4901.62 853.98,-4943.34 876.03,-4969.33"/>
+<polygon fill="black" stroke="black" points="873.23,-4971.44 882.42,-4976.7 878.52,-4966.85 873.23,-4971.44"/>
+</g>
+<!-- classify_viral&#45;&gt;seqkit -->
+<g id="edge151" class="edge">
+<title>classify_viral-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M660.72,-1743.61C702.65,-1687.01 829.94,-1515.17 879.96,-1447.66"/>
+<polygon fill="black" stroke="black" points="882.72,-1449.81 885.86,-1439.69 877.09,-1445.65 882.72,-1449.81"/>
+</g>
+<!-- classify_viral&#45;&gt;genomad -->
+<g id="edge152" class="edge">
+<title>classify_viral-&gt;genomad</title>
+<path fill="none" stroke="black" d="M654.54,-1743.63C690.34,-1655.32 844.85,-1274.16 888.76,-1165.82"/>
+<polygon fill="black" stroke="black" points="891.92,-1167.35 892.43,-1156.77 885.43,-1164.72 891.92,-1167.35"/>
+</g>
+<!-- classify_viral&#45;&gt;genomad_db -->
+<g id="edge193" class="edge">
+<title>classify_viral-&gt;genomad_db</title>
+<path fill="none" stroke="black" d="M651.52,-1743.55C670.39,-1664.81 746.13,-1349.1 809.61,-1090 840.35,-964.55 877.66,-815.09 893.15,-753.13"/>
+<polygon fill="black" stroke="black" points="896.47,-754.29 895.5,-743.74 889.68,-752.59 896.47,-754.29"/>
+</g>
+<!-- VEBA_mapping_env -->
+<g id="node24" class="node">
+<title>VEBA_mapping_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="901.44" cy="-2533" rx="63.77" ry="18"/>
+<text text-anchor="middle" x="901.44" y="-2530" font-family="Arial" font-size="10.00">VEBA-mapping_env</text>
+</g>
+<!-- mapping&#45;&gt;VEBA_mapping_env -->
+<g id="edge11" class="edge">
+<title>mapping-&gt;VEBA_mapping_env</title>
+<path fill="none" stroke="black" d="M673.39,-2687.1C691.75,-2675.03 716.63,-2658.14 737.61,-2642 771.08,-2616.25 774.62,-2603.64 809.61,-2580 824.08,-2570.23 840.83,-2561.03 855.97,-2553.41"/>
+<polygon fill="black" stroke="black" points="857.37,-2556.62 864.8,-2549.06 854.28,-2550.34 857.37,-2556.62"/>
+</g>
+<!-- mapping&#45;&gt;genopype -->
+<g id="edge67" class="edge">
+<title>mapping-&gt;genopype</title>
+<path fill="none" stroke="black" d="M673.41,-2710.01C694.63,-2716.37 723.24,-2728.67 737.61,-2751 820.9,-2880.39 795.38,-3980.78 809.61,-4134 833.02,-4386.06 880.42,-4688.42 895.63,-4782.57"/>
+<polygon fill="black" stroke="black" points="892.14,-4782.92 897.2,-4792.23 899.05,-4781.8 892.14,-4782.92"/>
+</g>
+<!-- mapping&#45;&gt;soothsayer_utils -->
+<g id="edge68" class="edge">
+<title>mapping-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M673.58,-2709.9C694.91,-2716.19 723.58,-2728.45 737.61,-2751 931.56,-3062.54 615.44,-5741.6 809.61,-6053 818.15,-6066.7 832.09,-6076.6 846.51,-6083.66"/>
+<polygon fill="black" stroke="black" points="845.07,-6086.86 855.64,-6087.71 847.91,-6080.46 845.07,-6086.86"/>
+</g>
+<!-- mapping&#45;&gt;pandas -->
+<g id="edge69" class="edge">
+<title>mapping-&gt;pandas</title>
+<path fill="none" stroke="black" d="M673.55,-2709.92C694.87,-2716.22 723.52,-2728.49 737.61,-2751 895.86,-3003.77 658.69,-5176.79 809.61,-5434 821.44,-5454.16 843.99,-5467.63 863.67,-5476.07"/>
+<polygon fill="black" stroke="black" points="862.22,-5479.26 872.81,-5479.7 864.8,-5472.76 862.22,-5479.26"/>
+</g>
+<!-- mapping&#45;&gt;numpy -->
+<g id="edge70" class="edge">
+<title>mapping-&gt;numpy</title>
+<path fill="none" stroke="black" d="M673.51,-2709.95C694.8,-2716.26 723.44,-2728.54 737.61,-2751 862.69,-2949.19 738.16,-4635.8 809.61,-4859 823.23,-4901.55 854.16,-4943.29 876.13,-4969.3"/>
+<polygon fill="black" stroke="black" points="873.32,-4971.39 882.5,-4976.67 878.62,-4966.82 873.32,-4971.39"/>
+</g>
+<!-- mapping&#45;&gt;biopython -->
+<g id="edge71" class="edge">
+<title>mapping-&gt;biopython</title>
+<path fill="none" stroke="black" d="M673.55,-2709.93C694.86,-2716.23 723.51,-2728.5 737.61,-2751 889.57,-2993.42 672.46,-5073.9 809.61,-5325 820.86,-5345.6 842.25,-5360.71 861.44,-5370.85"/>
+<polygon fill="black" stroke="black" points="859.64,-5373.86 870.15,-5375.17 862.75,-5367.59 859.64,-5373.86"/>
+</g>
+<!-- mapping&#45;&gt;bowtie2 -->
+<g id="edge153" class="edge">
+<title>mapping-&gt;bowtie2</title>
+<path fill="none" stroke="black" d="M648.16,-2685.72C653.17,-2615.14 679.97,-2356.75 809.61,-2204 823.66,-2187.44 845.02,-2175.98 863.5,-2168.52"/>
+<polygon fill="black" stroke="black" points="864.7,-2171.81 872.83,-2165.02 862.24,-2165.25 864.7,-2171.81"/>
+</g>
+<!-- mapping&#45;&gt;samtools -->
+<g id="edge154" class="edge">
+<title>mapping-&gt;samtools</title>
+<path fill="none" stroke="black" d="M673.44,-2692.2C693.81,-2681.77 721.22,-2664.7 737.61,-2642 805.29,-2548.25 736.29,-2481.41 809.61,-2392 823.01,-2375.66 843.57,-2364.36 861.75,-2356.94"/>
+<polygon fill="black" stroke="black" points="862.86,-2360.26 870.97,-2353.45 860.38,-2353.72 862.86,-2360.26"/>
+</g>
+<!-- mapping&#45;&gt;featureCounts -->
+<g id="edge155" class="edge">
+<title>mapping-&gt;featureCounts</title>
+<path fill="none" stroke="black" d="M673.48,-2692.73C694.16,-2682.51 721.97,-2665.45 737.61,-2642 824.29,-2512.06 715.1,-2422.37 809.61,-2298 820.09,-2284.22 835.76,-2274.11 851.15,-2266.89"/>
+<polygon fill="black" stroke="black" points="852.51,-2270.11 860.3,-2262.94 849.73,-2263.69 852.51,-2270.11"/>
+</g>
+<!-- mapping&#45;&gt;seqkit -->
+<g id="edge156" class="edge">
+<title>mapping-&gt;seqkit</title>
+<path fill="none" stroke="black" d="M650.44,-2685.64C662.61,-2618.68 705.46,-2381.32 737.61,-2185 771.77,-1976.45 762.39,-1920.98 809.61,-1715 832.32,-1615.94 871.24,-1501.74 889.88,-1449.21"/>
+<polygon fill="black" stroke="black" points="893.17,-1450.4 893.24,-1439.81 886.58,-1448.05 893.17,-1450.4"/>
+</g>
+<!-- salmon -->
+<g id="node77" class="node">
+<title>salmon</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-2457C916.44,-2457 886.44,-2457 886.44,-2457 880.44,-2457 874.44,-2451 874.44,-2445 874.44,-2445 874.44,-2433 874.44,-2433 874.44,-2427 880.44,-2421 886.44,-2421 886.44,-2421 916.44,-2421 916.44,-2421 922.44,-2421 928.44,-2427 928.44,-2433 928.44,-2433 928.44,-2445 928.44,-2445 928.44,-2451 922.44,-2457 916.44,-2457"/>
+<text text-anchor="middle" x="901.44" y="-2436" font-family="Arial" font-size="10.00">Salmon</text>
+</g>
+<!-- mapping&#45;&gt;salmon -->
+<g id="edge157" class="edge">
+<title>mapping-&gt;salmon</title>
+<path fill="none" stroke="black" d="M673.75,-2690.81C693.49,-2679.95 719.91,-2662.95 737.61,-2642 786.88,-2583.66 756.85,-2541.2 809.61,-2486 824.41,-2470.52 845.44,-2459.19 863.53,-2451.54"/>
+<polygon fill="black" stroke="black" points="864.65,-2454.86 872.65,-2447.91 862.06,-2448.35 864.65,-2454.86"/>
+</g>
+<!-- VEBA_cluster_env -->
+<g id="node25" class="node">
+<title>VEBA_cluster_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="901.44" cy="-5278" rx="58.42" ry="18"/>
+<text text-anchor="middle" x="901.44" y="-5275" font-family="Arial" font-size="10.00">VEBA-cluster_env</text>
+</g>
+<!-- cluster&#45;&gt;VEBA_cluster_env -->
+<g id="edge12" class="edge">
+<title>cluster-&gt;VEBA_cluster_env</title>
+<path fill="none" stroke="black" d="M673.26,-5166.8C717.26,-5188.34 806.41,-5231.97 859,-5257.72"/>
+<polygon fill="black" stroke="black" points="857.44,-5260.85 867.96,-5262.1 860.52,-5254.56 857.44,-5260.85"/>
+</g>
+<!-- cluster&#45;&gt;genopype -->
+<g id="edge72" class="edge">
+<title>cluster-&gt;genopype</title>
+<path fill="none" stroke="black" d="M660.72,-5135.61C702.65,-5079.01 829.94,-4907.17 879.96,-4839.66"/>
+<polygon fill="black" stroke="black" points="882.72,-4841.81 885.86,-4831.69 877.09,-4837.65 882.72,-4841.81"/>
+</g>
+<!-- cluster&#45;&gt;soothsayer_utils -->
+<g id="edge73" class="edge">
+<title>cluster-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M651.5,-5172.16C665.43,-5229.99 709.26,-5415.14 737.61,-5570 776.7,-5783.49 683.39,-5876.44 809.61,-6053 818.83,-6065.9 832.68,-6075.52 846.8,-6082.58"/>
+<polygon fill="black" stroke="black" points="845.14,-6085.67 855.69,-6086.65 848.05,-6079.3 845.14,-6085.67"/>
+</g>
+<!-- cluster&#45;&gt;pandas -->
+<g id="edge74" class="edge">
+<title>cluster-&gt;pandas</title>
+<path fill="none" stroke="black" d="M673.2,-5165.98C693.44,-5176.5 720.79,-5193.62 737.61,-5216 798.92,-5297.56 745.71,-5354.45 809.61,-5434 823.8,-5451.66 845.42,-5464.84 864.02,-5473.76"/>
+<polygon fill="black" stroke="black" points="862.32,-5476.84 872.87,-5477.78 865.21,-5470.46 862.32,-5476.84"/>
+</g>
+<!-- cluster&#45;&gt;numpy -->
+<g id="edge75" class="edge">
+<title>cluster-&gt;numpy</title>
+<path fill="none" stroke="black" d="M673.6,-5135.84C718.76,-5104.9 806.14,-5045.07 809.61,-5043 827.16,-5032.52 847.29,-5021.96 864.14,-5013.52"/>
+<polygon fill="black" stroke="black" points="865.39,-5016.8 872.79,-5009.22 862.28,-5010.53 865.39,-5016.8"/>
+</g>
+<!-- cluster&#45;&gt;biopython -->
+<g id="edge76" class="edge">
+<title>cluster-&gt;biopython</title>
+<path fill="none" stroke="black" d="M673.27,-5168.22C692.51,-5179.51 718.51,-5196.58 737.61,-5216 778.32,-5257.4 768.87,-5283.64 809.61,-5325 824.84,-5340.46 844.46,-5354.42 861.56,-5365.16"/>
+<polygon fill="black" stroke="black" points="859.64,-5368.09 870,-5370.31 863.29,-5362.11 859.64,-5368.09"/>
+</g>
+<!-- networkx -->
+<g id="node37" class="node">
+<title>networkx</title>
+<polygon fill="#90ee90" stroke="black" points="929.45,-5202 873.44,-5202 873.44,-5198 869.44,-5198 869.44,-5194 873.44,-5194 873.44,-5174 869.44,-5174 869.44,-5170 873.44,-5170 873.44,-5166 929.45,-5166 929.45,-5202"/>
+<polyline fill="none" stroke="black" points="873.44,-5198 877.44,-5198 877.44,-5194 873.44,-5194"/>
+<polyline fill="none" stroke="black" points="873.44,-5174 877.44,-5174 877.44,-5170 873.44,-5170"/>
+<text text-anchor="middle" x="901.44" y="-5181" font-family="Arial" font-size="10.00">networkx</text>
+</g>
+<!-- cluster&#45;&gt;networkx -->
+<g id="edge77" class="edge">
+<title>cluster-&gt;networkx</title>
+<path fill="none" stroke="black" d="M673.26,-5157.1C718.06,-5162.4 809.69,-5173.25 861.85,-5179.43"/>
+<polygon fill="black" stroke="black" points="861.44,-5182.91 871.78,-5180.61 862.26,-5175.95 861.44,-5182.91"/>
+</g>
+<!-- cluster&#45;&gt;diamond -->
+<g id="edge158" class="edge">
+<title>cluster-&gt;diamond</title>
+<path fill="none" stroke="black" d="M673.26,-5147.39C718.16,-5136.05 810.07,-5112.83 862.18,-5099.67"/>
+<polygon fill="black" stroke="black" points="862.98,-5103.07 871.82,-5097.23 861.26,-5096.29 862.98,-5103.07"/>
+</g>
+<!-- cluster&#45;&gt;fastani -->
+<g id="edge159" class="edge">
+<title>cluster-&gt;fastani</title>
+<path fill="none" stroke="black" d="M650.02,-5172.46C662,-5248.58 708.13,-5545.63 737.61,-5791 757.11,-5953.28 717.9,-6387.7 809.61,-6523 822.1,-6541.43 844.15,-6553.08 863.39,-6560.17"/>
+<polygon fill="black" stroke="black" points="862.28,-6563.49 872.87,-6563.36 864.51,-6556.85 862.28,-6563.49"/>
+</g>
+<!-- cluster&#45;&gt;skani -->
+<g id="edge160" class="edge">
+<title>cluster-&gt;skani</title>
+<path fill="none" stroke="black" d="M650.1,-5172.45C662.37,-5248.54 709.49,-5545.47 737.61,-5791 758.58,-5974.05 707.08,-6463.91 809.61,-6617 822.06,-6635.58 844.25,-6647.26 863.58,-6654.33"/>
+<polygon fill="black" stroke="black" points="862.22,-6657.56 872.81,-6657.4 864.43,-6650.92 862.22,-6657.56"/>
+</g>
+<!-- mmseqs2 -->
+<g id="node78" class="node">
+<title>mmseqs2</title>
+<path fill="#dda0dd" stroke="black" d="M919.12,-5671C919.12,-5671 883.77,-5671 883.77,-5671 877.77,-5671 871.77,-5665 871.77,-5659 871.77,-5659 871.77,-5647 871.77,-5647 871.77,-5641 877.77,-5635 883.77,-5635 883.77,-5635 919.12,-5635 919.12,-5635 925.12,-5635 931.12,-5641 931.12,-5647 931.12,-5647 931.12,-5659 931.12,-5659 931.12,-5665 925.12,-5671 919.12,-5671"/>
+<text text-anchor="middle" x="901.44" y="-5650" font-family="Arial" font-size="10.00">MMseqs2</text>
+</g>
+<!-- cluster&#45;&gt;mmseqs2 -->
+<g id="edge161" class="edge">
+<title>cluster-&gt;mmseqs2</title>
+<path fill="none" stroke="black" d="M653.03,-5172.24C671.69,-5228.49 732.59,-5403.43 809.61,-5535 829.21,-5568.48 857.05,-5603.26 876.73,-5626.31"/>
+<polygon fill="black" stroke="black" points="873.92,-5628.41 883.11,-5633.69 879.22,-5623.84 873.92,-5628.41"/>
+</g>
+<!-- VEBA_biosynthetic_env -->
+<g id="node26" class="node">
+<title>VEBA_biosynthetic_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="901.44" cy="-5818" rx="72.46" ry="18"/>
+<text text-anchor="middle" x="901.44" y="-5815" font-family="Arial" font-size="10.00">VEBA-biosynthetic_env</text>
+</g>
+<!-- biosynthetic&#45;&gt;VEBA_biosynthetic_env -->
+<g id="edge13" class="edge">
+<title>biosynthetic-&gt;VEBA_biosynthetic_env</title>
+<path fill="none" stroke="black" d="M680.98,-6930.04C701.08,-6919.85 725.01,-6903.98 737.61,-6882 850.28,-6685.43 685.07,-6054.27 809.61,-5865 817.7,-5852.71 830.07,-5843.45 843.1,-5836.55"/>
+<polygon fill="black" stroke="black" points="844.28,-5839.86 851.78,-5832.37 841.25,-5833.56 844.28,-5839.86"/>
+</g>
+<!-- biosynthetic&#45;&gt;genopype -->
+<g id="edge78" class="edge">
+<title>biosynthetic-&gt;genopype</title>
+<path fill="none" stroke="black" d="M652.42,-6925.82C668.61,-6869.55 717.46,-6692.96 737.61,-6543 784.83,-6191.57 699.65,-5286.1 809.61,-4949 823.47,-4906.53 854.34,-4864.77 876.24,-4838.74"/>
+<polygon fill="black" stroke="black" points="878.72,-4841.22 882.58,-4831.36 873.41,-4836.66 878.72,-4841.22"/>
+</g>
+<!-- biosynthetic&#45;&gt;soothsayer_utils -->
+<g id="edge79" class="edge">
+<title>biosynthetic-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M680.78,-6929.92C700.79,-6919.69 724.72,-6903.81 737.61,-6882 904.66,-6599.46 625.51,-6418.74 809.61,-6147 818.59,-6133.75 832.5,-6124.01 846.76,-6116.94"/>
+<polygon fill="black" stroke="black" points="848.09,-6120.18 855.77,-6112.88 845.21,-6113.8 848.09,-6120.18"/>
+</g>
+<!-- biosynthetic&#45;&gt;pandas -->
+<g id="edge80" class="edge">
+<title>biosynthetic-&gt;pandas</title>
+<path fill="none" stroke="black" d="M680.64,-6930.33C700.87,-6920.18 725.08,-6904.23 737.61,-6882 877.07,-6634.59 710.57,-5872.18 809.61,-5606 822.96,-5570.12 851.26,-5536.27 872.75,-5514.1"/>
+<polygon fill="black" stroke="black" points="874.97,-5516.83 879.53,-5507.27 870,-5511.9 874.97,-5516.83"/>
+</g>
+<!-- biosynthetic&#45;&gt;biopython -->
+<g id="edge81" class="edge">
+<title>biosynthetic-&gt;biopython</title>
+<path fill="none" stroke="black" d="M654.38,-6925.55C672.23,-6879.34 718.16,-6754.57 737.61,-6646 761.27,-6513.97 739.84,-5555.55 809.61,-5441 821.15,-5422.05 842.06,-5408.95 860.91,-5400.41"/>
+<polygon fill="black" stroke="black" points="862.13,-5403.69 869.99,-5396.59 859.42,-5397.24 862.13,-5403.69"/>
+</g>
+<!-- biosynthetic&#45;&gt;tqdm -->
+<g id="edge82" class="edge">
+<title>biosynthetic-&gt;tqdm</title>
+<path fill="none" stroke="black" d="M650.82,-6962.31C664.28,-7029.07 711.02,-7265.85 737.61,-7463 760.05,-7629.37 715.6,-8075.92 809.61,-8215 822.14,-8233.53 844.33,-8245.21 863.65,-8252.28"/>
+<polygon fill="black" stroke="black" points="862.26,-8255.51 872.86,-8255.37 864.49,-8248.87 862.26,-8255.51"/>
+</g>
+<!-- biosynthetic&#45;&gt;diamond -->
+<g id="edge162" class="edge">
+<title>biosynthetic-&gt;diamond</title>
+<path fill="none" stroke="black" d="M652.38,-6925.82C668.46,-6869.53 717.01,-6692.89 737.61,-6543 758.91,-6388.03 724.91,-5268.51 809.61,-5137 821.51,-5118.53 843.12,-5106.94 862.28,-5099.89"/>
+<polygon fill="black" stroke="black" points="863.37,-5103.21 871.75,-5096.72 861.15,-5096.57 863.37,-5103.21"/>
+</g>
+<!-- biosynthetic&#45;&gt;hmmer -->
+<g id="edge163" class="edge">
+<title>biosynthetic-&gt;hmmer</title>
+<path fill="none" stroke="black" d="M680.78,-6929.41C700.53,-6919.07 724.17,-6903.25 737.61,-6882 846.58,-6709.7 690.26,-6594.27 809.61,-6429 822.56,-6411.07 844.41,-6399.46 863.44,-6392.27"/>
+<polygon fill="black" stroke="black" points="864.49,-6395.61 872.79,-6389.02 862.2,-6388.99 864.49,-6395.61"/>
+</g>
+<!-- biosynthetic&#45;&gt;krona -->
+<g id="edge164" class="edge">
+<title>biosynthetic-&gt;krona</title>
+<path fill="none" stroke="black" d="M680.74,-6931.78C728.07,-6914.6 814.01,-6883.39 863.21,-6865.52"/>
+<polygon fill="black" stroke="black" points="864.37,-6868.82 872.58,-6862.12 861.98,-6862.24 864.37,-6868.82"/>
+</g>
+<!-- biosynthetic&#45;&gt;mmseqs2 -->
+<g id="edge165" class="edge">
+<title>biosynthetic-&gt;mmseqs2</title>
+<path fill="none" stroke="black" d="M680.57,-6930.29C700.78,-6920.13 724.99,-6904.18 737.61,-6882 860,-6666.98 722.37,-6002.51 809.61,-5771 823.11,-5735.18 851.39,-5701.31 872.83,-5679.13"/>
+<polygon fill="black" stroke="black" points="875.05,-5681.86 879.6,-5672.3 870.07,-5676.94 875.05,-5681.86"/>
+</g>
+<!-- antismash -->
+<g id="node79" class="node">
+<title>antismash</title>
+<path fill="#dda0dd" stroke="black" d="M923.29,-6024C923.29,-6024 879.6,-6024 879.6,-6024 873.6,-6024 867.6,-6018 867.6,-6012 867.6,-6012 867.6,-6000 867.6,-6000 867.6,-5994 873.6,-5988 879.6,-5988 879.6,-5988 923.29,-5988 923.29,-5988 929.29,-5988 935.29,-5994 935.29,-6000 935.29,-6000 935.29,-6012 935.29,-6012 935.29,-6018 929.29,-6024 923.29,-6024"/>
+<text text-anchor="middle" x="901.44" y="-6003" font-family="Arial" font-size="10.00">antiSMASH</text>
+</g>
+<!-- biosynthetic&#45;&gt;antismash -->
+<g id="edge166" class="edge">
+<title>biosynthetic-&gt;antismash</title>
+<path fill="none" stroke="black" d="M680.86,-6929.97C700.91,-6919.76 724.84,-6903.88 737.61,-6882 924.07,-6562.61 603.86,-6360.31 809.61,-6053 820.57,-6036.63 839.1,-6025.62 856.57,-6018.4"/>
+<polygon fill="black" stroke="black" points="857.7,-6021.71 865.82,-6014.91 855.23,-6015.16 857.7,-6021.71"/>
+</g>
+<!-- biosynthetic&#45;&gt;mibig -->
+<g id="edge194" class="edge">
+<title>biosynthetic-&gt;mibig</title>
+<path fill="none" stroke="black" d="M652.52,-6925.84C669.04,-6869.6 718.69,-6693.12 737.61,-6543 876.78,-5438.83 657.29,-5142.43 809.61,-4040 827.07,-3913.67 871.37,-3767.62 890.92,-3706.84"/>
+<polygon fill="black" stroke="black" points="894.16,-3708.21 893.91,-3697.62 887.5,-3706.05 894.16,-3708.21"/>
+</g>
+<!-- biosynthetic&#45;&gt;vfdb -->
+<g id="edge195" class="edge">
+<title>biosynthetic-&gt;vfdb</title>
+<path fill="none" stroke="black" d="M652.45,-6925.83C668.73,-6869.57 717.81,-6693 737.61,-6543 841.1,-5758.93 741.03,-5552.89 809.61,-4765 831.56,-4512.81 879.93,-4210.53 895.51,-4116.42"/>
+<polygon fill="black" stroke="black" points="898.93,-4117.2 897.11,-4106.76 892.02,-4116.05 898.93,-4117.2"/>
+</g>
+<!-- antismash_db -->
+<g id="node108" class="node">
+<title>antismash_db</title>
+<path fill="#fffacd" stroke="black" d="M943.62,-5926.73C943.62,-5928.53 924.72,-5930 901.44,-5930 878.17,-5930 859.27,-5928.53 859.27,-5926.73 859.27,-5926.73 859.27,-5897.27 859.27,-5897.27 859.27,-5895.47 878.17,-5894 901.44,-5894 924.72,-5894 943.62,-5895.47 943.62,-5897.27 943.62,-5897.27 943.62,-5926.73 943.62,-5926.73"/>
+<path fill="none" stroke="black" d="M943.62,-5926.73C943.62,-5924.92 924.72,-5923.45 901.44,-5923.45 878.17,-5923.45 859.27,-5924.92 859.27,-5926.73"/>
+<text text-anchor="middle" x="901.44" y="-5909" font-family="Arial" font-size="10.00">antiSMASH DB</text>
+</g>
+<!-- biosynthetic&#45;&gt;antismash_db -->
+<g id="edge196" class="edge">
+<title>biosynthetic-&gt;antismash_db</title>
+<path fill="none" stroke="black" d="M680.93,-6930.01C701,-6919.81 724.94,-6903.93 737.61,-6882 840.56,-6703.87 695.91,-6130.46 809.61,-5959 818.86,-5945.05 833.61,-5935.01 848.56,-5927.88"/>
+<polygon fill="black" stroke="black" points="849.71,-5931.19 857.49,-5924 846.92,-5924.77 849.71,-5931.19"/>
+</g>
+<!-- VEBA_phylogeny_env -->
+<g id="node27" class="node">
+<title>VEBA_phylogeny_env</title>
+<ellipse fill="#ffd580" stroke="black" cx="901.44" cy="-7228" rx="68.12" ry="18"/>
+<text text-anchor="middle" x="901.44" y="-7225" font-family="Arial" font-size="10.00">VEBA-phylogeny_env</text>
+</g>
+<!-- phylogeny&#45;&gt;VEBA_phylogeny_env -->
+<g id="edge14" class="edge">
+<title>phylogeny-&gt;VEBA_phylogeny_env</title>
+<path fill="none" stroke="black" d="M677.38,-7595.45C697.31,-7588.3 722.42,-7576.14 737.61,-7557 818.03,-7455.68 729.12,-7376.26 809.61,-7275 819.12,-7263.04 832.5,-7253.81 846.08,-7246.82"/>
+<polygon fill="black" stroke="black" points="847.53,-7250.01 855.07,-7242.56 844.53,-7243.68 847.53,-7250.01"/>
+</g>
+<!-- phylogeny&#45;&gt;genopype -->
+<g id="edge83" class="edge">
+<title>phylogeny-&gt;genopype</title>
+<path fill="none" stroke="black" d="M677.02,-7597.02C697.87,-7590.44 724.26,-7578.31 737.61,-7557 891.53,-7311.35 722.14,-5225.38 809.61,-4949 823.09,-4906.41 854.05,-4864.68 876.07,-4838.68"/>
+<polygon fill="black" stroke="black" points="878.55,-4841.16 882.45,-4831.31 873.26,-4836.58 878.55,-4841.16"/>
+</g>
+<!-- phylogeny&#45;&gt;soothsayer_utils -->
+<g id="edge84" class="edge">
+<title>phylogeny-&gt;soothsayer_utils</title>
+<path fill="none" stroke="black" d="M677.31,-7596.78C698.02,-7590.12 724.11,-7578 737.61,-7557 907.3,-7293.1 639.74,-6410.77 809.61,-6147 818.35,-6133.43 832.34,-6123.57 846.75,-6116.49"/>
+<polygon fill="black" stroke="black" points="848.15,-6119.7 855.87,-6112.44 845.31,-6113.3 848.15,-6119.7"/>
+</g>
+<!-- phylogeny&#45;&gt;pandas -->
+<g id="edge85" class="edge">
+<title>phylogeny-&gt;pandas</title>
+<path fill="none" stroke="black" d="M676.96,-7596.98C697.79,-7590.38 724.16,-7578.24 737.61,-7557 853.64,-7373.71 735.95,-5810.04 809.61,-5606 822.61,-5569.99 850.96,-5536.16 872.56,-5514.03"/>
+<polygon fill="black" stroke="black" points="874.78,-5516.76 879.39,-5507.21 869.84,-5511.8 874.78,-5516.76"/>
+</g>
+<!-- phylogeny&#45;&gt;numpy -->
+<g id="edge86" class="edge">
+<title>phylogeny-&gt;numpy</title>
+<path fill="none" stroke="black" d="M677.01,-7597.01C697.86,-7590.43 724.25,-7578.3 737.61,-7557 886.11,-7320.27 660.94,-5279.62 809.61,-5043 821.59,-5023.93 843.99,-5012.22 863.55,-5005.26"/>
+<polygon fill="black" stroke="black" points="864.46,-5008.65 872.9,-5002.24 862.3,-5001.98 864.46,-5008.65"/>
+</g>
+<!-- phylogeny&#45;&gt;biopython -->
+<g id="edge87" class="edge">
+<title>phylogeny-&gt;biopython</title>
+<path fill="none" stroke="black" d="M676.98,-7596.99C697.81,-7590.4 724.19,-7578.26 737.61,-7557 863.16,-7358.05 689.83,-5643.47 809.61,-5441 820.99,-5421.77 842.09,-5408.62 861.1,-5400.11"/>
+<polygon fill="black" stroke="black" points="862.36,-5403.38 870.26,-5396.32 859.69,-5396.91 862.36,-5403.38"/>
+</g>
+<!-- phylogeny&#45;&gt;tqdm -->
+<g id="edge88" class="edge">
+<title>phylogeny-&gt;tqdm</title>
+<path fill="none" stroke="black" d="M660.62,-7622.37C680.8,-7650.77 718.48,-7707.74 737.61,-7762 805.39,-7954.26 690.26,-8049.73 809.61,-8215 822.56,-8232.93 844.41,-8244.54 863.44,-8251.73"/>
+<polygon fill="black" stroke="black" points="862.2,-8255.01 872.79,-8254.98 864.49,-8248.39 862.2,-8255.01"/>
+</g>
+<!-- phylogeny&#45;&gt;pyhmmsearch -->
+<g id="edge89" class="edge">
+<title>phylogeny-&gt;pyhmmsearch</title>
+<path fill="none" stroke="black" d="M677.32,-7595.89C697.48,-7588.89 722.9,-7576.73 737.61,-7557 839.3,-7420.58 707.83,-7317.35 809.61,-7181 819.97,-7167.13 835.61,-7157 851.01,-7149.79"/>
+<polygon fill="black" stroke="black" points="852.38,-7153.01 860.18,-7145.84 849.61,-7146.58 852.38,-7153.01"/>
+</g>
+<!-- phylogeny&#45;&gt;pyhmmer -->
+<g id="edge90" class="edge">
+<title>phylogeny-&gt;pyhmmer</title>
+<path fill="none" stroke="black" d="M677.11,-7596.2C697.45,-7589.31 723.17,-7577.15 737.61,-7557 860.73,-7385.24 686.37,-7258.67 809.61,-7087 822.16,-7069.52 843.19,-7058.05 861.86,-7050.83"/>
+<polygon fill="black" stroke="black" points="862.81,-7054.2 871.06,-7047.56 860.47,-7047.61 862.81,-7054.2"/>
+</g>
+<!-- ete3 -->
+<g id="node40" class="node">
+<title>ete3</title>
+<polygon fill="#90ee90" stroke="black" points="928.44,-7904 874.44,-7904 874.44,-7900 870.44,-7900 870.44,-7896 874.44,-7896 874.44,-7876 870.44,-7876 870.44,-7872 874.44,-7872 874.44,-7868 928.44,-7868 928.44,-7904"/>
+<polyline fill="none" stroke="black" points="874.44,-7900 878.44,-7900 878.44,-7896 874.44,-7896"/>
+<polyline fill="none" stroke="black" points="874.44,-7876 878.44,-7876 878.44,-7872 874.44,-7872"/>
+<text text-anchor="middle" x="901.44" y="-7883" font-family="Arial" font-size="10.00">ete3</text>
+</g>
+<!-- phylogeny&#45;&gt;ete3 -->
+<g id="edge91" class="edge">
+<title>phylogeny-&gt;ete3</title>
+<path fill="none" stroke="black" d="M655.86,-7622.44C676.98,-7665.29 734.58,-7772.97 809.61,-7839 825.4,-7852.89 846.02,-7863.99 863.62,-7871.9"/>
+<polygon fill="black" stroke="black" points="862.16,-7875.08 872.73,-7875.82 864.92,-7868.65 862.16,-7875.08"/>
+</g>
+<!-- phylogeny&#45;&gt;psutil -->
+<g id="edge92" class="edge">
+<title>phylogeny-&gt;psutil</title>
+<path fill="none" stroke="black" d="M677.16,-7615.15C723.7,-7632.42 813.11,-7665.6 863.52,-7684.3"/>
+<polygon fill="black" stroke="black" points="862.24,-7687.56 872.83,-7687.76 864.68,-7681 862.24,-7687.56"/>
+</g>
+<!-- phylogeny&#45;&gt;fasttree -->
+<g id="edge167" class="edge">
+<title>phylogeny-&gt;fasttree</title>
+<path fill="none" stroke="black" d="M658.43,-7622.09C676.35,-7651.05 711.82,-7709.86 737.61,-7762 774.17,-7835.91 753.65,-7872.43 809.61,-7933 823.95,-7948.52 844.58,-7959.76 862.56,-7967.36"/>
+<polygon fill="black" stroke="black" points="861.05,-7970.52 871.64,-7970.95 863.63,-7964.02 861.05,-7970.52"/>
+</g>
+<!-- muscle -->
+<g id="node80" class="node">
+<title>muscle</title>
+<path fill="#dda0dd" stroke="black" d="M918.28,-7810C918.28,-7810 884.61,-7810 884.61,-7810 878.61,-7810 872.61,-7804 872.61,-7798 872.61,-7798 872.61,-7786 872.61,-7786 872.61,-7780 878.61,-7774 884.61,-7774 884.61,-7774 918.28,-7774 918.28,-7774 924.28,-7774 930.28,-7780 930.28,-7786 930.28,-7786 930.28,-7798 930.28,-7798 930.28,-7804 924.28,-7810 918.28,-7810"/>
+<text text-anchor="middle" x="901.44" y="-7789" font-family="Arial" font-size="10.00">MUSCLE</text>
+</g>
+<!-- phylogeny&#45;&gt;muscle -->
+<g id="edge168" class="edge">
+<title>phylogeny-&gt;muscle</title>
+<path fill="none" stroke="black" d="M665.41,-7622.5C694.31,-7651.06 753.04,-7706.63 809.61,-7745 826.16,-7756.23 845.73,-7766.67 862.46,-7774.85"/>
+<polygon fill="black" stroke="black" points="860.56,-7777.82 871.09,-7778.98 863.58,-7771.51 860.56,-7777.82"/>
+</g>
+<!-- clipkit -->
+<g id="node81" class="node">
+<title>clipkit</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-7622C916.44,-7622 886.44,-7622 886.44,-7622 880.44,-7622 874.44,-7616 874.44,-7610 874.44,-7610 874.44,-7598 874.44,-7598 874.44,-7592 880.44,-7586 886.44,-7586 886.44,-7586 916.44,-7586 916.44,-7586 922.44,-7586 928.44,-7592 928.44,-7598 928.44,-7598 928.44,-7610 928.44,-7610 928.44,-7616 922.44,-7622 916.44,-7622"/>
+<text text-anchor="middle" x="901.44" y="-7601" font-family="Arial" font-size="10.00">ClipKIT</text>
+</g>
+<!-- phylogeny&#45;&gt;clipkit -->
+<g id="edge169" class="edge">
+<title>phylogeny-&gt;clipkit</title>
+<path fill="none" stroke="black" d="M677.16,-7604C723.51,-7604 812.36,-7604 862.88,-7604"/>
+<polygon fill="black" stroke="black" points="862.74,-7607.5 872.74,-7604 862.74,-7600.5 862.74,-7607.5"/>
+</g>
+<!-- iqtree -->
+<g id="node82" class="node">
+<title>iqtree</title>
+<path fill="#dda0dd" stroke="black" d="M916.44,-7528C916.44,-7528 886.44,-7528 886.44,-7528 880.44,-7528 874.44,-7522 874.44,-7516 874.44,-7516 874.44,-7504 874.44,-7504 874.44,-7498 880.44,-7492 886.44,-7492 886.44,-7492 916.44,-7492 916.44,-7492 922.44,-7492 928.44,-7498 928.44,-7504 928.44,-7504 928.44,-7516 928.44,-7516 928.44,-7522 922.44,-7528 916.44,-7528"/>
+<text text-anchor="middle" x="901.44" y="-7507" font-family="Arial" font-size="10.00">IQTree</text>
+</g>
+<!-- phylogeny&#45;&gt;iqtree -->
+<g id="edge170" class="edge">
+<title>phylogeny-&gt;iqtree</title>
+<path fill="none" stroke="black" d="M677.16,-7592.85C723.7,-7575.58 813.11,-7542.4 863.52,-7523.7"/>
+<polygon fill="black" stroke="black" points="864.68,-7527 872.83,-7520.24 862.24,-7520.44 864.68,-7527"/>
+</g>
+<!-- parallel -->
+<g id="node83" class="node">
+<title>parallel</title>
+<path fill="#dda0dd" stroke="black" d="M926.62,-7434C926.62,-7434 876.27,-7434 876.27,-7434 870.27,-7434 864.27,-7428 864.27,-7422 864.27,-7422 864.27,-7410 864.27,-7410 864.27,-7404 870.27,-7398 876.27,-7398 876.27,-7398 926.62,-7398 926.62,-7398 932.62,-7398 938.62,-7404 938.62,-7410 938.62,-7410 938.62,-7422 938.62,-7422 938.62,-7428 932.62,-7434 926.62,-7434"/>
+<text text-anchor="middle" x="901.44" y="-7413" font-family="Arial" font-size="10.00">GNU Parallel</text>
+</g>
+<!-- phylogeny&#45;&gt;parallel -->
+<g id="edge171" class="edge">
+<title>phylogeny-&gt;parallel</title>
+<path fill="none" stroke="black" d="M677.21,-7592.36C695.85,-7584.23 719.57,-7572.14 737.61,-7557 777.93,-7523.18 769.27,-7496.79 809.61,-7463 822.77,-7451.98 838.95,-7442.57 853.98,-7435.14"/>
+<polygon fill="black" stroke="black" points="855.26,-7438.41 862.79,-7430.97 852.26,-7432.09 855.26,-7438.41"/>
+</g>
+<!-- hmm_markers -->
+<g id="node107" class="node">
+<title>hmm_markers</title>
+<path fill="#fffacd" stroke="black" d="M940.83,-7336.73C940.83,-7338.53 923.18,-7340 901.44,-7340 879.71,-7340 862.06,-7338.53 862.06,-7336.73 862.06,-7336.73 862.06,-7307.27 862.06,-7307.27 862.06,-7305.47 879.71,-7304 901.44,-7304 923.18,-7304 940.83,-7305.47 940.83,-7307.27 940.83,-7307.27 940.83,-7336.73 940.83,-7336.73"/>
+<path fill="none" stroke="black" d="M940.83,-7336.73C940.83,-7334.92 923.18,-7333.45 901.44,-7333.45 879.71,-7333.45 862.06,-7334.92 862.06,-7336.73"/>
+<text text-anchor="middle" x="901.44" y="-7319" font-family="Arial" font-size="10.00">HMM Markers</text>
+</g>
+<!-- phylogeny&#45;&gt;hmm_markers -->
+<g id="edge197" class="edge">
+<title>phylogeny-&gt;hmm_markers</title>
+<path fill="none" stroke="black" d="M677.12,-7594.7C696.67,-7587.28 721.46,-7575.1 737.61,-7557 797.2,-7490.26 749.98,-7435.7 809.61,-7369 820.96,-7356.31 836.55,-7346.53 851.61,-7339.27"/>
+<polygon fill="black" stroke="black" points="852.83,-7342.55 860.51,-7335.25 849.96,-7336.17 852.83,-7342.55"/>
+</g>
+</g>
+</svg>
