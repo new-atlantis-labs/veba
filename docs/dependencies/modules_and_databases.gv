@@ -26,6 +26,12 @@ digraph VEBA_Module_Database_Dependencies {
         preprocess [label="preprocess"];
         assembly [label="assembly"];
         assembly_long [label="assembly-long"];
+    }
+    
+    {
+        rank = same;
+        coverage [label="coverage"];
+        coverage_long [label="coverage-long"];
         mapping [label="mapping"];
     }
     
@@ -84,7 +90,7 @@ digraph VEBA_Module_Database_Dependencies {
 
     // Connect VEBA to modules
     edge [color="#555555", arrowsize=0.6];
-    VEBA -> {preprocess assembly assembly_long binning_prokaryotic binning_eukaryotic 
+    VEBA -> {preprocess assembly assembly_long coverage coverage_long binning_prokaryotic binning_eukaryotic 
              binning_viral annotate classify_prokaryotic classify_eukaryotic classify_viral 
              mapping cluster biosynthetic phylogeny};
     

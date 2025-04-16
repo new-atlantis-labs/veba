@@ -118,6 +118,74 @@ digraph VEBA_Dependencies {
         preprocess -> {preprocess_contamination_db preprocess_kmer_db};
     }
     
+    // Coverage module
+    subgraph cluster_coverage {
+        label="Coverage";
+        style="filled,rounded";
+        color="#E0E0E0";
+        node [style=filled];
+        
+        coverage [label="coverage"];
+        
+        // Python libraries for coverage
+        {
+            rank=same;
+            node [shape=component, fillcolor="#90EE90"];
+            coverage_pandas [label="pandas"];
+            coverage_soothsayer_utils [label="soothsayer_utils"];
+            coverage_genopype [label="genopype"];
+        }
+        
+        // External tools for coverage
+        {
+            rank=same;
+            node [shape=box, style="rounded,filled", fillcolor="#DDA0DD"];
+            coverage_bowtie2 [label="Bowtie2"];
+            coverage_samtools [label="Samtools"];
+            coverage_featureCounts [label="featureCounts"];
+            coverage_seqkit [label="SeqKit"];
+            coverage_parallel [label="GNU Parallel"];
+        }
+        
+        // Connect module to its dependencies
+        coverage -> {coverage_pandas coverage_soothsayer_utils coverage_genopype};
+        coverage -> {coverage_bowtie2 coverage_samtools coverage_featureCounts coverage_seqkit coverage_parallel};
+    }
+    
+    // Coverage-long module
+    subgraph cluster_coverage_long {
+        label="Coverage-Long";
+        style="filled,rounded";
+        color="#E0E0E0";
+        node [style=filled];
+        
+        coverage_long [label="coverage-long"];
+        
+        // Python libraries for coverage-long
+        {
+            rank=same;
+            node [shape=component, fillcolor="#90EE90"];
+            coverage_long_pandas [label="pandas"];
+            coverage_long_soothsayer_utils [label="soothsayer_utils"];
+            coverage_long_genopype [label="genopype"];
+        }
+        
+        // External tools for coverage-long
+        {
+            rank=same;
+            node [shape=box, style="rounded,filled", fillcolor="#DDA0DD"];
+            coverage_long_minimap2 [label="MiniMap2"];
+            coverage_long_samtools [label="Samtools"];
+            coverage_long_featureCounts [label="featureCounts"];
+            coverage_long_seqkit [label="SeqKit"];
+            coverage_long_parallel [label="GNU Parallel"];
+        }
+        
+        // Connect module to its dependencies
+        coverage_long -> {coverage_long_pandas coverage_long_soothsayer_utils coverage_long_genopype};
+        coverage_long -> {coverage_long_minimap2 coverage_long_samtools coverage_long_featureCounts coverage_long_seqkit coverage_long_parallel};
+    }
+    
     // Assembly module
     subgraph cluster_assembly {
         label="Assembly";
@@ -701,6 +769,8 @@ digraph VEBA_Dependencies {
     VEBA_preprocess_env -> preprocess;
     VEBA_assembly_env -> assembly;
     VEBA_assembly_env -> assembly_long;
+    VEBA_assembly_env -> coverage;
+    VEBA_assembly_env -> coverage_long;
     VEBA_binning_prokaryotic_env -> binning_prokaryotic;
     VEBA_binning_eukaryotic_env -> binning_eukaryotic;
     VEBA_binning_viral_env -> binning_viral;
@@ -717,12 +787,20 @@ digraph VEBA_Dependencies {
     edge [color=red, penwidth=2, style=dashed];
     preprocess -> assembly [ltail=cluster_preprocess, lhead=cluster_assembly];
     preprocess -> assembly_long [ltail=cluster_preprocess, lhead=cluster_assembly_long];
+    assembly -> coverage [ltail=cluster_assembly, lhead=cluster_coverage];
+    assembly_long -> coverage_long [ltail=cluster_assembly_long, lhead=cluster_coverage_long];
     assembly -> binning_prokaryotic [ltail=cluster_assembly, lhead=cluster_binning_prokaryotic];
     assembly -> binning_eukaryotic [ltail=cluster_assembly, lhead=cluster_binning_eukaryotic];
     assembly -> binning_viral [ltail=cluster_assembly, lhead=cluster_binning_viral];
     assembly_long -> binning_prokaryotic [ltail=cluster_assembly_long, lhead=cluster_binning_prokaryotic];
     assembly_long -> binning_eukaryotic [ltail=cluster_assembly_long, lhead=cluster_binning_eukaryotic];
     assembly_long -> binning_viral [ltail=cluster_assembly_long, lhead=cluster_binning_viral];
+    coverage -> binning_prokaryotic [ltail=cluster_coverage, lhead=cluster_binning_prokaryotic];
+    coverage -> binning_eukaryotic [ltail=cluster_coverage, lhead=cluster_binning_eukaryotic];
+    coverage -> binning_viral [ltail=cluster_coverage, lhead=cluster_binning_viral];
+    coverage_long -> binning_prokaryotic [ltail=cluster_coverage_long, lhead=cluster_binning_prokaryotic];
+    coverage_long -> binning_eukaryotic [ltail=cluster_coverage_long, lhead=cluster_binning_eukaryotic];
+    coverage_long -> binning_viral [ltail=cluster_coverage_long, lhead=cluster_binning_viral];
     binning_prokaryotic -> classify_prokaryotic [ltail=cluster_binning_prokaryotic, lhead=cluster_classify_prokaryotic];
     binning_eukaryotic -> classify_eukaryotic [ltail=cluster_binning_eukaryotic, lhead=cluster_classify_eukaryotic];
     binning_viral -> classify_viral [ltail=cluster_binning_viral, lhead=cluster_classify_viral];
