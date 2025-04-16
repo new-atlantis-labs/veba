@@ -1,12 +1,14 @@
 digraph VEBA_Module_Database_Dependencies {
     // Graph styling
-    rankdir=TB;  // Top to bottom direction for hierarchical layout
-    splines=true;
-    overlap=false;
-    nodesep=0.9;
-    ranksep=1.2;
-    fontname="Arial";
-    fontsize=12;
+    ratio = "fill";
+    size = "7.5,5.5!";  // Force aspect ratio closer to 4:3
+    rankdir = TB;
+    splines = ortho;    // Orthogonal splines for cleaner layout
+    overlap = false;
+    nodesep = 0.45;     // Reduced node separation
+    ranksep = 0.6;      // Reduced rank separation
+    fontname = "Arial";
+    fontsize = 12;
     
     // Node styling
     node [fontname="Arial", fontsize=10, style=filled];
@@ -15,45 +17,44 @@ digraph VEBA_Module_Database_Dependencies {
     node [shape=box, fillcolor="#E6E6FA", style=filled, fontsize=14]
     VEBA [label="VEBA"];
     
-    // Module nodes styling
+    // Module nodes styling - arrange in a more compact way
     node [shape=box, fillcolor="#A7C7E7", style=filled, fontsize=12] // Blue
     
+    // Arrange modules in a more balanced layout
+    {
+        rank = same;
+        preprocess [label="preprocess"];
+        assembly [label="assembly"];
+        assembly_long [label="assembly-long"];
+        mapping [label="mapping"];
+    }
+    
+    {
+        rank = same;
+        binning_prokaryotic [label="binning-prokaryotic"];
+        binning_eukaryotic [label="binning-eukaryotic"];
+        binning_viral [label="binning-viral"];
+        cluster [label="cluster"];
+    }
+    
+    {
+        rank = same;
+        annotate [label="annotate"];
+        classify_prokaryotic [label="classify-prokaryotic"];
+        classify_eukaryotic [label="classify-eukaryotic"];
+        classify_viral [label="classify-viral"];
+    }
+    
+    {
+        rank = same;
+        biosynthetic [label="biosynthetic"];
+        phylogeny [label="phylogeny"];
+    }
+    
     // Databases styling
-    node [shape=cylinder, fillcolor="#FFFACD", style=filled, fontsize=11] // Yellow
+    node [shape=cylinder, fillcolor="#FFFACD", style=filled, fontsize=10] // Yellow
     
-    // Define modules and connect to VEBA
-    VEBA -> preprocess;
-    VEBA -> assembly;
-    VEBA -> assembly_long;
-    VEBA -> binning_prokaryotic;
-    VEBA -> binning_eukaryotic;
-    VEBA -> binning_viral;
-    VEBA -> annotate;
-    VEBA -> classify_prokaryotic;
-    VEBA -> classify_eukaryotic;
-    VEBA -> classify_viral;
-    VEBA -> mapping;
-    VEBA -> cluster;
-    VEBA -> biosynthetic;
-    VEBA -> phylogeny;
-    
-    // Module nodes
-    preprocess [label="preprocess"];
-    assembly [label="assembly"];
-    assembly_long [label="assembly-long"];
-    binning_prokaryotic [label="binning-prokaryotic"];
-    binning_eukaryotic [label="binning-eukaryotic"];
-    binning_viral [label="binning-viral"];
-    annotate [label="annotate"];
-    classify_prokaryotic [label="classify-prokaryotic"];
-    classify_eukaryotic [label="classify-eukaryotic"];
-    classify_viral [label="classify-viral"];
-    mapping [label="mapping"];
-    cluster [label="cluster"];
-    biosynthetic [label="biosynthetic"];
-    phylogeny [label="phylogeny"];
-    
-    // Database nodes
+    // Database nodes - position near their modules
     preprocess_contamination_db [label="Contamination DB"];
     preprocess_kmer_db [label="K-mer DB"];
     binning_prokaryotic_checkm2_db [label="CheckM2 DB"];
@@ -81,12 +82,29 @@ digraph VEBA_Module_Database_Dependencies {
     biosynthetic_antismash_db [label="antiSMASH DB"];
     phylogeny_hmm_markers [label="HMM Markers DB"];
 
-    // Connect modules to databases
+    // Connect VEBA to modules
+    edge [color="#555555", arrowsize=0.6];
+    VEBA -> {preprocess assembly assembly_long binning_prokaryotic binning_eukaryotic 
+             binning_viral annotate classify_prokaryotic classify_eukaryotic classify_viral 
+             mapping cluster biosynthetic phylogeny};
+    
+    // Connect modules to databases with more relaxed connections
+    edge [color="#777777", style=dashed, arrowsize=0.5];
     preprocess -> {preprocess_contamination_db preprocess_kmer_db};
     binning_prokaryotic -> binning_prokaryotic_checkm2_db;
     binning_eukaryotic -> {binning_eukaryotic_microeuk_db binning_eukaryotic_busco_db};
     binning_viral -> {binning_viral_genomad_db binning_viral_checkv_db};
-    annotate -> {annotate_uniref annotate_mibig annotate_vfdb annotate_cazy annotate_pfam annotate_ncbifam annotate_antifam annotate_kofam annotate_kegg};
+    
+    // Group annotate databases with invisible edges to manage layout
+    edge [style=invis];
+    annotate_uniref -> annotate_mibig -> annotate_vfdb -> annotate_cazy -> 
+    annotate_pfam -> annotate_ncbifam -> annotate_antifam -> annotate_kofam -> annotate_kegg;
+    
+    // Restore visible edges for actual connections
+    edge [color="#777777", style=dashed, arrowsize=0.5];
+    annotate -> {annotate_uniref annotate_mibig annotate_vfdb annotate_cazy 
+                annotate_pfam annotate_ncbifam annotate_antifam annotate_kofam annotate_kegg};
+    
     classify_prokaryotic -> {classify_prokaryotic_gtdb classify_prokaryotic_gtdb_mash};
     classify_eukaryotic -> {classify_eukaryotic_microeuk_db classify_eukaryotic_eukaryota_odb10 classify_eukaryotic_tax_mapping};
     classify_viral -> classify_viral_genomad_db;
