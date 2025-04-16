@@ -1,0 +1,227 @@
+digraph VEBA_Dependencies {
+    // Graph styling
+    rankdir=LR;
+    splines=true;
+    overlap=false;
+    nodesep=0.8;
+    ranksep=1.0;
+    fontname="Arial";
+    fontsize=12;
+    
+    // Node styling by type
+    node [shape=box, style=filled, fontname="Arial", fontsize=10];
+    
+    // Define node types with different colors
+    node [fillcolor="#A7C7E7", shape=box, color=black]       // Modules (blue)
+    
+    // VEBA Modules
+    annotate [label="annotate"];
+    assembly [label="assembly"];
+    assembly_long [label="assembly-long"];
+    preprocess [label="preprocess"];
+    binning_prokaryotic [label="binning-prokaryotic"];
+    binning_eukaryotic [label="binning-eukaryotic"];
+    binning_viral [label="binning-viral"];
+    classify_prokaryotic [label="classify-prokaryotic"];
+    classify_eukaryotic [label="classify-eukaryotic"];
+    classify_viral [label="classify-viral"];
+    mapping [label="mapping"];
+    cluster [label="cluster"];
+    biosynthetic [label="biosynthetic"];
+    phylogeny [label="phylogeny"];
+    
+    // Define environments with different styling
+    node [fillcolor="#FFD580", shape=ellipse, color=black]    // Environments (orange)
+    VEBA_annotate_env [label="VEBA-annotate_env"];
+    VEBA_assembly_env [label="VEBA-assembly_env"];
+    VEBA_preprocess_env [label="VEBA-preprocess_env"];
+    VEBA_binning_prokaryotic_env [label="VEBA-binning-prokaryotic_env"];
+    VEBA_binning_eukaryotic_env [label="VEBA-binning-eukaryotic_env"];
+    VEBA_binning_viral_env [label="VEBA-binning-viral_env"];
+    VEBA_classify_prokaryotic_env [label="VEBA-classify-prokaryotic_env"];
+    VEBA_classify_eukaryotic_env [label="VEBA-classify-eukaryotic_env"];
+    VEBA_classify_viral_env [label="VEBA-classify-viral_env"];
+    VEBA_mapping_env [label="VEBA-mapping_env"];
+    VEBA_cluster_env [label="VEBA-cluster_env"];
+    VEBA_biosynthetic_env [label="VEBA-biosynthetic_env"];
+    VEBA_phylogeny_env [label="VEBA-phylogeny_env"];
+    
+    // Core Python libraries (light green)
+    node [fillcolor="#90EE90", shape=component, color=black]
+    genopype [label="genopype"];
+    soothsayer_utils [label="soothsayer_utils"];
+    pandas [label="pandas"];
+    numpy [label="numpy"];
+    biopython [label="biopython"];
+    tqdm [label="tqdm"];
+    pyhmmsearch [label="pyhmmsearch"];
+    pyhmmer [label="pyhmmer"];
+    dendropy [label="dendropy"];
+    networkx [label="networkx"];
+    torch [label="torch"];
+    sklearn [label="scikit-learn"];
+    ete3 [label="ete3"];
+    psutil [label="psutil"];
+    fastq_preprocessor [label="fastq_preprocessor"];
+    
+    // External tools (purple)
+    node [fillcolor="#DDA0DD", shape=box, style="rounded,filled", color=black]
+    diamond [label="Diamond"];
+    spades [label="SPAdes/metaSPAdes"];
+    megahit [label="MEGAHIT"];
+    bowtie2 [label="Bowtie2"];
+    samtools [label="Samtools"];
+    featureCounts [label="featureCounts"];
+    seqkit [label="SeqKit"];
+    flye [label="Flye/MetaFlye"];
+    minimap2 [label="MiniMap2"];
+    fastp [label="fastp"];
+    bbmap [label="BBMap/BBDuk"];
+    kingfisher [label="Kingfisher"];
+    metabat2 [label="MetaBat2"];
+    semiBin2 [label="SemiBin2"];
+    metadecoder [label="MetaDecoder"];
+    vamb [label="VAMB"];
+    metacoag [label="MetaCoAG"];
+    binette [label="Binette"];
+    tiara [label="Tiara"];
+    pyrodigal [label="Pyrodigal"];
+    barrnap [label="barrnap"];
+    trnascan [label="tRNAscan-SE"];
+    coverm [label="CoverM"];
+    metaeuk [label="MetaEuk"];
+    genomad [label="geNomad"];
+    gtdbtk [label="GTDB-Tk"];
+    fastani [label="FastANI"];
+    mash [label="Mash"];
+    skani [label="Skani"];
+    prodigal [label="Prodigal"];
+    hmmer [label="HMMER"];
+    fasttree [label="FastTree"];
+    pplacer [label="Pplacer"];
+    krona [label="Krona"];
+    salmon [label="Salmon"];
+    mmseqs2 [label="MMseqs2"];
+    antismash [label="antiSMASH"];
+    muscle [label="MUSCLE"];
+    clipkit [label="ClipKIT"];
+    iqtree [label="IQTree"];
+    parallel [label="GNU Parallel"];
+    checkv [label="CheckV"];
+    pyrodigal_gv [label="pyrodigal-gv"];
+    gfastats [label="gfastats"];
+    
+    // Databases (yellow)
+    node [fillcolor="#FFFACD", shape=cylinder, color=black]
+    uniref [label="UniRef"];
+    mibig [label="MIBiG"];
+    vfdb [label="VFDB"];
+    cazy [label="CAZy"];
+    pfam [label="Pfam"];
+    ncbifam [label="NCBIfam-AMRFinder"];
+    antifam [label="AntiFam"];
+    kofam [label="KOfam"];
+    kegg [label="KEGG Pathway"];
+    contamination_db [label="Contamination DB"];
+    kmer_db [label="K-mer DB"];
+    checkm2_db [label="CheckM2 DB"];
+    microeuk_db [label="MicroEuk DB"];
+    busco_db [label="BUSCO lineages"];
+    genomad_db [label="geNomad DB"];
+    checkv_db [label="CheckV DB"];
+    gtdb [label="GTDB"];
+    gtdb_mash [label="GTDB Mash"];
+    eukaryota_odb10 [label="Eukaryota_odb10"];
+    tax_mapping [label="Taxonomic Mapping"];
+    hmm_markers [label="HMM Markers"];
+    antismash_db [label="antiSMASH DB"];
+    
+    // Module to Environment relationships
+    annotate -> VEBA_annotate_env;
+    assembly -> VEBA_assembly_env;
+    assembly_long -> VEBA_assembly_env;
+    preprocess -> VEBA_preprocess_env;
+    binning_prokaryotic -> VEBA_binning_prokaryotic_env;
+    binning_eukaryotic -> VEBA_binning_eukaryotic_env;
+    binning_viral -> VEBA_binning_viral_env;
+    classify_prokaryotic -> VEBA_classify_prokaryotic_env;
+    classify_eukaryotic -> VEBA_classify_eukaryotic_env;
+    classify_viral -> VEBA_classify_viral_env;
+    mapping -> VEBA_mapping_env;
+    cluster -> VEBA_cluster_env;
+    biosynthetic -> VEBA_biosynthetic_env;
+    phylogeny -> VEBA_phylogeny_env;
+    
+    // Module to Python Libraries
+    annotate -> {pandas biopython genopype soothsayer_utils};
+    assembly -> {genopype soothsayer_utils pandas biopython tqdm};
+    assembly_long -> {pandas soothsayer_utils genopype};
+    preprocess -> {soothsayer_utils fastq_preprocessor pandas tqdm};
+    binning_prokaryotic -> {pandas numpy genopype soothsayer_utils};
+    binning_eukaryotic -> {genopype soothsayer_utils pandas numpy torch sklearn};
+    binning_viral -> {pandas numpy biopython genopype soothsayer_utils tqdm};
+    classify_prokaryotic -> {genopype soothsayer_utils pandas numpy dendropy tqdm psutil};
+    classify_eukaryotic -> {genopype soothsayer_utils pandas numpy biopython pyhmmsearch pyhmmer tqdm psutil};
+    classify_viral -> {pandas numpy soothsayer_utils genopype};
+    mapping -> {pandas numpy biopython genopype soothsayer_utils};
+    cluster -> {genopype soothsayer_utils pandas numpy biopython networkx};
+    biosynthetic -> {genopype soothsayer_utils pandas biopython tqdm};
+    phylogeny -> {genopype soothsayer_utils biopython pyhmmsearch pyhmmer pandas numpy ete3 tqdm psutil};
+    
+    // Module to External Tools
+    annotate -> {diamond hmmer seqkit};
+    assembly -> {spades megahit bowtie2 samtools featureCounts seqkit gfastats};
+    assembly_long -> {flye minimap2 samtools featureCounts seqkit};
+    preprocess -> {fastp bowtie2 bbmap seqkit kingfisher};
+    binning_prokaryotic -> {metabat2 semiBin2 metadecoder metacoag vamb binette tiara pyrodigal barrnap trnascan coverm featureCounts seqkit};
+    binning_eukaryotic -> {metabat2 tiara metaeuk pyrodigal barrnap trnascan featureCounts};
+    binning_viral -> {genomad checkv pyrodigal_gv seqkit featureCounts};
+    classify_prokaryotic -> {gtdbtk fastani mash skani prodigal hmmer fasttree pplacer krona};
+    classify_eukaryotic -> {metaeuk hmmer seqkit krona};
+    classify_viral -> {genomad seqkit};
+    mapping -> {bowtie2 samtools featureCounts seqkit salmon};
+    cluster -> {skani fastani mmseqs2 diamond};
+    biosynthetic -> {antismash diamond mmseqs2 krona hmmer};
+    phylogeny -> {muscle clipkit fasttree iqtree parallel};
+    
+    // Module to Databases
+    annotate -> {uniref mibig vfdb cazy pfam ncbifam antifam kofam kegg};
+    preprocess -> {contamination_db kmer_db};
+    binning_prokaryotic -> {checkm2_db};
+    binning_eukaryotic -> {microeuk_db busco_db};
+    binning_viral -> {genomad_db checkv_db};
+    classify_prokaryotic -> {gtdb gtdb_mash};
+    classify_eukaryotic -> {microeuk_db eukaryota_odb10 tax_mapping};
+    classify_viral -> {genomad_db};
+    biosynthetic -> {mibig vfdb antismash_db};
+    phylogeny -> {hmm_markers};
+    
+    // Module dependencies (workflow connections)
+    subgraph workflow {
+        edge [color=red, penwidth=2];
+        preprocess -> assembly;
+        preprocess -> assembly_long;
+        assembly -> binning_prokaryotic;
+        assembly -> binning_eukaryotic;
+        assembly -> binning_viral;
+        assembly_long -> binning_prokaryotic;
+        assembly_long -> binning_eukaryotic;
+        assembly_long -> binning_viral;
+        binning_prokaryotic -> classify_prokaryotic;
+        binning_eukaryotic -> classify_eukaryotic;
+        binning_viral -> classify_viral;
+        binning_prokaryotic -> annotate;
+        binning_eukaryotic -> annotate;
+        binning_viral -> annotate;
+        binning_prokaryotic -> mapping;
+        binning_eukaryotic -> mapping;
+        binning_viral -> mapping;
+        binning_prokaryotic -> cluster;
+        binning_eukaryotic -> cluster;
+        binning_viral -> cluster;
+        binning_prokaryotic -> biosynthetic;
+        binning_eukaryotic -> biosynthetic;
+        binning_prokaryotic -> phylogeny;
+        binning_eukaryotic -> phylogeny;
+    }
+}

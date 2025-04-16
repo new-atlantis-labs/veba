@@ -9,6 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Install: `install/install.sh [log_directory] [conda_envs_path]`
 - Download databases: `install/download_databases.sh`
 - Docker build: `install/docker/build_docker_image.sh`
+- Generate Graphviz visualization: `dot -Tpng docs/dependencies/dependencies.gv -o docs/dependencies/dependencies.png`
 
 ## Code Style Guidelines
 - Python: Use snake_case for variables/functions, PascalCase for classes
@@ -31,3 +32,8 @@ When documenting a module's dependencies, follow the guidelines in `docs/depende
 6. **Pipeline Process**: Step-by-step workflow overview
 7. **Requirements**: Additional requirements or constraints
 8. **Usage**: Basic command examples
+
+After adding or updating module dependency documentation, update the dependency graph:
+1. Edit `docs/dependencies/dependencies.gv` to include the new module and its dependencies
+2. Regenerate the visualization using the Graphviz command in the Build section
+3. Follow guidelines in `docs/dependencies-graphviz.md` for graph structure and styling
