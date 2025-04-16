@@ -24,6 +24,7 @@ digraph VEBA_Module_Database_Dependencies {
     {
         rank = same;
         preprocess [label="preprocess"];
+        preprocess_long [label="preprocess-long"];
         assembly [label="assembly"];
         assembly_long [label="assembly-long"];
     }
@@ -61,8 +62,10 @@ digraph VEBA_Module_Database_Dependencies {
     node [shape=cylinder, fillcolor="#FFFACD", style=filled, fontsize=10] // Yellow
     
     // Database nodes - position near their modules
-    preprocess_contamination_db [label="Contamination DB"];
-    preprocess_kmer_db [label="K-mer DB"];
+    preprocess_contamination_db [label="Contamination DB (short)"];
+    preprocess_kmer_db [label="K-mer DB (short)"];
+    preprocess_long_contamination_db [label="Contamination DB (long)"];
+    preprocess_long_kmer_db [label="K-mer DB (long)"];
     binning_prokaryotic_checkm2_db [label="CheckM2 DB"];
     binning_eukaryotic_microeuk_db [label="MicroEuk DB"];
     binning_eukaryotic_busco_db [label="BUSCO lineages"];
@@ -90,13 +93,14 @@ digraph VEBA_Module_Database_Dependencies {
 
     // Connect VEBA to modules
     edge [color="#555555", arrowsize=0.6];
-    VEBA -> {preprocess assembly assembly_long coverage coverage_long binning_prokaryotic binning_eukaryotic 
+    VEBA -> {preprocess preprocess_long assembly assembly_long coverage coverage_long binning_prokaryotic binning_eukaryotic 
              binning_viral annotate classify_prokaryotic classify_eukaryotic classify_viral 
              mapping cluster biosynthetic phylogeny};
     
     // Connect modules to databases with more relaxed connections
     edge [color="#777777", style=dashed, arrowsize=0.5];
     preprocess -> {preprocess_contamination_db preprocess_kmer_db};
+    preprocess_long -> {preprocess_long_contamination_db preprocess_long_kmer_db};
     binning_prokaryotic -> binning_prokaryotic_checkm2_db;
     binning_eukaryotic -> {binning_eukaryotic_microeuk_db binning_eukaryotic_busco_db};
     binning_viral -> {binning_viral_genomad_db binning_viral_checkv_db};

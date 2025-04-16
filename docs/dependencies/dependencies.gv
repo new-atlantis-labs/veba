@@ -118,6 +118,50 @@ digraph VEBA_Dependencies {
         preprocess -> {preprocess_contamination_db preprocess_kmer_db};
     }
     
+    // Preprocess-Long module
+    subgraph cluster_preprocess_long {
+        label="Preprocess-Long";
+        style="filled,rounded";
+        color="#E0E0E0";
+        node [style=filled];
+        
+        preprocess_long [label="preprocess-long"];
+        
+        // Python libraries for preprocess-long
+        {
+            rank=same;
+            node [shape=component, fillcolor="#90EE90"];
+            preprocess_long_soothsayer_utils [label="soothsayer_utils"];
+            preprocess_long_fastq_preprocessor [label="fastq_preprocessor_long"];
+            preprocess_long_pandas [label="pandas"];
+            preprocess_long_tqdm [label="tqdm"];
+        }
+        
+        // External tools for preprocess-long
+        {
+            rank=same;
+            node [shape=box, style="rounded,filled", fillcolor="#DDA0DD"];
+            preprocess_long_chopper [label="Chopper"];
+            preprocess_long_minimap2 [label="Minimap2"];
+            preprocess_long_bbmap [label="BBMap/BBDuk"];
+            preprocess_long_seqkit [label="SeqKit"];
+            preprocess_long_kingfisher [label="Kingfisher"];
+        }
+        
+        // Databases for preprocess-long
+        {
+            rank=same;
+            node [shape=cylinder, fillcolor="#FFFACD"];
+            preprocess_long_contamination_db [label="Contamination DB"];
+            preprocess_long_kmer_db [label="K-mer DB"];
+        }
+        
+        // Connect module to its dependencies
+        preprocess_long -> {preprocess_long_soothsayer_utils preprocess_long_fastq_preprocessor preprocess_long_pandas preprocess_long_tqdm};
+        preprocess_long -> {preprocess_long_chopper preprocess_long_minimap2 preprocess_long_bbmap preprocess_long_seqkit preprocess_long_kingfisher};
+        preprocess_long -> {preprocess_long_contamination_db preprocess_long_kmer_db};
+    }
+    
     // Coverage module
     subgraph cluster_coverage {
         label="Coverage";
@@ -767,6 +811,7 @@ digraph VEBA_Dependencies {
     
     // Connect environments to their respective modules
     VEBA_preprocess_env -> preprocess;
+    VEBA_preprocess_env -> preprocess_long;
     VEBA_assembly_env -> assembly;
     VEBA_assembly_env -> assembly_long;
     VEBA_assembly_env -> coverage;
@@ -786,7 +831,7 @@ digraph VEBA_Dependencies {
     // Module workflow connections
     edge [color=red, penwidth=2, style=dashed];
     preprocess -> assembly [ltail=cluster_preprocess, lhead=cluster_assembly];
-    preprocess -> assembly_long [ltail=cluster_preprocess, lhead=cluster_assembly_long];
+    preprocess_long -> assembly_long [ltail=cluster_preprocess_long, lhead=cluster_assembly_long];
     assembly -> coverage [ltail=cluster_assembly, lhead=cluster_coverage];
     assembly_long -> coverage_long [ltail=cluster_assembly_long, lhead=cluster_coverage_long];
     assembly -> binning_prokaryotic [ltail=cluster_assembly, lhead=cluster_binning_prokaryotic];
