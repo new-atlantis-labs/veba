@@ -42,17 +42,19 @@ You can paste the contents of the `.gv` file into online tools such as:
 
 ## Graph Structure
 
-The dependency graph uses different visual elements to distinguish between types of components:
+The dependency graph follows a hierarchical structure:
 
-- **Modules** (blue boxes): VEBA workflow modules
-- **Environments** (orange ellipses): Conda environments
-- **Python Libraries** (green components): Core Python dependencies
-- **External Tools** (purple rounded boxes): Third-party tools used by modules
-- **Databases** (yellow cylinders): Reference databases 
+1. **VEBA** (light purple box): The main framework
+2. **Environments** (orange ellipses): Conda environments provided by VEBA
+3. **Modules** (blue boxes): VEBA workflow modules grouped in clusters
+4. **Dependencies** (inside module clusters):
+   - **Python Libraries** (green components): Core Python dependencies
+   - **External Tools** (purple rounded boxes): Third-party tools used by modules
+   - **Databases** (yellow cylinders): Reference databases
 
 Relationships between components are represented by directed edges:
-- Standard black edges show dependency relationships
-- Red edges with thicker lines show module workflow connections
+- Black edges show dependency relationships within the hierarchy
+- Red dashed edges with thicker lines show module workflow connections (data flow)
 
 ## Updating the Graph
 
